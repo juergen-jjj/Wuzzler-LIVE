@@ -280,8 +280,6 @@ st.header("🔴 JETZT AUF DEM TISCH")
 if current_match:
     team1 = safe_text(current_match.get("team1", "?"))
     team2 = safe_text(current_match.get("team2", "?"))
-    score1 = safe_number(current_match.get("score1", 0))
-    score2 = safe_number(current_match.get("score2", 0))
     phase = safe_text(current_match.get("phase", "Turnier"))
 
     # HTML ohne Einrückungen innerhalb des f-Strings
@@ -290,7 +288,6 @@ if current_match:
     <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team1}</div>
     <div style="font-size: 24px; color: #ffd34e; margin: 12px 0;">⚽ GEGEN ⚽</div>
     <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team2}</div>
-    <div style="font-size: 70px; color: #7fffd4; font-weight: bold; margin-top: 22px;">{score1} : {score2}</div>
 </div>"""
 
     st.markdown(html_current, unsafe_allow_html=True)
