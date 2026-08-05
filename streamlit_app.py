@@ -1,10 +1,13 @@
 import base64
+import html
 import json
 
 import pandas as pd
 import requests
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
+
+
 
 # ============================================================
 # STREAMLIT EINSTELLUNGEN
@@ -19,6 +22,7 @@ st.set_page_config(
 # Automatische Aktualisierung alle 10 Sekunden
 st_autorefresh(interval=10_000, key="live_refresh")
 
+
 # ============================================================
 # GITHUB EINSTELLUNGEN
 # ============================================================
@@ -30,37 +34,41 @@ GITHUB_FILE = "live_data/turnier_live.json"
 
 
 # ============================================================
-# GITHUB TOKEN AUS STREAMLIT SECRETS LADEN
+# GITHUB TOKEN AUS STREAMLIT SECRETS
 # ============================================================
 
 try:
-
-    GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
+    GITHUB_TOKEN = str(
+        st.secrets["GITHUB_TOKEN"]
+    ).strip()
 
 except Exception:
-
     st.error(
-        "Der GitHub-Token wurde nicht gefunden."
+        "Der GitHub-Token wurde nicht in den "
+        "Streamlit Secrets gefunden."
     )
-
     st.info(
-        "Lege in Streamlit unter "
-        "Settings → Secrets den Eintrag "
-        "GITHUB_TOKEN an."
+        "Öffne in Streamlit Cloud: "
+        "Settings → Secrets"
     )
-
+    st.code(
+        'GITHUB_TOKEN = "github_pat_DEIN_TOKEN"'
+    )
     st.stop()
 
 
 # ============================================================
-# GITHUB-API
+# GITHUB-DATEN LADEN
 # ============================================================
 
-@st.cache_data(ttl=3)
+@st.cache_data(
+    ttl=3,
+    show_spinner=False,
+)
 def load_live_data():
 
     api_url = (
-        f"https://api.github.com/repos/"
+        "https://api.github.com/repos/"
         f"{GITHUB_OWNER}/"
         f"{GITHUB_REPO}/"
         f"contents/"
@@ -69,31 +77,25 @@ def load_live_data():
 
     headers = {
         "Accept": "application/vnd.github+json",
-        "Authorization": (
-            f"Bearer {GITHUB_TOKEN}"
-        ),
-        "X-GitHub-Api-Version": (
-            "2022-11-28"
-        ),
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Cache-Control": "no-cache",
     }
 
     response = requests.get(
         api_url,
         params={
-            "ref": GITHUB_BRANCH
+            "ref": GITHUB_BRANCH,
         },
         headers=headers,
         timeout=20,
     )
 
     if response.status_code != 200:
-
         raise RuntimeError(
             "GitHub-API-Fehler\n\n"
-            f"HTTP-Status: "
-            f"{response.status_code}\n\n"
-            f"Antwort:\n"
-            f"{response.text}"
+            f"HTTP-Status: {response.status_code}\n\n"
+            f"GitHub-Antwort:\n{response.text}"
         )
 
     github_file = response.json()
@@ -106,72 +108,59 @@ def load_live_data():
     )
 
     if not encoded_content:
-
         raise RuntimeError(
-            "GitHub hat keinen "
-            "Dateiinhalt geliefert."
+            "GitHub hat keinen Dateiinhalt geliefert."
         )
 
     try:
-
         decoded_content = (
             base64
-            .b64decode(
-                encoded_content
-            )
-            .decode(
-                "utf-8"
-            )
+            .b64decode(encoded_content)
+            .decode("utf-8")
         )
-
-    except Exception as error:
-
-        raise RuntimeError(
-            "Der GitHub-Dateiinhalt "
-            "konnte nicht entschlüsselt "
-            "werden.\n\n"
-            f"{error}"
-        )
-
-    try:
 
         return json.loads(
             decoded_content
         )
 
-    except json.JSONDecodeError as error:
-
+    except Exception as error:
         raise RuntimeError(
-            "Die Datei enthält "
-            "ungültiges JSON.\n\n"
+            "Die GitHub-Datei konnte nicht "
+            "als JSON gelesen werden.\n\n"
             f"{error}"
         )
 
 
 # ============================================================
-# HILFSFUNKTION
+# HILFSFUNKTIONEN
 # ============================================================
 
-def safe_dataframe(
-    rows,
-    columns,
+def safe_text(
+    value,
+    fallback="",
 ):
 
-    dataframe = pd.DataFrame(
-        rows
+    if value is None:
+        return fallback
+
+    return html.escape(
+        str(value)
     )
 
-    for column in columns:
 
-        if column not in dataframe.columns:
+def safe_number(
+    value,
+    fallback=0,
+):
 
-            dataframe[
-                column
-            ] = ""
+    try:
+        return int(value)
 
-    return dataframe[
-        columns
-    ]
+    except (
+        TypeError,
+        ValueError,
+    ):
+        return fallback
 
 
 # ============================================================
@@ -188,14 +177,13 @@ st.title(
 # ============================================================
 
 try:
-
     data = load_live_data()
 
 except Exception as error:
 
     st.error(
-        "Die Live-Daten konnten "
-        "nicht geladen werden."
+        "Die Live-Daten konnten nicht "
+        "geladen werden."
     )
 
     st.code(
@@ -205,9 +193,7 @@ except Exception as error:
     if st.button(
         "🔄 Erneut versuchen"
     ):
-
         st.cache_data.clear()
-
         st.rerun()
 
     st.stop()
@@ -252,7 +238,7 @@ spritzer = live.get(
 # STATUSZEILE
 # ============================================================
 
-status_column, update_column, button_column = (
+left_column, middle_column, right_column = (
     st.columns(
         [
             2,
@@ -262,34 +248,29 @@ status_column, update_column, button_column = (
     )
 )
 
-with status_column:
-
+with left_column:
     st.success(
-        "🟢 LIVE-VERBINDUNG AKTIV"
+        "🟢 LIVE AKTIV"
     )
 
-with update_column:
-
-    st.write(
-        "Letzte Aktualisierung:"
-    )
-
+with middle_column:
     st.caption(
-        data.get(
-            "updated_at",
-            "unbekannt"
+        "Letzte Aktualisierung: "
+        + str(
+            data.get(
+                "updated_at",
+                "unbekannt",
+            )
         )
     )
 
-with button_column:
+with right_column:
 
     if st.button(
         "🔄 Neu laden",
         use_container_width=True,
     ):
-
         st.cache_data.clear()
-
         st.rerun()
 
 
@@ -299,216 +280,47 @@ st.divider()
 # ============================================================
 # AKTUELLES SPIEL
 # ============================================================
-
-st.header(
-    "🔴 JETZT AUF DEM TISCH"
-)
-
+st.header("🔴 Aktuelles Spiel")
 
 if current_match:
+    team1 = safe_text(current_match.get("team1", "?"))
+    team2 = safe_text(current_match.get("team2", "?"))
+    phase = safe_text(current_match.get("phase", "Turnier"))
 
-    team1 = current_match.get(
-        "team1",
-        "?"
-    )
+    # HTML ohne Einrückungen innerhalb des f-Strings
+    html_current = f"""<div style="text-align: center; padding: 35px; border-radius: 20px; background: #12324a; color: white;">
+    <div style="font-size: 20px; color: #8fd3ff; font-weight: bold; margin-bottom: 18px;">{phase}</div>
+    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team1}</div>
+    <div style="font-size: 24px; color: #ffd34e; margin: 12px 0;">⚽ GEGEN ⚽</div>
+    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team2}</div>
+</div>"""
 
-    team2 = current_match.get(
-        "team2",
-        "?"
-    )
-
-    score1 = current_match.get(
-        "score1",
-        0
-    )
-
-    score2 = current_match.get(
-        "score2",
-        0
-    )
-
-    phase = current_match.get(
-        "phase",
-        ""
-    )
-
-    st.markdown(
-        f"""
-        <div
-            style="
-                text-align: center;
-                padding: 35px;
-                border-radius: 20px;
-                background:
-                    linear-gradient(
-                        135deg,
-                        #12324a,
-                        #1f587c
-                    );
-                color: white;
-                box-shadow:
-                    0 5px 20px
-                    rgba(
-                        0,
-                        0,
-                        0,
-                        0.25
-                    );
-            "
-        >
-
-            <div
-                style="
-                    font-size: 20px;
-                    color: #8fd3ff;
-                    font-weight: bold;
-                "
-            >
-                {phase}
-            </div>
-
-            <div
-                style="
-                    font-size: 48px;
-                    font-weight: bold;
-                    margin-top: 20px;
-                    word-break:
-                        break-word;
-                "
-            >
-                {team1}
-            </div>
-
-            <div
-                style="
-                    font-size: 24px;
-                    color: #ffd34e;
-                    margin:
-                        10px 0;
-                "
-            >
-                ⚽ GEGEN ⚽
-            </div>
-
-            <div
-                style="
-                    font-size: 48px;
-                    font-weight: bold;
-                    word-break:
-                        break-word;
-                "
-            >
-                {team2}
-            </div>
-
-            <div
-                style="
-                    font-size: 70px;
-                    color: #7fffd4;
-                    font-weight: bold;
-                    margin-top: 20px;
-                "
-            >
-                {score1} : {score2}
-            </div>
-
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
+    st.markdown(html_current, unsafe_allow_html=True)
 else:
-
-    st.warning(
-        "Aktuell ist kein Spiel "
-        "gestartet."
-    )
+    st.warning("Aktuell ist kein Spiel gestartet.")
 
 
 # ============================================================
 # NÄCHSTES SPIEL
 # ============================================================
-
-st.header(
-    "➡️ ALS NÄCHSTES"
-)
-
+st.header("➡️ ALS NÄCHSTES")
 
 if next_match:
+    next_team1 = safe_text(next_match.get("team1", "?"))
+    next_team2 = safe_text(next_match.get("team2", "?"))
+    next_phase = safe_text(next_match.get("phase", "Vorrunde"))
 
-    next_team1 = (
-        next_match.get(
-            "team1",
-            "?"
-        )
-    )
+    # HTML ohne Einrückungen innerhalb des f-Strings
+    html_next = f"""<div style="text-align: center; padding: 22px; border-radius: 15px; border: 2px solid #2c78a0;">
+    <div style="font-size: 30px; font-weight: bold; overflow-wrap: anywhere;">
+        {next_team1} <span style="color: #e6a800; margin: 0 12px;">gegen</span> {next_team2}
+    </div>
+    <div style="margin-top: 12px; color: #777; font-size: 17px;">{next_phase}</div>
+</div>"""
 
-    next_team2 = (
-        next_match.get(
-            "team2",
-            "?"
-        )
-    )
-
-    next_phase = (
-        next_match.get(
-            "phase",
-            ""
-        )
-    )
-
-    st.markdown(
-        f"""
-        <div
-            style="
-                text-align: center;
-                padding: 20px;
-                border-radius: 15px;
-                border:
-                    2px solid
-                    #2c78a0;
-            "
-        >
-
-            <div
-                style="
-                    font-size: 28px;
-                    font-weight: bold;
-                "
-            >
-                {next_team1}
-                <span
-                    style="
-                        color: #e6a800;
-                    "
-                >
-                    gegen
-                </span>
-                {next_team2}
-            </div>
-
-            <div
-                style="
-                    margin-top: 10px;
-                    color: #777;
-                "
-            >
-                {next_phase}
-            </div>
-
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
+    st.markdown(html_next, unsafe_allow_html=True)
 else:
-
-    st.info(
-        "Kein nächstes Spiel "
-        "vorhanden."
-    )
-
-
+    st.info("Kein nächstes Spiel vorhanden.")
 # ============================================================
 # KOMMENDE SPIELE
 # ============================================================
@@ -517,73 +329,77 @@ st.header(
     "📅 KOMMENDE SPIELE"
 )
 
-
 if upcoming_matches:
 
     for match in upcoming_matches:
 
-        order = match.get(
-            "order",
-            ""
+        order = safe_text(
+            match.get(
+                "order",
+                "",
+            )
         )
 
-        team1 = match.get(
-            "team1",
-            "?"
+        team1 = safe_text(
+            match.get(
+                "team1",
+                "?",
+            )
         )
 
-        team2 = match.get(
-            "team2",
-            "?"
+        team2 = safe_text(
+            match.get(
+                "team2",
+                "?",
+            )
         )
 
-        phase = match.get(
-            "phase",
-            ""
+        phase = safe_text(
+            match.get(
+                "phase",
+                "",
+            )
         )
 
         st.write(
             f"**Spiel {order}:** "
-            f"{team1} "
-            f"gegen "
-            f"{team2}"
+            f"{team1} gegen {team2}"
         )
 
         if phase:
-
             st.caption(
                 phase
             )
 
 else:
-
     st.info(
-        "Keine weiteren Spiele "
-        "vorhanden."
+        "Keine kommenden Spiele vorhanden."
     )
 
 
 # ============================================================
 # TURNIERSTAND
+# NUR: RANG, TEAM, PUNKTE
 # ============================================================
 
 st.header(
     "🏆 TURNIERSTAND"
 )
 
-
 if standings:
 
     for group in standings:
 
-        group_name = group.get(
-            "group",
-            "Tabelle"
+        group_name = safe_text(
+            group.get(
+                "group",
+                "Tabelle",
+            )
         )
 
         teams = group.get(
             "teams",
-            []
+            [],
         )
 
         st.subheader(
@@ -592,27 +408,40 @@ if standings:
 
         if teams:
 
-            table = safe_dataframe(
-                teams,
-                [
-                    "rank",
-                    "team",
-                    "points",
-                    "goals",
-                    "against",
-                    "games",
-                ],
-            )
+            table_rows = []
 
-            table = table.rename(
-                columns={
-                    "rank": "Rang",
-                    "team": "Team",
-                    "points": "Punkte",
-                    "goals": "Tore",
-                    "against": "Gegentore",
-                    "games": "Spiele",
-                }
+            for team in teams:
+
+                table_rows.append(
+                    {
+                        "Rang": safe_number(
+                            team.get(
+                                "rank",
+                                0,
+                            )
+                        ),
+                        "Team": str(
+                            team.get(
+                                "team",
+                                "?",
+                            )
+                        ),
+                        "Punkte": safe_number(
+                            team.get(
+                                "points",
+                                0,
+                            )
+                        ),
+                    }
+                )
+
+            table = pd.DataFrame(
+                table_rows,
+                columns=[
+                    "Rang",
+                    "Team",
+                    "Punkte",
+                ],
             )
 
             st.dataframe(
@@ -622,18 +451,14 @@ if standings:
             )
 
         else:
-
             st.info(
-                "Für diese Gruppe "
-                "sind noch keine "
-                "Teams vorhanden."
+                "Für diese Gruppe sind "
+                "noch keine Teams vorhanden."
             )
 
 else:
-
     st.info(
-        "Noch kein Turnierstand "
-        "vorhanden."
+        "Noch kein Turnierstand vorhanden."
     )
 
 
@@ -645,28 +470,42 @@ st.header(
     "🍹 SPRITZERWERTUNG"
 )
 
-
 if spritzer:
 
-    spritzer_table = (
-        safe_dataframe(
-            spritzer,
-            [
-                "rank",
-                "team",
-                "score",
-            ],
-        )
-    )
+    spritzer_rows = []
 
-    spritzer_table = (
-        spritzer_table.rename(
-            columns={
-                "rank": "Rang",
-                "team": "Team",
-                "score": "Spritzer",
+    for entry in spritzer:
+
+        spritzer_rows.append(
+            {
+                "Rang": safe_number(
+                    entry.get(
+                        "rank",
+                        0,
+                    )
+                ),
+                "Team": str(
+                    entry.get(
+                        "team",
+                        "?",
+                    )
+                ),
+                "Spritzer": safe_number(
+                    entry.get(
+                        "score",
+                        0,
+                    )
+                ),
             }
         )
+
+    spritzer_table = pd.DataFrame(
+        spritzer_rows,
+        columns=[
+            "Rang",
+            "Team",
+            "Spritzer",
+        ],
     )
 
     st.dataframe(
@@ -676,10 +515,8 @@ if spritzer:
     )
 
 else:
-
     st.info(
-        "Noch keine "
-        "Spritzerdaten vorhanden."
+        "Noch keine Spritzerdaten vorhanden."
     )
 
 
