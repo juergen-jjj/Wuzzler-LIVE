@@ -1,108 +1,14 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:13:25",
+  "updated_at": "2026-08-05T10:19:47",
   "live_view": {
-    "status": "Turnier läuft",
-    "phase": "group",
-    "current_match": {
-      "phase": "Gruppenphase",
-      "group": "Vorrunde",
-      "team1": "Tuzi",
-      "team2": "Roui",
-      "score1": 0,
-      "score2": 0
-    },
-    "next_match": {
-      "order": 1,
-      "phase": "Gruppenphase",
-      "group": "Vorrunde",
-      "team1": "O6",
-      "team2": "Uloi"
-    },
-    "upcoming_matches": [
-      {
-        "order": 1,
-        "phase": "Gruppenphase",
-        "group": "Vorrunde",
-        "team1": "O6",
-        "team2": "Uloi"
-      },
-      {
-        "order": 2,
-        "phase": "Gruppenphase",
-        "group": "Vorrunde",
-        "team1": "Tuzi",
-        "team2": "O6"
-      },
-      {
-        "order": 3,
-        "phase": "Gruppenphase",
-        "group": "Vorrunde",
-        "team1": "Uloi",
-        "team2": "Roui"
-      }
-    ],
-    "standings": [
-      {
-        "group": "Vorrunde",
-        "teams": [
-          {
-            "rank": 1,
-            "team": "O6",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0
-          },
-          {
-            "rank": 2,
-            "team": "Tuzi",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0
-          },
-          {
-            "rank": 3,
-            "team": "Roui",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0
-          },
-          {
-            "rank": 4,
-            "team": "Uloi",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "rank": 1,
-        "team": "O6",
-        "score": 0
-      },
-      {
-        "rank": 2,
-        "team": "Roui",
-        "score": 0
-      },
-      {
-        "rank": 3,
-        "team": "Tuzi",
-        "score": 0
-      },
-      {
-        "rank": 4,
-        "team": "Uloi",
-        "score": 0
-      }
-    ],
+    "status": "Turnier noch nicht gestartet",
+    "phase": "setup",
+    "current_match": null,
+    "next_match": null,
+    "upcoming_matches": [],
+    "standings": [],
+    "spritzer": [],
     "spritzer_locked": false,
     "spritzer_timer_active": false,
     "spritzer_end_timestamp": 0.0
@@ -127,7 +33,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:13:25",
+        "05.08.2026 10:19:47",
         "",
         "",
         "",
@@ -135,7 +41,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "setup",
         "",
         "",
         "",
@@ -182,38 +88,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "O6",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Uloi",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "Roui",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "Tuzi",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -228,54 +102,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Vorrunde",
-        1,
-        0,
-        "O6",
-        0,
-        0,
-        0,
-        "=F2-G2",
-        0,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Vorrunde",
-        2,
-        3,
-        "Tuzi",
-        0,
-        0,
-        0,
-        "=F3-G3",
-        0,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Vorrunde",
-        3,
-        2,
-        "Roui",
-        0,
-        0,
-        0,
-        "=F4-G4",
-        0,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Vorrunde",
-        4,
-        1,
-        "Uloi",
-        0,
-        0,
-        0,
-        "=F5-G5",
-        0,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -284,30 +110,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        0,
-        "O6",
-        0
-      ],
-      [
-        2,
-        2,
-        "Roui",
-        0
-      ],
-      [
-        3,
-        3,
-        "Tuzi",
-        0
-      ],
-      [
-        4,
-        1,
-        "Uloi",
-        0
       ]
     ],
     "Spiele": [
@@ -320,46 +122,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        1,
-        "Tuzi",
-        "",
-        "Roui",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        2,
-        "O6",
-        "",
-        "Uloi",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        3,
-        "Tuzi",
-        "",
-        "O6",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        4,
-        "Uloi",
-        "",
-        "Roui",
-        "",
-        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -369,15 +131,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:13:25"
+        "05.08.2026 10:19:47"
       ],
       [
         "Phase",
-        "group"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
@@ -385,11 +147,11 @@
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
-        "Ohne Gruppen"
+        "Mit Gruppen"
       ],
       [
         "Gruppen",
@@ -397,7 +159,7 @@
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
