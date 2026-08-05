@@ -5,7 +5,8 @@ import json
 import pandas as pd
 import requests
 import streamlit as st
-from streamlit_autorefresh import st_autorefresh
+import st_autorefresh
+
 
 
 # ============================================================
