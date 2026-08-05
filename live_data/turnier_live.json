@@ -1,6 +1,18 @@
 {
-  "format_version": 1,
-  "updated_at": "2026-08-05T10:07:31",
+  "format_version": 2,
+  "updated_at": "2026-08-05T10:07:58",
+  "live_view": {
+    "status": "Turnier noch nicht gestartet",
+    "phase": "setup",
+    "current_match": null,
+    "next_match": null,
+    "upcoming_matches": [],
+    "standings": [],
+    "spritzer": [],
+    "spritzer_locked": false,
+    "spritzer_timer_active": false,
+    "spritzer_end_timestamp": 0.0
+  },
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +33,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:07:31",
+        "05.08.2026 10:07:58",
         "",
         "",
         "",
@@ -29,7 +41,7 @@
       ],
       [
         "Aktuelle Phase",
-        "final_intro",
+        "setup",
         "",
         "",
         "",
@@ -76,38 +88,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Zzzz",
-        "Ja",
-        "Ja",
-        30,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Zzzzz",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "6Jjj",
-        "Ja",
-        "Ja",
-        50,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "Zhhhh",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -122,54 +102,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Vorrunde",
-        1,
-        1,
-        "Zzzzz",
-        4,
-        2,
-        1,
-        "=F2-G2",
-        2,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Vorrunde",
-        2,
-        0,
-        "Zzzz",
-        3,
-        1,
-        1,
-        "=F3-G3",
-        2,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Vorrunde",
-        3,
-        2,
-        "6Jjj",
-        3,
-        1,
-        1,
-        "=F4-G4",
-        2,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Vorrunde",
-        4,
-        3,
-        "Zhhhh",
-        1,
-        1,
-        2,
-        "=F5-G5",
-        2,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -178,30 +110,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        2,
-        "6Jjj",
-        50
-      ],
-      [
-        2,
-        0,
-        "Zzzz",
-        30
-      ],
-      [
-        3,
-        3,
-        "Zhhhh",
-        0
-      ],
-      [
-        4,
-        1,
-        "Zzzzz",
-        0
       ]
     ],
     "Spiele": [
@@ -214,66 +122,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        1,
-        "Zzzzz",
-        "1:1",
-        "Zhhhh",
-        "Unentschieden",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        2,
-        "6Jjj",
-        "1:0",
-        "Zzzz",
-        "6Jjj",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        3,
-        "Zzzz",
-        "1:0",
-        "Zhhhh",
-        "Zzzz",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        4,
-        "Zzzzz",
-        "1:0",
-        "6Jjj",
-        "Zzzzz",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        1,
-        "Zzzz",
-        "1:0",
-        "Zhhhh",
-        "Zzzz",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        2,
-        "Zzzzz",
-        "2:0",
-        "6Jjj",
-        "Zzzzz",
-        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -283,15 +131,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:07:31"
+        "05.08.2026 10:07:58"
       ],
       [
         "Phase",
-        "final_intro"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
@@ -299,11 +147,11 @@
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
-        "Ohne Gruppen"
+        "Mit Gruppen"
       ],
       [
         "Gruppen",
@@ -311,7 +159,7 @@
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
