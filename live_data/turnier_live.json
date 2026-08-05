@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-05T11:23:34",
+  "updated_at": "2026-08-05T11:23:38",
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +21,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:23:34",
+        "05.08.2026 11:23:38",
         "",
         "",
         "",
@@ -92,6 +92,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "Tef",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -126,6 +134,12 @@
         1,
         "Team2",
         0
+      ],
+      [
+        3,
+        2,
+        "Tef",
+        0
       ]
     ],
     "Spiele": [
@@ -147,7 +161,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:23:34"
+        "05.08.2026 11:23:38"
       ],
       [
         "Phase",
@@ -163,7 +177,7 @@
       ],
       [
         "Teams",
-        2
+        3
       ],
       [
         "Turniermodus",
