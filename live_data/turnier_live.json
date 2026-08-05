@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:59:38",
+  "updated_at": "2026-08-05T14:00:08",
   "live_view": {
     "current_match": {
       "team1": "Lenz Moser",
@@ -75,16 +75,16 @@
     "spritzer": [
       {
         "team": "Der Bastinator",
-        "score": 0,
+        "score": 50,
         "rank": 1
       },
       {
-        "team": "Otto and Kids",
-        "score": 0,
+        "team": "Lenz Moser",
+        "score": 20,
         "rank": 2
       },
       {
-        "team": "Lenz Moser",
+        "team": "Otto and Kids",
         "score": 0,
         "rank": 3
       },
@@ -115,7 +115,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:59:38",
+        "05.08.2026 14:00:08",
         "",
         "",
         "",
@@ -176,7 +176,7 @@
         "Der Bastinator",
         "Ja",
         "Ja",
-        0,
+        50,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -192,7 +192,7 @@
         "Lenz Moser",
         "Ja",
         "Ja",
-        0,
+        20,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -277,18 +277,18 @@
         1,
         0,
         "Der Bastinator",
-        0
+        50
       ],
       [
         2,
-        3,
-        "Huremkinder",
-        0
-      ],
-      [
-        3,
         2,
         "Lenz Moser",
+        20
+      ],
+      [
+        3,
+        3,
+        "Huremkinder",
         0
       ],
       [
@@ -357,7 +357,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:59:38"
+        "05.08.2026 14:00:08"
       ],
       [
         "Phase",
