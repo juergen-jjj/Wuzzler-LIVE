@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-05T11:23:52",
+  "updated_at": "2026-08-05T11:24:09",
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +21,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:23:52",
+        "05.08.2026 11:24:09",
         "",
         "",
         "",
@@ -29,7 +29,7 @@
       ],
       [
         "Aktuelle Phase",
-        "setup",
+        "group",
         "",
         "",
         "",
@@ -122,6 +122,54 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
+      ],
+      [
+        "Vorrunde",
+        1,
+        0,
+        "Team1",
+        0,
+        0,
+        0,
+        "=F2-G2",
+        0,
+        "=IF(I2=0,0,E2/I2)"
+      ],
+      [
+        "Vorrunde",
+        2,
+        3,
+        "Zhhhg",
+        0,
+        0,
+        0,
+        "=F3-G3",
+        0,
+        "=IF(I3=0,0,E3/I3)"
+      ],
+      [
+        "Vorrunde",
+        3,
+        1,
+        "Team2",
+        0,
+        0,
+        0,
+        "=F4-G4",
+        0,
+        "=IF(I4=0,0,E4/I4)"
+      ],
+      [
+        "Vorrunde",
+        4,
+        2,
+        "Tef",
+        0,
+        0,
+        0,
+        "=F5-G5",
+        0,
+        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -166,6 +214,46 @@
         "Team 2",
         "Sieger",
         "Status"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        1,
+        "Team1",
+        "",
+        "Tef",
+        "",
+        "Offen"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        2,
+        "Zhhhg",
+        "",
+        "Team2",
+        "",
+        "Offen"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        3,
+        "Team1",
+        "",
+        "Team2",
+        "",
+        "Offen"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        4,
+        "Zhhhg",
+        "",
+        "Tef",
+        "",
+        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -175,15 +263,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:23:52"
+        "05.08.2026 11:24:09"
       ],
       [
         "Phase",
-        "setup"
+        "group"
       ],
       [
         "Turnier gestartet",
-        "Nein"
+        "Ja"
       ],
       [
         "Aktuelles Spiel",
@@ -195,7 +283,7 @@
       ],
       [
         "Turniermodus",
-        "Mit Gruppen"
+        "Ohne Gruppen"
       ],
       [
         "Gruppen",
@@ -203,7 +291,7 @@
       ],
       [
         "Spiele pro Team",
-        3
+        2
       ],
       [
         "Spritzerwertung gesperrt",
