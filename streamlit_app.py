@@ -12,8 +12,8 @@ import streamlit as st
 # Diese App ist NUR Anzeige. Sie verändert niemals den Turnierstand.
 # Das Wuzzler-Programm schreibt live_data/turnier_live.json nach GitHub.
 
-GITHUB_OWNER = "DEIN_GITHUB_NAME"
-GITHUB_REPO = "wuzzler-live"
+GITHUB_OWNER = "juergen-jjj"
+GITHUB_REPO = "Wuzzler-LIVE"
 GITHUB_BRANCH = "main"
 GITHUB_DATA_PATH = "live_data/turnier_live.json"
 
