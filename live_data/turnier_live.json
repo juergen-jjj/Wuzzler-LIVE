@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:05:02",
+  "updated_at": "2026-08-05T13:05:12",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -16,6 +16,11 @@
         "team": "Stefan und seine Freunde",
         "score": 0,
         "rank": 2
+      },
+      {
+        "team": "Jagenbach 2",
+        "score": 0,
+        "rank": 3
       }
     ]
   },
@@ -39,7 +44,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:02",
+        "05.08.2026 13:05:12",
         "",
         "",
         "",
@@ -110,6 +115,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "Jagenbach 2",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -141,6 +154,12 @@
       ],
       [
         2,
+        2,
+        "Jagenbach 2",
+        0
+      ],
+      [
+        3,
         1,
         "Stefan und seine Freunde",
         0
@@ -165,7 +184,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:02"
+        "05.08.2026 13:05:12"
       ],
       [
         "Phase",
@@ -181,7 +200,7 @@
       ],
       [
         "Teams",
-        2
+        3
       ],
       [
         "Turniermodus",
