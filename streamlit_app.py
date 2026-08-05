@@ -7,8 +7,6 @@ import requests
 import streamlit as st
 
 
-
-
 # ============================================================
 # STREAMLIT EINSTELLUNGEN
 # ============================================================
@@ -18,6 +16,7 @@ st.set_page_config(
     page_icon="⚽",
     layout="wide",
 )
+
 
 # ============================================================
 # GITHUB EINSTELLUNGEN
