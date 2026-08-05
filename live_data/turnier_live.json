@@ -1,94 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:40:27",
+  "updated_at": "2026-08-05T11:40:45",
   "live_view": {
-    "current_match": {
-      "team1": "Zzz",
-      "team2": "Tg",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Vorrunde"
-    },
-    "next_match": {
-      "team1": "Mmm-",
-      "team2": "Hzht",
-      "phase": "Vorrunde"
-    },
-    "upcoming_matches": [
-      {
-        "order": 3,
-        "team1": "Zzz",
-        "team2": "Mmm-",
-        "phase": "Vorrunde"
-      },
-      {
-        "order": 4,
-        "team1": "Hzht",
-        "team2": "Tg",
-        "phase": "Vorrunde"
-      }
-    ],
-    "standings": [
-      {
-        "group": "Vorrunde",
-        "teams": [
-          {
-            "team": "Mmm-",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
-            "team": "Hzht",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          },
-          {
-            "team": "Zzz",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 3
-          },
-          {
-            "team": "Tg",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 4
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "team": "Mmm-",
-        "score": 60,
-        "rank": 1
-      },
-      {
-        "team": "Zzz",
-        "score": 0,
-        "rank": 2
-      },
-      {
-        "team": "Hzht",
-        "score": 0,
-        "rank": 3
-      },
-      {
-        "team": "Tg",
-        "score": 0,
-        "rank": 4
-      }
-    ]
+    "current_match": {},
+    "next_match": {},
+    "upcoming_matches": [],
+    "standings": [],
+    "spritzer": []
   },
   "sheets": {
     "Anleitung": [
@@ -110,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:40:27",
+        "05.08.2026 11:40:45",
         "",
         "",
         "",
@@ -118,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "setup",
         "",
         "",
         "",
@@ -165,38 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Zzz",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Mmm-",
-        "Ja",
-        "Ja",
-        60,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "Hzht",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "Tg",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -211,54 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Vorrunde",
-        1,
-        1,
-        "Mmm-",
-        0,
-        0,
-        0,
-        "=F2-G2",
-        0,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Vorrunde",
-        2,
-        2,
-        "Hzht",
-        0,
-        0,
-        0,
-        "=F3-G3",
-        0,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Vorrunde",
-        3,
-        0,
-        "Zzz",
-        0,
-        0,
-        0,
-        "=F4-G4",
-        0,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Vorrunde",
-        4,
-        3,
-        "Tg",
-        0,
-        0,
-        0,
-        "=F5-G5",
-        0,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -267,30 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        1,
-        "Mmm-",
-        60
-      ],
-      [
-        2,
-        2,
-        "Hzht",
-        0
-      ],
-      [
-        3,
-        3,
-        "Tg",
-        0
-      ],
-      [
-        4,
-        0,
-        "Zzz",
-        0
       ]
     ],
     "Spiele": [
@@ -303,46 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        1,
-        "Zzz",
-        "",
-        "Tg",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        2,
-        "Mmm-",
-        "",
-        "Hzht",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        3,
-        "Zzz",
-        "",
-        "Mmm-",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        4,
-        "Hzht",
-        "",
-        "Tg",
-        "",
-        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -352,15 +126,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:40:27"
+        "05.08.2026 11:40:45"
       ],
       [
         "Phase",
-        "group"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
@@ -368,11 +142,11 @@
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
-        "Ohne Gruppen"
+        "Mit Gruppen"
       ],
       [
         "Gruppen",
@@ -380,7 +154,7 @@
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
