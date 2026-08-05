@@ -1,6 +1,13 @@
 {
-  "format_version": 1,
-  "updated_at": "2026-08-05T11:29:23",
+  "format_version": 2,
+  "updated_at": "2026-08-05T11:38:25",
+  "live_view": {
+    "current_match": {},
+    "next_match": {},
+    "upcoming_matches": [],
+    "standings": [],
+    "spritzer": []
+  },
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:29:23",
+        "05.08.2026 11:38:25",
         "",
         "",
         "",
@@ -29,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "setup",
         "",
         "",
         "",
@@ -76,38 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Team1",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Team2",
-        "Ja",
-        "Ja",
-        70,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "Tef",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "Zhhhg",
-        "Ja",
-        "Ja",
-        70,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -122,54 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Vorrunde",
-        1,
-        0,
-        "Team1",
-        0,
-        0,
-        0,
-        "=F2-G2",
-        0,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Vorrunde",
-        2,
-        3,
-        "Zhhhg",
-        0,
-        0,
-        0,
-        "=F3-G3",
-        0,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Vorrunde",
-        3,
-        1,
-        "Team2",
-        0,
-        0,
-        0,
-        "=F4-G4",
-        0,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Vorrunde",
-        4,
-        2,
-        "Tef",
-        0,
-        0,
-        0,
-        "=F5-G5",
-        0,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -178,30 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        1,
-        "Team2",
-        70
-      ],
-      [
-        2,
-        3,
-        "Zhhhg",
-        70
-      ],
-      [
-        3,
-        0,
-        "Team1",
-        0
-      ],
-      [
-        4,
-        2,
-        "Tef",
-        0
       ]
     ],
     "Spiele": [
@@ -214,46 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        1,
-        "Team1",
-        "",
-        "Tef",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        2,
-        "Zhhhg",
-        "",
-        "Team2",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        3,
-        "Team1",
-        "",
-        "Team2",
-        "",
-        "Offen"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        4,
-        "Zhhhg",
-        "",
-        "Tef",
-        "",
-        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -263,15 +126,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:29:23"
+        "05.08.2026 11:38:25"
       ],
       [
         "Phase",
-        "group"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
@@ -279,11 +142,11 @@
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
-        "Ohne Gruppen"
+        "Mit Gruppen"
       ],
       [
         "Gruppen",
@@ -291,7 +154,7 @@
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
