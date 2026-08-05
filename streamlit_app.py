@@ -282,14 +282,21 @@ st.header(
 
 if current_match:
 
-    team1 = safe_text(
+    phase = str(
+        current_match.get(
+            "phase",
+            "Turnier",
+        )
+    )
+
+    team1 = str(
         current_match.get(
             "team1",
             "?",
         )
     )
 
-    team2 = safe_text(
+    team2 = str(
         current_match.get(
             "team2",
             "?",
@@ -310,73 +317,49 @@ if current_match:
         )
     )
 
-    phase = safe_text(
-        current_match.get(
-            "phase",
-            "Turnier",
-        )
+    st.subheader(
+        phase
     )
 
+    left, middle, right = st.columns(
+        [
+            4,
+            2,
+            4,
+        ]
+    )
+
+    with left:
+
+        st.subheader(
+            team1
+        )
+
+    with middle:
+
+        st.metric(
+            "Spielstand",
+            f"{score1} : {score2}",
+        )
+
+    with right:
+
+        st.subheader(
+            team2
+        )
+
     st.markdown(
-        f"""
-        <div style="
-            text-align: center;
-            padding: 35px;
-            border-radius: 20px;
-            background: #12324a;
-            color: white;
-        ">
-            <div style="
-                font-size: 20px;
-                color: #8fd3ff;
-                font-weight: bold;
-                margin-bottom: 18px;
-            ">
-                {phase}
-            </div>
-
-            <div style="
-                font-size: 48px;
-                font-weight: bold;
-                overflow-wrap: anywhere;
-            ">
-                {team1}
-            </div>
-
-            <div style="
-                font-size: 24px;
-                color: #ffd34e;
-                margin: 12px 0;
-            ">
-                ⚽ GEGEN ⚽
-            </div>
-
-            <div style="
-                font-size: 48px;
-                font-weight: bold;
-                overflow-wrap: anywhere;
-            ">
-                {team2}
-            </div>
-
-            <div style="
-                font-size: 70px;
-                color: #7fffd4;
-                font-weight: bold;
-                margin-top: 22px;
-            ">
-                {score1} : {score2}
-            </div>
-        </div>
-        """,
+        "<p style='text-align: center;'>"
+        "⚽ GEGEN ⚽"
+        "</p>",
         unsafe_allow_html=True,
     )
 
 else:
+
     st.warning(
         "Aktuell ist kein Spiel gestartet."
     )
-
 
 # ============================================================
 # NÄCHSTES SPIEL
