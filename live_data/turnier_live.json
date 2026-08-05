@@ -1,99 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:13:20",
+  "updated_at": "2026-08-05T13:13:34",
   "live_view": {
-    "current_match": {
-      "team1": "Jagenbach 2",
-      "team2": "Winterseite",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
-      "team1": "Der Basti",
-      "team2": "Stefan und seine Freunde",
-      "phase": "Gruppe B"
-    },
-    "upcoming_matches": [
-      {
-        "order": 3,
-        "team1": "Winterseite",
-        "team2": "Jagenbach 2",
-        "phase": "Gruppe A"
-      },
-      {
-        "order": 4,
-        "team1": "Der Basti",
-        "team2": "Stefan und seine Freunde",
-        "phase": "Gruppe B"
-      }
-    ],
-    "standings": [
-      {
-        "group": "Gruppe A",
-        "teams": [
-          {
-            "team": "Jagenbach 2",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
-            "team": "Winterseite",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          }
-        ]
-      },
-      {
-        "group": "Gruppe B",
-        "teams": [
-          {
-            "team": "Stefan und seine Freunde",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
-            "team": "Der Basti",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "team": "Der Basti",
-        "score": 60,
-        "rank": 1
-      },
-      {
-        "team": "Winterseite",
-        "score": 60,
-        "rank": 2
-      },
-      {
-        "team": "Stefan und seine Freunde",
-        "score": 50,
-        "rank": 3
-      },
-      {
-        "team": "Jagenbach 2",
-        "score": 0,
-        "rank": 4
-      }
-    ]
+    "current_match": {},
+    "next_match": {},
+    "upcoming_matches": [],
+    "standings": [],
+    "spritzer": []
   },
   "sheets": {
     "Anleitung": [
@@ -115,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:13:20",
+        "05.08.2026 13:13:34",
         "",
         "",
         "",
@@ -123,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "setup",
         "",
         "",
         "",
@@ -170,38 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Der Basti",
-        "Ja",
-        "Ja",
-        60,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Stefan und seine Freunde",
-        "Ja",
-        "Ja",
-        50,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "Jagenbach 2",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "Winterseite",
-        "Ja",
-        "Ja",
-        60,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -216,54 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Gruppe A",
-        1,
-        2,
-        "Jagenbach 2",
-        0,
-        0,
-        0,
-        "=F2-G2",
-        0,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Gruppe A",
-        2,
-        3,
-        "Winterseite",
-        0,
-        0,
-        0,
-        "=F3-G3",
-        0,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Gruppe B",
-        1,
-        1,
-        "Stefan und seine Freunde",
-        0,
-        0,
-        0,
-        "=F4-G4",
-        0,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Gruppe B",
-        2,
-        0,
-        "Der Basti",
-        0,
-        0,
-        0,
-        "=F5-G5",
-        0,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -272,30 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        0,
-        "Der Basti",
-        60
-      ],
-      [
-        2,
-        3,
-        "Winterseite",
-        60
-      ],
-      [
-        3,
-        1,
-        "Stefan und seine Freunde",
-        50
-      ],
-      [
-        4,
-        2,
-        "Jagenbach 2",
-        0
       ]
     ],
     "Spiele": [
@@ -308,46 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        1,
-        "Jagenbach 2",
-        "",
-        "Winterseite",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        2,
-        "Der Basti",
-        "",
-        "Stefan und seine Freunde",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        3,
-        "Winterseite",
-        "",
-        "Jagenbach 2",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        4,
-        "Der Basti",
-        "",
-        "Stefan und seine Freunde",
-        "",
-        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -357,15 +126,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:13:20"
+        "05.08.2026 13:13:34"
       ],
       [
         "Phase",
-        "group"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
@@ -373,7 +142,7 @@
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
@@ -381,11 +150,11 @@
       ],
       [
         "Gruppen",
-        2
+        0
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
