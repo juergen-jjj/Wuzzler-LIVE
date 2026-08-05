@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:22:49",
+  "updated_at": "2026-08-05T13:23:19",
   "live_view": {
     "current_match": {
       "team1": "Der von gestern",
@@ -74,22 +74,22 @@
     ],
     "spritzer": [
       {
-        "team": "Basti and Friends",
-        "score": 0,
+        "team": "Der von gestern",
+        "score": 255,
         "rank": 1
       },
       {
-        "team": "Der Ausländer",
-        "score": 0,
+        "team": "Die Füße Gottes",
+        "score": 60,
         "rank": 2
       },
       {
-        "team": "Die Füße Gottes",
-        "score": 0,
+        "team": "Basti and Friends",
+        "score": 50,
         "rank": 3
       },
       {
-        "team": "Der von gestern",
+        "team": "Der Ausländer",
         "score": 0,
         "rank": 4
       }
@@ -115,7 +115,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:22:49",
+        "05.08.2026 13:23:19",
         "",
         "",
         "",
@@ -176,7 +176,7 @@
         "Basti and Friends",
         "Ja",
         "Ja",
-        0,
+        50,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -192,7 +192,7 @@
         "Die Füße Gottes",
         "Ja",
         "Ja",
-        0,
+        60,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -200,7 +200,7 @@
         "Der von gestern",
         "Ja",
         "Ja",
-        0,
+        255,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -275,26 +275,26 @@
       ],
       [
         1,
-        0,
-        "Basti and Friends",
-        0
+        3,
+        "Der von gestern",
+        255
       ],
       [
         2,
-        1,
-        "Der Ausländer",
-        0
+        2,
+        "Die Füße Gottes",
+        60
       ],
       [
         3,
-        3,
-        "Der von gestern",
-        0
+        0,
+        "Basti and Friends",
+        50
       ],
       [
         4,
-        2,
-        "Die Füße Gottes",
+        1,
+        "Der Ausländer",
         0
       ]
     ],
@@ -357,7 +357,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:22:49"
+        "05.08.2026 13:23:19"
       ],
       [
         "Phase",
