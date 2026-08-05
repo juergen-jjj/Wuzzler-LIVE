@@ -440,11 +440,7 @@ if standings:
             )
 
             st.dataframe(
-                table.style.set_properties(
-                    **{
-                        "text-align": "center",
-                    }
-                ),
+                table,
                 use_container_width=True,
                 hide_index=True,
             )
