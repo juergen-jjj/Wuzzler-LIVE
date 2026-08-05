@@ -11,8 +11,8 @@ import streamlit as st
 # GITHUB-ZUGANG
 # ============================================================
 
-GITHUB_OWNER = "DEIN_GITHUB_BENUTZERNAME"
-GITHUB_REPO = "DEIN_REPOSITORYNAME"
+GITHUB_OWNER = "juergen-jjj"
+GITHUB_REPO = "Wuzzler-LIVE"
 GITHUB_BRANCH = "main"
 GITHUB_FILE = "live_data/turnier_live.json"
 
