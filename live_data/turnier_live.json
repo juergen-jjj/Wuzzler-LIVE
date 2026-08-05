@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:12:09",
+  "updated_at": "2026-08-05T10:12:17",
   "live_view": {
     "status": "Turnier noch nicht gestartet",
     "phase": "setup",
@@ -16,6 +16,11 @@
       },
       {
         "rank": 2,
+        "team": "Roui",
+        "score": 0
+      },
+      {
+        "rank": 3,
         "team": "Uloi",
         "score": 0
       }
@@ -44,7 +49,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:12:09",
+        "05.08.2026 10:12:17",
         "",
         "",
         "",
@@ -115,6 +120,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "Roui",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -146,6 +159,12 @@
       ],
       [
         2,
+        2,
+        "Roui",
+        0
+      ],
+      [
+        3,
         1,
         "Uloi",
         0
@@ -170,7 +189,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:12:09"
+        "05.08.2026 10:12:17"
       ],
       [
         "Phase",
@@ -186,7 +205,7 @@
       ],
       [
         "Teams",
-        2
+        3
       ],
       [
         "Turniermodus",
