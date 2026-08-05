@@ -425,4 +425,3 @@ if st.button(
     st.cache_data.clear()
 
     st.rerun()
-```
