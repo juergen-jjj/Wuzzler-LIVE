@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:04:49",
+  "updated_at": "2026-08-05T13:05:02",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -11,6 +11,11 @@
         "team": "Der Basti",
         "score": 0,
         "rank": 1
+      },
+      {
+        "team": "Stefan und seine Freunde",
+        "score": 0,
+        "rank": 2
       }
     ]
   },
@@ -34,7 +39,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:04:49",
+        "05.08.2026 13:05:02",
         "",
         "",
         "",
@@ -97,6 +102,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Stefan und seine Freunde",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -125,6 +138,12 @@
         0,
         "Der Basti",
         0
+      ],
+      [
+        2,
+        1,
+        "Stefan und seine Freunde",
+        0
       ]
     ],
     "Spiele": [
@@ -146,7 +165,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:04:49"
+        "05.08.2026 13:05:02"
       ],
       [
         "Phase",
@@ -162,7 +181,7 @@
       ],
       [
         "Teams",
-        1
+        2
       ],
       [
         "Turniermodus",
