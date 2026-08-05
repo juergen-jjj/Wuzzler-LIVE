@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:40:51",
+  "updated_at": "2026-08-05T11:40:54",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -11,6 +11,11 @@
         "team": "Zzz",
         "score": 0,
         "rank": 1
+      },
+      {
+        "team": "Uuuiik",
+        "score": 0,
+        "rank": 2
       }
     ]
   },
@@ -34,7 +39,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:40:51",
+        "05.08.2026 11:40:54",
         "",
         "",
         "",
@@ -97,6 +102,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Uuuiik",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -122,6 +135,12 @@
       ],
       [
         1,
+        1,
+        "Uuuiik",
+        0
+      ],
+      [
+        2,
         0,
         "Zzz",
         0
@@ -146,7 +165,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:40:51"
+        "05.08.2026 11:40:54"
       ],
       [
         "Phase",
@@ -162,7 +181,7 @@
       ],
       [
         "Teams",
-        1
+        2
       ],
       [
         "Turniermodus",
