@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:20:52",
+  "updated_at": "2026-08-05T10:20:56",
   "live_view": {
     "status": "Turnier noch nicht gestartet",
     "phase": "setup",
@@ -12,6 +12,11 @@
       {
         "rank": 1,
         "team": "Bgg",
+        "score": 0
+      },
+      {
+        "rank": 2,
+        "team": "Zzuuuh",
         "score": 0
       }
     ],
@@ -39,7 +44,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:20:52",
+        "05.08.2026 10:20:56",
         "",
         "",
         "",
@@ -102,6 +107,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Zzuuuh",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -130,6 +143,12 @@
         0,
         "Bgg",
         0
+      ],
+      [
+        2,
+        1,
+        "Zzuuuh",
+        0
       ]
     ],
     "Spiele": [
@@ -151,7 +170,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:20:52"
+        "05.08.2026 10:20:56"
       ],
       [
         "Phase",
@@ -167,7 +186,7 @@
       ],
       [
         "Teams",
-        1
+        2
       ],
       [
         "Turniermodus",
