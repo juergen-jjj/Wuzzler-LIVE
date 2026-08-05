@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-05T07:12:44",
+  "updated_at": "2026-08-05T07:13:03",
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +21,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 07:12:44",
+        "05.08.2026 07:13:03",
         "",
         "",
         "",
@@ -29,7 +29,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "post-group",
         "",
         "",
         "",
@@ -126,25 +126,25 @@
       [
         "Vorrunde",
         1,
-        0,
-        "Zzzz",
-        0,
-        0,
-        0,
+        1,
+        "Zzzzz",
+        4,
+        2,
+        1,
         "=F2-G2",
-        0,
+        2,
         "=IF(I2=0,0,E2/I2)"
       ],
       [
         "Vorrunde",
         2,
+        0,
+        "Zzzz",
         3,
-        "Zhhhh",
-        0,
-        0,
-        0,
+        1,
+        1,
         "=F3-G3",
-        0,
+        2,
         "=IF(I3=0,0,E3/I3)"
       ],
       [
@@ -152,23 +152,23 @@
         3,
         2,
         "6Jjj",
-        0,
-        0,
-        0,
+        3,
+        1,
+        1,
         "=F4-G4",
-        0,
+        2,
         "=IF(I4=0,0,E4/I4)"
       ],
       [
         "Vorrunde",
         4,
+        3,
+        "Zhhhh",
         1,
-        "Zzzzz",
-        0,
-        0,
-        0,
+        1,
+        2,
         "=F5-G5",
-        0,
+        2,
         "=IF(I5=0,0,E5/I5)"
       ]
     ],
@@ -220,40 +220,40 @@
         "Vorrunde",
         1,
         "Zzzzz",
-        "",
+        "1:1",
         "Zhhhh",
-        "",
-        "Offen"
+        "Unentschieden",
+        "Beendet"
       ],
       [
         "Vorrunde",
         "Vorrunde",
         2,
         "6Jjj",
-        "",
+        "1:0",
         "Zzzz",
-        "",
-        "Offen"
+        "6Jjj",
+        "Beendet"
       ],
       [
         "Vorrunde",
         "Vorrunde",
         3,
         "Zzzz",
-        "",
+        "1:0",
         "Zhhhh",
-        "",
-        "Offen"
+        "Zzzz",
+        "Beendet"
       ],
       [
         "Vorrunde",
         "Vorrunde",
         4,
         "Zzzzz",
-        "",
+        "1:0",
         "6Jjj",
-        "",
-        "Offen"
+        "Zzzzz",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -263,11 +263,11 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 07:12:44"
+        "05.08.2026 07:13:03"
       ],
       [
         "Phase",
-        "group"
+        "post-group"
       ],
       [
         "Turnier gestartet",
@@ -275,7 +275,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        5
       ],
       [
         "Teams",
