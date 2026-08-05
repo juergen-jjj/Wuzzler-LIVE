@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-05T09:43:33",
+  "updated_at": "2026-08-05T09:43:35",
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +21,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 09:43:33",
+        "05.08.2026 09:43:35",
         "",
         "",
         "",
@@ -254,6 +254,16 @@
         "6Jjj",
         "Zzzzz",
         "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        1,
+        "Zzzz",
+        "1:0",
+        "Zhhhh",
+        "Zzzz",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -263,7 +273,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 09:43:33"
+        "05.08.2026 09:43:35"
       ],
       [
         "Phase",
@@ -275,7 +285,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        2
       ],
       [
         "Teams",
