@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-05T09:43:30",
+  "updated_at": "2026-08-05T09:43:33",
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +21,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 09:43:30",
+        "05.08.2026 09:43:33",
         "",
         "",
         "",
@@ -29,7 +29,7 @@
       ],
       [
         "Aktuelle Phase",
-        "ko_intro_halbfinale",
+        "ko_play",
         "",
         "",
         "",
@@ -263,11 +263,11 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 09:43:30"
+        "05.08.2026 09:43:33"
       ],
       [
         "Phase",
-        "ko_intro_halbfinale"
+        "ko_play"
       ],
       [
         "Turnier gestartet",
