@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import requests
 import streamlit as st
-
+from streamlit_autorefresh import st_autorefresh
 
 # ============================================================
 # STREAMLIT EINSTELLUNGEN
@@ -16,6 +16,8 @@ st.set_page_config(
     layout="wide",
 )
 
+# Automatische Aktualisierung alle 10 Sekunden
+st_autorefresh(interval=10_000, key="live_refresh")
 
 # ============================================================
 # GITHUB EINSTELLUNGEN
