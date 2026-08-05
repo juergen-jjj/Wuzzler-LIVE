@@ -275,7 +275,7 @@ st.divider()
 # ============================================================
 # AKTUELLES SPIEL
 # ============================================================
-st.header("🔴 JETZT AUF DEM TISCH")
+st.header("🔴 Aktuelles Spiel")
 
 if current_match:
     team1 = safe_text(current_match.get("team1", "?"))
