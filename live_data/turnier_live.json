@@ -1,5 +1,162 @@
 {
   "format_version": 1,
-  "updated_at": "Noch keine Übertragung",
-  "sheets": {}
+  "updated_at": "2026-08-05T07:09:01",
+  "sheets": {
+    "Anleitung": [
+      [
+        "Turnier- und Spritzer-Zwischenstand",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Gespeichert am",
+        "05.08.2026 07:09:01",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Aktuelle Phase",
+        "setup",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Datei bearbeiten",
+        "Gelb markierte Zellen mit blauer Schrift dürfen geändert werden.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Änderungen laden",
+        "Datei in Excel speichern, danach im Dashboard 'Zwischenstand laden' wählen.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Wichtig",
+        "IDs, Gruppen, Paarungen und das ausgeblendete Systemblatt nicht verändern.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Bearbeitbar",
+        "Teilnehmernamen, Spritzer-Punkte sowie Punkte/Tore/Spiele der Gruppentabelle.",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "Teilnehmer": [
+      [
+        "ID",
+        "Name",
+        "Im Turnier",
+        "In Spritzerwertung",
+        "Spritzer-Punkte",
+        "Hinweis"
+      ]
+    ],
+    "Gruppentabelle": [
+      [
+        "Gruppe",
+        "Rang",
+        "ID",
+        "Team",
+        "Punkte",
+        "Tore",
+        "Gegentore",
+        "Tordifferenz",
+        "Spiele",
+        "Punkte/Spiel"
+      ]
+    ],
+    "Spritzerwertung": [
+      [
+        "Rang",
+        "ID",
+        "Name",
+        "Spritzer-Punkte"
+      ]
+    ],
+    "Spiele": [
+      [
+        "Phase/Runde",
+        "Gruppe",
+        "Spiel",
+        "Team 1",
+        "Ergebnis",
+        "Team 2",
+        "Sieger",
+        "Status"
+      ]
+    ],
+    "Turnierübersicht": [
+      [
+        "Bereich",
+        "Wert"
+      ],
+      [
+        "Gespeichert am",
+        "05.08.2026 07:09:01"
+      ],
+      [
+        "Phase",
+        "setup"
+      ],
+      [
+        "Turnier gestartet",
+        "Nein"
+      ],
+      [
+        "Aktuelles Spiel",
+        1
+      ],
+      [
+        "Teams",
+        0
+      ],
+      [
+        "Turniermodus",
+        "Mit Gruppen"
+      ],
+      [
+        "Gruppen",
+        0
+      ],
+      [
+        "Spiele pro Team",
+        3
+      ],
+      [
+        "Spritzerwertung gesperrt",
+        "Nein"
+      ],
+      [
+        "Spritzer-Endtimer aktiv",
+        "Nein"
+      ]
+    ]
+  }
 }
