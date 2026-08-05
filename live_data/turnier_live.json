@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:12:02",
+  "updated_at": "2026-08-05T10:12:09",
   "live_view": {
     "status": "Turnier noch nicht gestartet",
     "phase": "setup",
@@ -12,6 +12,11 @@
       {
         "rank": 1,
         "team": "O6",
+        "score": 0
+      },
+      {
+        "rank": 2,
+        "team": "Uloi",
         "score": 0
       }
     ],
@@ -39,7 +44,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:12:02",
+        "05.08.2026 10:12:09",
         "",
         "",
         "",
@@ -102,6 +107,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Uloi",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -130,6 +143,12 @@
         0,
         "O6",
         0
+      ],
+      [
+        2,
+        1,
+        "Uloi",
+        0
       ]
     ],
     "Spiele": [
@@ -151,7 +170,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:12:02"
+        "05.08.2026 10:12:09"
       ],
       [
         "Phase",
@@ -167,7 +186,7 @@
       ],
       [
         "Teams",
-        1
+        2
       ],
       [
         "Turniermodus",
