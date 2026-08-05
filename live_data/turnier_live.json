@@ -1,11 +1,11 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:57:18",
+  "updated_at": "2026-08-05T11:57:46",
   "live_view": {
     "current_match": {
       "team1": "Zzgh",
       "team2": "Uuuiik",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
       "phase": "Gruppe A"
     },
@@ -115,7 +115,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:57:18",
+        "05.08.2026 11:57:46",
         "",
         "",
         "",
@@ -357,7 +357,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:57:18"
+        "05.08.2026 11:57:46"
       ],
       [
         "Phase",
