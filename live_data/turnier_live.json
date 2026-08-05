@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-05T07:11:57",
+  "updated_at": "2026-08-05T07:12:06",
   "sheets": {
     "Anleitung": [
       [
@@ -21,7 +21,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 07:11:57",
+        "05.08.2026 07:12:06",
         "",
         "",
         "",
@@ -92,6 +92,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "6Jjj",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -117,12 +125,18 @@
       ],
       [
         1,
+        2,
+        "6Jjj",
+        0
+      ],
+      [
+        2,
         0,
         "Zzzz",
         0
       ],
       [
-        2,
+        3,
         1,
         "Zzzzz",
         0
@@ -147,7 +161,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 07:11:57"
+        "05.08.2026 07:12:06"
       ],
       [
         "Phase",
@@ -163,7 +177,7 @@
       ],
       [
         "Teams",
-        2
+        3
       ],
       [
         "Turniermodus",
