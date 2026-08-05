@@ -1,11 +1,77 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:41:02",
+  "updated_at": "2026-08-05T11:41:08",
   "live_view": {
-    "current_match": {},
-    "next_match": {},
-    "upcoming_matches": [],
-    "standings": [],
+    "current_match": {
+      "team1": "Zzgh",
+      "team2": "Uuuiik",
+      "score1": 0,
+      "score2": 0,
+      "phase": "Gruppe A"
+    },
+    "next_match": {
+      "team1": "Z566",
+      "team2": "Zzz",
+      "phase": "Gruppe B"
+    },
+    "upcoming_matches": [
+      {
+        "order": 3,
+        "team1": "Uuuiik",
+        "team2": "Zzgh",
+        "phase": "Gruppe A"
+      },
+      {
+        "order": 4,
+        "team1": "Z566",
+        "team2": "Zzz",
+        "phase": "Gruppe B"
+      }
+    ],
+    "standings": [
+      {
+        "group": "Gruppe A",
+        "teams": [
+          {
+            "team": "Uuuiik",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "Zzgh",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "group": "Gruppe B",
+        "teams": [
+          {
+            "team": "Zzz",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "Z566",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          }
+        ]
+      }
+    ],
     "spritzer": [
       {
         "team": "Zzz",
@@ -49,7 +115,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:41:02",
+        "05.08.2026 11:41:08",
         "",
         "",
         "",
@@ -57,7 +123,7 @@
       ],
       [
         "Aktuelle Phase",
-        "setup",
+        "group",
         "",
         "",
         "",
@@ -150,6 +216,54 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
+      ],
+      [
+        "Gruppe A",
+        1,
+        1,
+        "Uuuiik",
+        0,
+        0,
+        0,
+        "=F2-G2",
+        0,
+        "=IF(I2=0,0,E2/I2)"
+      ],
+      [
+        "Gruppe A",
+        2,
+        2,
+        "Zzgh",
+        0,
+        0,
+        0,
+        "=F3-G3",
+        0,
+        "=IF(I3=0,0,E3/I3)"
+      ],
+      [
+        "Gruppe B",
+        1,
+        0,
+        "Zzz",
+        0,
+        0,
+        0,
+        "=F4-G4",
+        0,
+        "=IF(I4=0,0,E4/I4)"
+      ],
+      [
+        "Gruppe B",
+        2,
+        3,
+        "Z566",
+        0,
+        0,
+        0,
+        "=F5-G5",
+        0,
+        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -194,6 +308,46 @@
         "Team 2",
         "Sieger",
         "Status"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        1,
+        "Zzgh",
+        "",
+        "Uuuiik",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        2,
+        "Z566",
+        "",
+        "Zzz",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        3,
+        "Uuuiik",
+        "",
+        "Zzgh",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        4,
+        "Z566",
+        "",
+        "Zzz",
+        "",
+        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -203,15 +357,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:41:02"
+        "05.08.2026 11:41:08"
       ],
       [
         "Phase",
-        "setup"
+        "group"
       ],
       [
         "Turnier gestartet",
-        "Nein"
+        "Ja"
       ],
       [
         "Aktuelles Spiel",
@@ -227,11 +381,11 @@
       ],
       [
         "Gruppen",
-        0
+        2
       ],
       [
         "Spiele pro Team",
-        3
+        2
       ],
       [
         "Spritzerwertung gesperrt",
