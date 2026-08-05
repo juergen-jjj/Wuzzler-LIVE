@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:05:48",
+  "updated_at": "2026-08-05T13:05:55",
   "live_view": {
     "current_match": {
       "team1": "Jagenbach 2",
@@ -74,12 +74,12 @@
     ],
     "spritzer": [
       {
-        "team": "Der Basti",
-        "score": 0,
+        "team": "Stefan und seine Freunde",
+        "score": 50,
         "rank": 1
       },
       {
-        "team": "Stefan und seine Freunde",
+        "team": "Der Basti",
         "score": 0,
         "rank": 2
       },
@@ -115,7 +115,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:48",
+        "05.08.2026 13:05:55",
         "",
         "",
         "",
@@ -184,7 +184,7 @@
         "Stefan und seine Freunde",
         "Ja",
         "Ja",
-        0,
+        50,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -275,20 +275,20 @@
       ],
       [
         1,
+        1,
+        "Stefan und seine Freunde",
+        50
+      ],
+      [
+        2,
         0,
         "Der Basti",
         0
       ],
       [
-        2,
+        3,
         2,
         "Jagenbach 2",
-        0
-      ],
-      [
-        3,
-        1,
-        "Stefan und seine Freunde",
         0
       ],
       [
@@ -357,7 +357,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:48"
+        "05.08.2026 13:05:55"
       ],
       [
         "Phase",
