@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:57:46",
+  "updated_at": "2026-08-05T11:58:03",
   "live_view": {
     "current_match": {
-      "team1": "Zzgh",
-      "team2": "Uuuiik",
-      "score1": 1,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
       "team1": "Z566",
       "team2": "Zzz",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe B"
     },
+    "next_match": {
+      "team1": "Uuuiik",
+      "team2": "Zzgh",
+      "phase": "Gruppe A"
+    },
     "upcoming_matches": [
-      {
-        "order": 3,
-        "team1": "Uuuiik",
-        "team2": "Zzgh",
-        "phase": "Gruppe A"
-      },
       {
         "order": 4,
         "team1": "Z566",
@@ -33,19 +27,19 @@
         "group": "Gruppe A",
         "teams": [
           {
-            "team": "Uuuiik",
-            "points": 0,
-            "goals": 0,
+            "team": "Zzgh",
+            "points": 3,
+            "goals": 1,
             "against": 0,
-            "games": 0,
+            "games": 1,
             "rank": 1
           },
           {
-            "team": "Zzgh",
+            "team": "Uuuiik",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
+            "against": 1,
+            "games": 1,
             "rank": 2
           }
         ]
@@ -115,7 +109,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:57:46",
+        "05.08.2026 11:58:03",
         "",
         "",
         "",
@@ -220,25 +214,25 @@
       [
         "Gruppe A",
         1,
+        2,
+        "Zzgh",
+        3,
         1,
-        "Uuuiik",
-        0,
-        0,
         0,
         "=F2-G2",
-        0,
+        1,
         "=IF(I2=0,0,E2/I2)"
       ],
       [
         "Gruppe A",
         2,
-        2,
-        "Zzgh",
+        1,
+        "Uuuiik",
         0,
         0,
-        0,
+        1,
         "=F3-G3",
-        0,
+        1,
         "=IF(I3=0,0,E3/I3)"
       ],
       [
@@ -314,10 +308,10 @@
         "Gruppe A",
         1,
         "Zzgh",
-        "",
+        "1:0",
         "Uuuiik",
-        "",
-        "Offen"
+        "Zzgh",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -357,7 +351,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:57:46"
+        "05.08.2026 11:58:03"
       ],
       [
         "Phase",
@@ -369,7 +363,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        2
       ],
       [
         "Teams",
