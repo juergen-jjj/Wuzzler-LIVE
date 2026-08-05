@@ -7,7 +7,7 @@ import streamlit as st
 
 # Diese Werte müssen zu deinem Repository passen
 GITHUB_OWNER = "juergen-jjj"
-GITHUB_REPO = "Wuzzkler-LIVE"
+GITHUB_REPO = "Wuzzler-LIVE"
 GITHUB_BRANCH = "main"
 GITHUB_FILE = "live_data/turnier_live.json"
 
