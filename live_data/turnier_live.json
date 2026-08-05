@@ -1,12 +1,18 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:40:45",
+  "updated_at": "2026-08-05T11:40:51",
   "live_view": {
     "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
     "standings": [],
-    "spritzer": []
+    "spritzer": [
+      {
+        "team": "Zzz",
+        "score": 0,
+        "rank": 1
+      }
+    ]
   },
   "sheets": {
     "Anleitung": [
@@ -28,7 +34,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:40:45",
+        "05.08.2026 11:40:51",
         "",
         "",
         "",
@@ -83,6 +89,14 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
+      ],
+      [
+        0,
+        "Zzz",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -105,6 +119,12 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
+      ],
+      [
+        1,
+        0,
+        "Zzz",
+        0
       ]
     ],
     "Spiele": [
@@ -126,7 +146,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:40:45"
+        "05.08.2026 11:40:51"
       ],
       [
         "Phase",
@@ -142,7 +162,7 @@
       ],
       [
         "Teams",
-        0
+        1
       ],
       [
         "Turniermodus",
