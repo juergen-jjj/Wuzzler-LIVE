@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:11:54",
+  "updated_at": "2026-08-05T10:12:02",
   "live_view": {
     "status": "Turnier noch nicht gestartet",
     "phase": "setup",
@@ -8,7 +8,13 @@
     "next_match": null,
     "upcoming_matches": [],
     "standings": [],
-    "spritzer": [],
+    "spritzer": [
+      {
+        "rank": 1,
+        "team": "O6",
+        "score": 0
+      }
+    ],
     "spritzer_locked": false,
     "spritzer_timer_active": false,
     "spritzer_end_timestamp": 0.0
@@ -33,7 +39,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:11:54",
+        "05.08.2026 10:12:02",
         "",
         "",
         "",
@@ -88,6 +94,14 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
+      ],
+      [
+        0,
+        "O6",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -110,6 +124,12 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
+      ],
+      [
+        1,
+        0,
+        "O6",
+        0
       ]
     ],
     "Spiele": [
@@ -131,7 +151,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:11:54"
+        "05.08.2026 10:12:02"
       ],
       [
         "Phase",
@@ -147,7 +167,7 @@
       ],
       [
         "Teams",
-        0
+        1
       ],
       [
         "Turniermodus",
