@@ -1,99 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T12:18:38",
+  "updated_at": "2026-08-05T12:48:41",
   "live_view": {
-    "current_match": {
-      "team1": "Tt",
-      "team2": "55477",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
-      "team1": "23457",
-      "team2": "Team1",
-      "phase": "Gruppe B"
-    },
-    "upcoming_matches": [
-      {
-        "order": 3,
-        "team1": "55477",
-        "team2": "Tt",
-        "phase": "Gruppe A"
-      },
-      {
-        "order": 4,
-        "team1": "Team1",
-        "team2": "23457",
-        "phase": "Gruppe B"
-      }
-    ],
-    "standings": [
-      {
-        "group": "Gruppe A",
-        "teams": [
-          {
-            "team": "55477",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
-            "team": "Tt",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          }
-        ]
-      },
-      {
-        "group": "Gruppe B",
-        "teams": [
-          {
-            "team": "Team1",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
-            "team": "23457",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "team": "Team1",
-        "score": 40,
-        "rank": 1
-      },
-      {
-        "team": "Tt",
-        "score": 0,
-        "rank": 2
-      },
-      {
-        "team": "23457",
-        "score": 0,
-        "rank": 3
-      },
-      {
-        "team": "55477",
-        "score": 0,
-        "rank": 4
-      }
-    ]
+    "current_match": {},
+    "next_match": {},
+    "upcoming_matches": [],
+    "standings": [],
+    "spritzer": []
   },
   "sheets": {
     "Anleitung": [
@@ -115,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 12:18:38",
+        "05.08.2026 12:48:41",
         "",
         "",
         "",
@@ -123,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "setup",
         "",
         "",
         "",
@@ -170,38 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Tt",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Team1",
-        "Ja",
-        "Ja",
-        40,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "23457",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "55477",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -216,54 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Gruppe A",
-        1,
-        3,
-        "55477",
-        0,
-        0,
-        0,
-        "=F2-G2",
-        0,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Gruppe A",
-        2,
-        0,
-        "Tt",
-        0,
-        0,
-        0,
-        "=F3-G3",
-        0,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Gruppe B",
-        1,
-        1,
-        "Team1",
-        0,
-        0,
-        0,
-        "=F4-G4",
-        0,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Gruppe B",
-        2,
-        2,
-        "23457",
-        0,
-        0,
-        0,
-        "=F5-G5",
-        0,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -272,30 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        1,
-        "Team1",
-        40
-      ],
-      [
-        2,
-        2,
-        "23457",
-        0
-      ],
-      [
-        3,
-        3,
-        "55477",
-        0
-      ],
-      [
-        4,
-        0,
-        "Tt",
-        0
       ]
     ],
     "Spiele": [
@@ -308,46 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        1,
-        "Tt",
-        "",
-        "55477",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        2,
-        "23457",
-        "",
-        "Team1",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        3,
-        "55477",
-        "",
-        "Tt",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        4,
-        "Team1",
-        "",
-        "23457",
-        "",
-        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -357,15 +126,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 12:18:38"
+        "05.08.2026 12:48:41"
       ],
       [
         "Phase",
-        "group"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
@@ -373,7 +142,7 @@
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
@@ -381,11 +150,11 @@
       ],
       [
         "Gruppen",
-        2
+        0
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
