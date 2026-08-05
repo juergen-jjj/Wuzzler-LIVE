@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:58:41",
+  "updated_at": "2026-08-05T11:58:47",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -11,6 +11,11 @@
         "team": "Tt",
         "score": 0,
         "rank": 1
+      },
+      {
+        "team": "Team1",
+        "score": 0,
+        "rank": 2
       }
     ]
   },
@@ -34,7 +39,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:58:41",
+        "05.08.2026 11:58:47",
         "",
         "",
         "",
@@ -97,6 +102,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Team1",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -122,6 +135,12 @@
       ],
       [
         1,
+        1,
+        "Team1",
+        0
+      ],
+      [
+        2,
         0,
         "Tt",
         0
@@ -146,7 +165,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:58:41"
+        "05.08.2026 11:58:47"
       ],
       [
         "Phase",
@@ -162,7 +181,7 @@
       ],
       [
         "Teams",
-        1
+        2
       ],
       [
         "Turniermodus",
