@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:05:18",
+  "updated_at": "2026-08-05T13:05:24",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -21,6 +21,11 @@
         "team": "Jagenbach 2",
         "score": 0,
         "rank": 3
+      },
+      {
+        "team": "Winterseite",
+        "score": 0,
+        "rank": 4
       }
     ]
   },
@@ -44,7 +49,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:18",
+        "05.08.2026 13:05:24",
         "",
         "",
         "",
@@ -123,6 +128,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        3,
+        "Winterseite",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -163,6 +176,12 @@
         1,
         "Stefan und seine Freunde",
         0
+      ],
+      [
+        4,
+        3,
+        "Winterseite",
+        0
       ]
     ],
     "Spiele": [
@@ -184,7 +203,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:18"
+        "05.08.2026 13:05:24"
       ],
       [
         "Phase",
@@ -200,7 +219,7 @@
       ],
       [
         "Teams",
-        3
+        4
       ],
       [
         "Turniermodus",
