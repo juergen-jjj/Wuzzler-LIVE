@@ -275,181 +275,50 @@ st.divider()
 # ============================================================
 # AKTUELLES SPIEL
 # ============================================================
-
-st.header(
-    "🔴 JETZT AUF DEM TISCH"
-)
+st.header("🔴 JETZT AUF DEM TISCH")
 
 if current_match:
+    team1 = safe_text(current_match.get("team1", "?"))
+    team2 = safe_text(current_match.get("team2", "?"))
+    score1 = safe_number(current_match.get("score1", 0))
+    score2 = safe_number(current_match.get("score2", 0))
+    phase = safe_text(current_match.get("phase", "Turnier"))
 
-    team1 = safe_text(
-        current_match.get(
-            "team1",
-            "?",
-        )
-    )
+    # HTML ohne Einrückungen innerhalb des f-Strings
+    html_current = f"""<div style="text-align: center; padding: 35px; border-radius: 20px; background: #12324a; color: white;">
+    <div style="font-size: 20px; color: #8fd3ff; font-weight: bold; margin-bottom: 18px;">{phase}</div>
+    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team1}</div>
+    <div style="font-size: 24px; color: #ffd34e; margin: 12px 0;">⚽ GEGEN ⚽</div>
+    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team2}</div>
+    <div style="font-size: 70px; color: #7fffd4; font-weight: bold; margin-top: 22px;">{score1} : {score2}</div>
+</div>"""
 
-    team2 = safe_text(
-        current_match.get(
-            "team2",
-            "?",
-        )
-    )
-
-    score1 = safe_number(
-        current_match.get(
-            "score1",
-            0,
-        )
-    )
-
-    score2 = safe_number(
-        current_match.get(
-            "score2",
-            0,
-        )
-    )
-
-    phase = safe_text(
-        current_match.get(
-            "phase",
-            "Turnier",
-        )
-    )
-
-    st.markdown(
-        f"""
-        <div style="
-            text-align: center;
-            padding: 35px;
-            border-radius: 20px;
-            background: #12324a;
-            color: white;
-        ">
-            <div style="
-                font-size: 20px;
-                color: #8fd3ff;
-                font-weight: bold;
-                margin-bottom: 18px;
-            ">
-                {phase}
-            </div>
-
-            <div style="
-                font-size: 48px;
-                font-weight: bold;
-                overflow-wrap: anywhere;
-            ">
-                {team1}
-            </div>
-
-            <div style="
-                font-size: 24px;
-                color: #ffd34e;
-                margin: 12px 0;
-            ">
-                ⚽ GEGEN ⚽
-            </div>
-
-            <div style="
-                font-size: 48px;
-                font-weight: bold;
-                overflow-wrap: anywhere;
-            ">
-                {team2}
-            </div>
-
-            <div style="
-                font-size: 70px;
-                color: #7fffd4;
-                font-weight: bold;
-                margin-top: 22px;
-            ">
-                {score1} : {score2}
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
+    st.markdown(html_current, unsafe_allow_html=True)
 else:
-    st.warning(
-        "Aktuell ist kein Spiel gestartet."
-    )
+    st.warning("Aktuell ist kein Spiel gestartet.")
 
 
 # ============================================================
 # NÄCHSTES SPIEL
 # ============================================================
-
-st.header(
-    "➡️ ALS NÄCHSTES"
-)
+st.header("➡️ ALS NÄCHSTES")
 
 if next_match:
+    next_team1 = safe_text(next_match.get("team1", "?"))
+    next_team2 = safe_text(next_match.get("team2", "?"))
+    next_phase = safe_text(next_match.get("phase", "Vorrunde"))
 
-    next_team1 = safe_text(
-        next_match.get(
-            "team1",
-            "?",
-        )
-    )
+    # HTML ohne Einrückungen innerhalb des f-Strings
+    html_next = f"""<div style="text-align: center; padding: 22px; border-radius: 15px; border: 2px solid #2c78a0;">
+    <div style="font-size: 30px; font-weight: bold; overflow-wrap: anywhere;">
+        {next_team1} <span style="color: #e6a800; margin: 0 12px;">gegen</span> {next_team2}
+    </div>
+    <div style="margin-top: 12px; color: #777; font-size: 17px;">{next_phase}</div>
+</div>"""
 
-    next_team2 = safe_text(
-        next_match.get(
-            "team2",
-            "?",
-        )
-    )
-
-    next_phase = safe_text(
-        next_match.get(
-            "phase",
-            "Vorrunde",
-        )
-    )
-
-    st.markdown(
-        f"""
-        <div style="
-            text-align: center;
-            padding: 22px;
-            border-radius: 15px;
-            border: 2px solid #2c78a0;
-        ">
-            <div style="
-                font-size: 30px;
-                font-weight: bold;
-                overflow-wrap: anywhere;
-            ">
-                {next_team1}
-                <span style="
-                    color: #e6a800;
-                    margin: 0 12px;
-                ">
-                    gegen
-                </span>
-                {next_team2}
-            </div>
-
-            <div style="
-                margin-top: 12px;
-                color: #777;
-                font-size: 17px;
-            ">
-                {next_phase}
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
+    st.markdown(html_next, unsafe_allow_html=True)
 else:
-    st.info(
-        "Kein nächstes Spiel vorhanden."
-    )
-
-
+    st.info("Kein nächstes Spiel vorhanden.")
 # ============================================================
 # KOMMENDE SPIELE
 # ============================================================
