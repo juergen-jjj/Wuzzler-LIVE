@@ -7,22 +7,7 @@ import streamlit as st
 
 
 # ============================================================
-# GITHUB-ZUGANG
-# ============================================================
-
-GITHUB_OWNER = "juergen-jjj"
-GITHUB_REPO = "Wuzzler-LIVE"
-GITHUB_BRANCH = "main"
-GITHUB_FILE = "live_data/turnier_live.json"
-
-# TOKEN HIER EINFÜGEN
-# Beispiel:
-# GITHUB_TOKEN = "github_pat_xxxxxxxxxxxxxxxxx"
-GITHUB_TOKEN = "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"
-
-
-# ============================================================
-# STREAMLIT
+# STREAMLIT EINSTELLUNGEN
 # ============================================================
 
 st.set_page_config(
@@ -30,6 +15,39 @@ st.set_page_config(
     page_icon="⚽",
     layout="wide",
 )
+
+
+# ============================================================
+# GITHUB EINSTELLUNGEN
+# ============================================================
+
+GITHUB_OWNER = "juergen-jjj"
+GITHUB_REPO = "Wuzzler-LIVE"
+GITHUB_BRANCH = "main"
+GITHUB_FILE = "live_data/turnier_live.json"
+
+
+# ============================================================
+# GITHUB TOKEN AUS STREAMLIT SECRETS LADEN
+# ============================================================
+
+try:
+
+    GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
+
+except Exception:
+
+    st.error(
+        "Der GitHub-Token wurde nicht gefunden."
+    )
+
+    st.info(
+        "Lege in Streamlit unter "
+        "Settings → Secrets den Eintrag "
+        "GITHUB_TOKEN an."
+    )
+
+    st.stop()
 
 
 # ============================================================
@@ -49,8 +67,12 @@ def load_live_data():
 
     headers = {
         "Accept": "application/vnd.github+json",
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "X-GitHub-Api-Version": "2022-11-28",
+        "Authorization": (
+            f"Bearer {GITHUB_TOKEN}"
+        ),
+        "X-GitHub-Api-Version": (
+            "2022-11-28"
+        ),
     }
 
     response = requests.get(
@@ -62,11 +84,13 @@ def load_live_data():
         timeout=20,
     )
 
-    # Bei Fehler wird die genaue GitHub-Antwort angezeigt
     if response.status_code != 200:
+
         raise RuntimeError(
-            f"GitHub-API-Fehler: "
-            f"HTTP {response.status_code}\n\n"
+            "GitHub-API-Fehler\n\n"
+            f"HTTP-Status: "
+            f"{response.status_code}\n\n"
+            f"Antwort:\n"
             f"{response.text}"
         )
 
@@ -80,24 +104,86 @@ def load_live_data():
     )
 
     if not encoded_content:
+
         raise RuntimeError(
-            "GitHub hat keinen Dateiinhalt geliefert."
+            "GitHub hat keinen "
+            "Dateiinhalt geliefert."
         )
 
-    decoded_content = (
-        base64
-        .b64decode(encoded_content)
-        .decode("utf-8")
+    try:
+
+        decoded_content = (
+            base64
+            .b64decode(
+                encoded_content
+            )
+            .decode(
+                "utf-8"
+            )
+        )
+
+    except Exception as error:
+
+        raise RuntimeError(
+            "Der GitHub-Dateiinhalt "
+            "konnte nicht entschlüsselt "
+            "werden.\n\n"
+            f"{error}"
+        )
+
+    try:
+
+        return json.loads(
+            decoded_content
+        )
+
+    except json.JSONDecodeError as error:
+
+        raise RuntimeError(
+            "Die Datei enthält "
+            "ungültiges JSON.\n\n"
+            f"{error}"
+        )
+
+
+# ============================================================
+# HILFSFUNKTION
+# ============================================================
+
+def safe_dataframe(
+    rows,
+    columns,
+):
+
+    dataframe = pd.DataFrame(
+        rows
     )
 
-    return json.loads(decoded_content)
+    for column in columns:
+
+        if column not in dataframe.columns:
+
+            dataframe[
+                column
+            ] = ""
+
+    return dataframe[
+        columns
+    ]
+
+
+# ============================================================
+# TITEL
+# ============================================================
+
+st.title(
+    "⚽ WUZZLER LIVE"
+)
 
 
 # ============================================================
 # DATEN LADEN
 # ============================================================
-
-st.title("⚽ WUZZLER LIVE")
 
 try:
 
@@ -106,12 +192,21 @@ try:
 except Exception as error:
 
     st.error(
-        "Die Live-Daten konnten nicht geladen werden."
+        "Die Live-Daten konnten "
+        "nicht geladen werden."
     )
 
     st.code(
         str(error)
     )
+
+    if st.button(
+        "🔄 Erneut versuchen"
+    ):
+
+        st.cache_data.clear()
+
+        st.rerun()
 
     st.stop()
 
@@ -152,28 +247,51 @@ spritzer = live.get(
 
 
 # ============================================================
-# TEST-STATUS
+# STATUSZEILE
 # ============================================================
 
-st.success(
-    "GitHub-API-Verbindung erfolgreich"
-)
-
-st.write(
-    "Letzte Aktualisierung:",
-    data.get(
-        "updated_at",
-        "unbekannt"
+status_column, update_column, button_column = (
+    st.columns(
+        [
+            2,
+            3,
+            1,
+        ]
     )
 )
 
-st.write(
-    "JSON-Format:",
-    data.get(
-        "format_version",
-        "unbekannt"
+with status_column:
+
+    st.success(
+        "🟢 LIVE-VERBINDUNG AKTIV"
     )
-)
+
+with update_column:
+
+    st.write(
+        "Letzte Aktualisierung:"
+    )
+
+    st.caption(
+        data.get(
+            "updated_at",
+            "unbekannt"
+        )
+    )
+
+with button_column:
+
+    if st.button(
+        "🔄 Neu laden",
+        use_container_width=True,
+    ):
+
+        st.cache_data.clear()
+
+        st.rerun()
+
+
+st.divider()
 
 
 # ============================================================
@@ -183,6 +301,7 @@ st.write(
 st.header(
     "🔴 JETZT AUF DEM TISCH"
 )
+
 
 if current_match:
 
@@ -206,51 +325,88 @@ if current_match:
         0
     )
 
+    phase = current_match.get(
+        "phase",
+        ""
+    )
+
     st.markdown(
         f"""
-        <div style="
-            text-align:center;
-            padding:35px;
-            border-radius:20px;
-            background:#12324a;
-            color:white;
-        ">
+        <div
+            style="
+                text-align: center;
+                padding: 35px;
+                border-radius: 20px;
+                background:
+                    linear-gradient(
+                        135deg,
+                        #12324a,
+                        #1f587c
+                    );
+                color: white;
+                box-shadow:
+                    0 5px 20px
+                    rgba(
+                        0,
+                        0,
+                        0,
+                        0.25
+                    );
+            "
+        >
 
-            <div style="
-                font-size:18px;
-                color:#8fd3ff;
-            ">
-                {current_match.get("phase", "")}
+            <div
+                style="
+                    font-size: 20px;
+                    color: #8fd3ff;
+                    font-weight: bold;
+                "
+            >
+                {phase}
             </div>
 
-            <div style="
-                font-size:50px;
-                font-weight:bold;
-                margin-top:15px;
-            ">
+            <div
+                style="
+                    font-size: 48px;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    word-break:
+                        break-word;
+                "
+            >
                 {team1}
             </div>
 
-            <div style="
-                font-size:25px;
-                color:#ffd34e;
-            ">
-                GEGEN
+            <div
+                style="
+                    font-size: 24px;
+                    color: #ffd34e;
+                    margin:
+                        10px 0;
+                "
+            >
+                ⚽ GEGEN ⚽
             </div>
 
-            <div style="
-                font-size:50px;
-                font-weight:bold;
-            ">
+            <div
+                style="
+                    font-size: 48px;
+                    font-weight: bold;
+                    word-break:
+                        break-word;
+                "
+            >
                 {team2}
             </div>
 
-            <div style="
-                font-size:60px;
-                color:#7fffd4;
-                font-weight:bold;
-                margin-top:15px;
-            ">
+            <div
+                style="
+                    font-size: 70px;
+                    color: #7fffd4;
+                    font-weight: bold;
+                    margin-top: 20px;
+                "
+            >
                 {score1} : {score2}
             </div>
 
@@ -262,8 +418,8 @@ if current_match:
 else:
 
     st.warning(
-        "Kein aktuelles Spiel "
-        "in live_view vorhanden."
+        "Aktuell ist kein Spiel "
+        "gestartet."
     )
 
 
@@ -275,25 +431,79 @@ st.header(
     "➡️ ALS NÄCHSTES"
 )
 
+
 if next_match:
 
-    st.subheader(
-        f'{next_match.get("team1", "?")} '
-        f'gegen '
-        f'{next_match.get("team2", "?")}'
+    next_team1 = (
+        next_match.get(
+            "team1",
+            "?"
+        )
     )
 
-    st.caption(
+    next_team2 = (
+        next_match.get(
+            "team2",
+            "?"
+        )
+    )
+
+    next_phase = (
         next_match.get(
             "phase",
             ""
         )
     )
 
+    st.markdown(
+        f"""
+        <div
+            style="
+                text-align: center;
+                padding: 20px;
+                border-radius: 15px;
+                border:
+                    2px solid
+                    #2c78a0;
+            "
+        >
+
+            <div
+                style="
+                    font-size: 28px;
+                    font-weight: bold;
+                "
+            >
+                {next_team1}
+                <span
+                    style="
+                        color: #e6a800;
+                    "
+                >
+                    gegen
+                </span>
+                {next_team2}
+            </div>
+
+            <div
+                style="
+                    margin-top: 10px;
+                    color: #777;
+                "
+            >
+                {next_phase}
+            </div>
+
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
 else:
 
     st.info(
-        "Kein nächstes Spiel vorhanden."
+        "Kein nächstes Spiel "
+        "vorhanden."
     )
 
 
@@ -305,21 +515,49 @@ st.header(
     "📅 KOMMENDE SPIELE"
 )
 
+
 if upcoming_matches:
 
     for match in upcoming_matches:
 
-        st.write(
-            f'**Spiel {match.get("order", "")}:** '
-            f'{match.get("team1", "?")} '
-            f'gegen '
-            f'{match.get("team2", "?")}'
+        order = match.get(
+            "order",
+            ""
         )
+
+        team1 = match.get(
+            "team1",
+            "?"
+        )
+
+        team2 = match.get(
+            "team2",
+            "?"
+        )
+
+        phase = match.get(
+            "phase",
+            ""
+        )
+
+        st.write(
+            f"**Spiel {order}:** "
+            f"{team1} "
+            f"gegen "
+            f"{team2}"
+        )
+
+        if phase:
+
+            st.caption(
+                phase
+            )
 
 else:
 
     st.info(
-        "Keine kommenden Spiele vorhanden."
+        "Keine weiteren Spiele "
+        "vorhanden."
     )
 
 
@@ -331,15 +569,14 @@ st.header(
     "🏆 TURNIERSTAND"
 )
 
+
 if standings:
 
     for group in standings:
 
-        st.subheader(
-            group.get(
-                "group",
-                "Tabelle"
-            )
+        group_name = group.get(
+            "group",
+            "Tabelle"
         )
 
         teams = group.get(
@@ -347,10 +584,22 @@ if standings:
             []
         )
 
+        st.subheader(
+            group_name
+        )
+
         if teams:
 
-            table = pd.DataFrame(
-                teams
+            table = safe_dataframe(
+                teams,
+                [
+                    "rank",
+                    "team",
+                    "points",
+                    "goals",
+                    "against",
+                    "games",
+                ],
             )
 
             table = table.rename(
@@ -370,10 +619,19 @@ if standings:
                 hide_index=True,
             )
 
+        else:
+
+            st.info(
+                "Für diese Gruppe "
+                "sind noch keine "
+                "Teams vorhanden."
+            )
+
 else:
 
     st.info(
-        "Kein Turnierstand vorhanden."
+        "Noch kein Turnierstand "
+        "vorhanden."
     )
 
 
@@ -385,10 +643,18 @@ st.header(
     "🍹 SPRITZERWERTUNG"
 )
 
+
 if spritzer:
 
-    spritzer_table = pd.DataFrame(
-        spritzer
+    spritzer_table = (
+        safe_dataframe(
+            spritzer,
+            [
+                "rank",
+                "team",
+                "score",
+            ],
+        )
     )
 
     spritzer_table = (
@@ -410,18 +676,17 @@ if spritzer:
 else:
 
     st.info(
-        "Keine Spritzerdaten vorhanden."
+        "Noch keine "
+        "Spritzerdaten vorhanden."
     )
 
 
 # ============================================================
-# AKTUALISIEREN
+# FOOTER
 # ============================================================
 
-if st.button(
-    "🔄 Daten neu laden"
-):
+st.divider()
 
-    st.cache_data.clear()
-
-    st.rerun()
+st.caption(
+    "⚽ Wuzzler LIVE"
+)
