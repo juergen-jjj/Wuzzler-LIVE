@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T13:05:58",
+  "updated_at": "2026-08-05T13:06:01",
   "live_view": {
     "current_match": {
       "team1": "Jagenbach 2",
@@ -79,17 +79,17 @@
         "rank": 1
       },
       {
-        "team": "Stefan und seine Freunde",
-        "score": 50,
+        "team": "Winterseite",
+        "score": 60,
         "rank": 2
       },
       {
-        "team": "Jagenbach 2",
-        "score": 0,
+        "team": "Stefan und seine Freunde",
+        "score": 50,
         "rank": 3
       },
       {
-        "team": "Winterseite",
+        "team": "Jagenbach 2",
         "score": 0,
         "rank": 4
       }
@@ -115,7 +115,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:58",
+        "05.08.2026 13:06:01",
         "",
         "",
         "",
@@ -200,7 +200,7 @@
         "Winterseite",
         "Ja",
         "Ja",
-        0,
+        60,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -281,20 +281,20 @@
       ],
       [
         2,
+        3,
+        "Winterseite",
+        60
+      ],
+      [
+        3,
         1,
         "Stefan und seine Freunde",
         50
       ],
       [
-        3,
+        4,
         2,
         "Jagenbach 2",
-        0
-      ],
-      [
-        4,
-        3,
-        "Winterseite",
         0
       ]
     ],
@@ -357,7 +357,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 13:05:58"
+        "05.08.2026 13:06:01"
       ],
       [
         "Phase",
