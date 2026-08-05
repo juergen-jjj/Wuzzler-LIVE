@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:20:56",
+  "updated_at": "2026-08-05T10:21:00",
   "live_view": {
     "status": "Turnier noch nicht gestartet",
     "phase": "setup",
@@ -16,6 +16,11 @@
       },
       {
         "rank": 2,
+        "team": "Ggjh",
+        "score": 0
+      },
+      {
+        "rank": 3,
         "team": "Zzuuuh",
         "score": 0
       }
@@ -44,7 +49,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:20:56",
+        "05.08.2026 10:21:00",
         "",
         "",
         "",
@@ -115,6 +120,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "Ggjh",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -146,6 +159,12 @@
       ],
       [
         2,
+        2,
+        "Ggjh",
+        0
+      ],
+      [
+        3,
         1,
         "Zzuuuh",
         0
@@ -170,7 +189,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:20:56"
+        "05.08.2026 10:21:00"
       ],
       [
         "Phase",
@@ -186,7 +205,7 @@
       ],
       [
         "Teams",
-        2
+        3
       ],
       [
         "Turniermodus",
