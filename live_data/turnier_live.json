@@ -1,13 +1,86 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:12:25",
+  "updated_at": "2026-08-05T10:12:30",
   "live_view": {
-    "status": "Turnier noch nicht gestartet",
-    "phase": "setup",
-    "current_match": null,
-    "next_match": null,
-    "upcoming_matches": [],
-    "standings": [],
+    "status": "Turnier läuft",
+    "phase": "group",
+    "current_match": {
+      "phase": "Gruppenphase",
+      "group": "Vorrunde",
+      "team1": "Tuzi",
+      "team2": "Roui",
+      "score1": 0,
+      "score2": 0
+    },
+    "next_match": {
+      "order": 1,
+      "phase": "Gruppenphase",
+      "group": "Vorrunde",
+      "team1": "O6",
+      "team2": "Uloi"
+    },
+    "upcoming_matches": [
+      {
+        "order": 1,
+        "phase": "Gruppenphase",
+        "group": "Vorrunde",
+        "team1": "O6",
+        "team2": "Uloi"
+      },
+      {
+        "order": 2,
+        "phase": "Gruppenphase",
+        "group": "Vorrunde",
+        "team1": "Tuzi",
+        "team2": "O6"
+      },
+      {
+        "order": 3,
+        "phase": "Gruppenphase",
+        "group": "Vorrunde",
+        "team1": "Uloi",
+        "team2": "Roui"
+      }
+    ],
+    "standings": [
+      {
+        "group": "Vorrunde",
+        "teams": [
+          {
+            "rank": 1,
+            "team": "O6",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0
+          },
+          {
+            "rank": 2,
+            "team": "Tuzi",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0
+          },
+          {
+            "rank": 3,
+            "team": "Roui",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0
+          },
+          {
+            "rank": 4,
+            "team": "Uloi",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0
+          }
+        ]
+      }
+    ],
     "spritzer": [
       {
         "rank": 1,
@@ -54,7 +127,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:12:25",
+        "05.08.2026 10:12:30",
         "",
         "",
         "",
@@ -62,7 +135,7 @@
       ],
       [
         "Aktuelle Phase",
-        "setup",
+        "group",
         "",
         "",
         "",
@@ -155,6 +228,54 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
+      ],
+      [
+        "Vorrunde",
+        1,
+        0,
+        "O6",
+        0,
+        0,
+        0,
+        "=F2-G2",
+        0,
+        "=IF(I2=0,0,E2/I2)"
+      ],
+      [
+        "Vorrunde",
+        2,
+        3,
+        "Tuzi",
+        0,
+        0,
+        0,
+        "=F3-G3",
+        0,
+        "=IF(I3=0,0,E3/I3)"
+      ],
+      [
+        "Vorrunde",
+        3,
+        2,
+        "Roui",
+        0,
+        0,
+        0,
+        "=F4-G4",
+        0,
+        "=IF(I4=0,0,E4/I4)"
+      ],
+      [
+        "Vorrunde",
+        4,
+        1,
+        "Uloi",
+        0,
+        0,
+        0,
+        "=F5-G5",
+        0,
+        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -199,6 +320,46 @@
         "Team 2",
         "Sieger",
         "Status"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        1,
+        "Tuzi",
+        "",
+        "Roui",
+        "",
+        "Offen"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        2,
+        "O6",
+        "",
+        "Uloi",
+        "",
+        "Offen"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        3,
+        "Tuzi",
+        "",
+        "O6",
+        "",
+        "Offen"
+      ],
+      [
+        "Vorrunde",
+        "Vorrunde",
+        4,
+        "Uloi",
+        "",
+        "Roui",
+        "",
+        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -208,15 +369,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:12:25"
+        "05.08.2026 10:12:30"
       ],
       [
         "Phase",
-        "setup"
+        "group"
       ],
       [
         "Turnier gestartet",
-        "Nein"
+        "Ja"
       ],
       [
         "Aktuelles Spiel",
@@ -228,7 +389,7 @@
       ],
       [
         "Turniermodus",
-        "Mit Gruppen"
+        "Ohne Gruppen"
       ],
       [
         "Gruppen",
@@ -236,7 +397,7 @@
       ],
       [
         "Spiele pro Team",
-        3
+        2
       ],
       [
         "Spritzerwertung gesperrt",
