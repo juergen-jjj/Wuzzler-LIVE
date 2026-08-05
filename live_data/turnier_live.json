@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T14:00:08",
+  "updated_at": "2026-08-05T14:00:38",
   "live_view": {
     "current_match": {
       "team1": "Lenz Moser",
@@ -74,23 +74,23 @@
     ],
     "spritzer": [
       {
-        "team": "Der Bastinator",
-        "score": 50,
+        "team": "Otto and Kids",
+        "score": 160,
         "rank": 1
+      },
+      {
+        "team": "Der Bastinator",
+        "score": 51,
+        "rank": 2
+      },
+      {
+        "team": "Huremkinder",
+        "score": 40,
+        "rank": 3
       },
       {
         "team": "Lenz Moser",
         "score": 20,
-        "rank": 2
-      },
-      {
-        "team": "Otto and Kids",
-        "score": 0,
-        "rank": 3
-      },
-      {
-        "team": "Huremkinder",
-        "score": 0,
         "rank": 4
       }
     ]
@@ -115,7 +115,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 14:00:08",
+        "05.08.2026 14:00:38",
         "",
         "",
         "",
@@ -176,7 +176,7 @@
         "Der Bastinator",
         "Ja",
         "Ja",
-        50,
+        51,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -184,7 +184,7 @@
         "Otto and Kids",
         "Ja",
         "Ja",
-        0,
+        160,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -200,7 +200,7 @@
         "Huremkinder",
         "Ja",
         "Ja",
-        0,
+        40,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -275,27 +275,27 @@
       ],
       [
         1,
-        0,
-        "Der Bastinator",
-        50
+        1,
+        "Otto and Kids",
+        160
       ],
       [
         2,
-        2,
-        "Lenz Moser",
-        20
+        0,
+        "Der Bastinator",
+        51
       ],
       [
         3,
         3,
         "Huremkinder",
-        0
+        40
       ],
       [
         4,
-        1,
-        "Otto and Kids",
-        0
+        2,
+        "Lenz Moser",
+        20
       ]
     ],
     "Spiele": [
@@ -357,7 +357,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 14:00:08"
+        "05.08.2026 14:00:38"
       ],
       [
         "Phase",
