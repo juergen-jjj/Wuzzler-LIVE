@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T11:39:26",
+  "updated_at": "2026-08-05T11:39:34",
   "live_view": {
     "current_match": {
       "team1": "Zzz",
@@ -69,12 +69,12 @@
     ],
     "spritzer": [
       {
-        "team": "Zzz",
-        "score": 0,
+        "team": "Mmm-",
+        "score": 60,
         "rank": 1
       },
       {
-        "team": "Mmm-",
+        "team": "Zzz",
         "score": 0,
         "rank": 2
       },
@@ -110,7 +110,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:39:26",
+        "05.08.2026 11:39:34",
         "",
         "",
         "",
@@ -179,7 +179,7 @@
         "Mmm-",
         "Ja",
         "Ja",
-        0,
+        60,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -270,14 +270,14 @@
       ],
       [
         1,
-        2,
-        "Hzht",
-        0
+        1,
+        "Mmm-",
+        60
       ],
       [
         2,
-        1,
-        "Mmm-",
+        2,
+        "Hzht",
         0
       ],
       [
@@ -352,7 +352,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 11:39:26"
+        "05.08.2026 11:39:34"
       ],
       [
         "Phase",
