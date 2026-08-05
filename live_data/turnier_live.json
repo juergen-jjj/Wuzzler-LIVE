@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T10:21:16",
+  "updated_at": "2026-08-05T10:21:22",
   "live_view": {
     "status": "Turnier noch nicht gestartet",
     "phase": "setup",
@@ -11,17 +11,17 @@
     "spritzer": [
       {
         "rank": 1,
+        "team": "Hjguzz",
+        "score": 60
+      },
+      {
+        "rank": 2,
         "team": "Bgg",
         "score": 0
       },
       {
-        "rank": 2,
-        "team": "Ggjh",
-        "score": 0
-      },
-      {
         "rank": 3,
-        "team": "Hjguzz",
+        "team": "Ggjh",
         "score": 0
       },
       {
@@ -54,7 +54,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:21:16",
+        "05.08.2026 10:21:22",
         "",
         "",
         "",
@@ -139,7 +139,7 @@
         "Hjguzz",
         "Ja",
         "Ja",
-        0,
+        60,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -166,20 +166,20 @@
       ],
       [
         1,
+        3,
+        "Hjguzz",
+        60
+      ],
+      [
+        2,
         0,
         "Bgg",
         0
       ],
       [
-        2,
+        3,
         2,
         "Ggjh",
-        0
-      ],
-      [
-        3,
-        3,
-        "Hjguzz",
         0
       ],
       [
@@ -208,7 +208,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 10:21:16"
+        "05.08.2026 10:21:22"
       ],
       [
         "Phase",
