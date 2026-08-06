@@ -1,11 +1,64 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T12:21:59",
+  "updated_at": "2026-08-06T12:22:30",
   "live_view": {
-    "current_match": {},
-    "next_match": {},
+    "current_match": {
+      "team1": "Ggg",
+      "team2": "Tzz",
+      "score1": 1,
+      "score2": 0,
+      "phase": "Halbfinale"
+    },
+    "next_match": {
+      "team1": "Ll",
+      "team2": "Zu",
+      "phase": "Halbfinale"
+    },
     "upcoming_matches": [],
-    "standings": [],
+    "standings": [
+      {
+        "group": "Gruppe A",
+        "teams": [
+          {
+            "team": "Ll",
+            "points": 3,
+            "goals": 1,
+            "against": 0,
+            "games": 1,
+            "rank": 1
+          },
+          {
+            "team": "Zu",
+            "points": 0,
+            "goals": 0,
+            "against": 1,
+            "games": 1,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "group": "Gruppe B",
+        "teams": [
+          {
+            "team": "Tzz",
+            "points": 3,
+            "goals": 1,
+            "against": 0,
+            "games": 1,
+            "rank": 1
+          },
+          {
+            "team": "Ggg",
+            "points": 0,
+            "goals": 0,
+            "against": 1,
+            "games": 1,
+            "rank": 2
+          }
+        ]
+      }
+    ],
     "spritzer": [
       {
         "team": "Ggg",
@@ -49,7 +102,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 12:21:59",
+        "06.08.2026 12:22:30",
         "",
         "",
         "",
@@ -57,7 +110,7 @@
       ],
       [
         "Aktuelle Phase",
-        "setup",
+        "ko_intro_halbfinale",
         "",
         "",
         "",
@@ -150,6 +203,54 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
+      ],
+      [
+        "Gruppe A",
+        1,
+        1,
+        "Ll",
+        3,
+        1,
+        0,
+        "=F2-G2",
+        1,
+        "=IF(I2=0,0,E2/I2)"
+      ],
+      [
+        "Gruppe A",
+        2,
+        2,
+        "Zu",
+        0,
+        0,
+        1,
+        "=F3-G3",
+        1,
+        "=IF(I3=0,0,E3/I3)"
+      ],
+      [
+        "Gruppe B",
+        1,
+        3,
+        "Tzz",
+        3,
+        1,
+        0,
+        "=F4-G4",
+        1,
+        "=IF(I4=0,0,E4/I4)"
+      ],
+      [
+        "Gruppe B",
+        2,
+        0,
+        "Ggg",
+        0,
+        0,
+        1,
+        "=F5-G5",
+        1,
+        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -194,6 +295,26 @@
         "Team 2",
         "Sieger",
         "Status"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        1,
+        "Ll",
+        "1:0",
+        "Zu",
+        "Ll",
+        "Beendet"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        2,
+        "Tzz",
+        "1:0",
+        "Ggg",
+        "Tzz",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -203,15 +324,15 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 12:21:59"
+        "06.08.2026 12:22:30"
       ],
       [
         "Phase",
-        "setup"
+        "ko_intro_halbfinale"
       ],
       [
         "Turnier gestartet",
-        "Nein"
+        "Ja"
       ],
       [
         "Aktuelles Spiel",
@@ -227,11 +348,11 @@
       ],
       [
         "Gruppen",
-        0
+        2
       ],
       [
         "Spiele pro Team",
-        3
+        1
       ],
       [
         "Spritzerwertung gesperrt",
