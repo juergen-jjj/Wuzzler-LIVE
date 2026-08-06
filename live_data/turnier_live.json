@@ -1,14 +1,8 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T12:34:24",
+  "updated_at": "2026-08-06T12:34:54",
   "live_view": {
-    "current_match": {
-      "team1": "45555",
-      "team2": "älöö",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Finale"
-    },
+    "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
     "standings": [
@@ -93,7 +87,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 12:34:24",
+        "06.08.2026 12:34:54",
         "",
         "",
         "",
@@ -101,7 +95,7 @@
       ],
       [
         "Aktuelle Phase",
-        "final_play",
+        "final_ranking",
         "",
         "",
         "",
@@ -356,6 +350,16 @@
         "2222",
         "U",
         "Beendet"
+      ],
+      [
+        "Finale",
+        "",
+        4,
+        "45555",
+        "1:0",
+        "älöö",
+        "45555",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -365,11 +369,11 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 12:34:24"
+        "06.08.2026 12:34:54"
       ],
       [
         "Phase",
-        "final_play"
+        "final_ranking"
       ],
       [
         "Turnier gestartet",
@@ -377,7 +381,7 @@
       ],
       [
         "Aktuelles Spiel",
-        2
+        3
       ],
       [
         "Teams",
@@ -397,7 +401,7 @@
       ],
       [
         "Spritzerwertung gesperrt",
-        "Nein"
+        "Ja"
       ],
       [
         "Spritzer-Endtimer aktiv",
