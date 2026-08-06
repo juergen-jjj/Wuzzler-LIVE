@@ -1,19 +1,9 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T06:44:19",
+  "updated_at": "2026-08-06T06:44:49",
   "live_view": {
-    "current_match": {
-      "team1": "8888",
-      "team2": "3333",
-      "score1": 1,
-      "score2": 0,
-      "phase": "Halbfinale"
-    },
-    "next_match": {
-      "team1": "555",
-      "team2": "666",
-      "phase": "Halbfinale"
-    },
+    "current_match": {},
+    "next_match": {},
     "upcoming_matches": [],
     "standings": [
       {
@@ -102,7 +92,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 06:44:19",
+        "06.08.2026 06:44:49",
         "",
         "",
         "",
@@ -110,7 +100,7 @@
       ],
       [
         "Aktuelle Phase",
-        "ko_intro_halbfinale",
+        "final_ranking",
         "",
         "",
         "",
@@ -315,6 +305,46 @@
         "8888",
         "555",
         "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        1,
+        "8888",
+        "1:0",
+        "3333",
+        "8888",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        2,
+        "555",
+        "1:0",
+        "666",
+        "555",
+        "Beendet"
+      ],
+      [
+        "Spiel Um Platz 3",
+        "",
+        3,
+        "3333",
+        "1:0",
+        "666",
+        "3333",
+        "Beendet"
+      ],
+      [
+        "Finale",
+        "",
+        4,
+        "8888",
+        "1:0",
+        "555",
+        "8888",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -324,11 +354,11 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 06:44:19"
+        "06.08.2026 06:44:49"
       ],
       [
         "Phase",
-        "ko_intro_halbfinale"
+        "final_ranking"
       ],
       [
         "Turnier gestartet",
@@ -336,7 +366,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        3
       ],
       [
         "Teams",
@@ -356,7 +386,7 @@
       ],
       [
         "Spritzerwertung gesperrt",
-        "Nein"
+        "Ja"
       ],
       [
         "Spritzer-Endtimer aktiv",
