@@ -288,7 +288,7 @@ if current_match:
     team3 = safe_text(current_match.get("team3", "?"))
     phase = safe_text(current_match.get("phase", "Turnier"))
 
-   if current_match.get("phase") == "🏆 Turnier beendet":
+       if current_match.get("phase") == "🏆 Turnier beendet":
 
         html_current = f"""
         <div style="
