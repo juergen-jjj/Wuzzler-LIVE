@@ -1,12 +1,33 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T05:48:45",
+  "updated_at": "2026-08-06T05:49:15",
   "live_view": {
     "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
     "standings": [],
-    "spritzer": []
+    "spritzer": [
+      {
+        "team": "Tobis Gang",
+        "score": 0,
+        "rank": 1
+      },
+      {
+        "team": "Jagenbach",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "team": "Winterseite",
+        "score": 0,
+        "rank": 3
+      },
+      {
+        "team": "Die Füße Gottes",
+        "score": 0,
+        "rank": 4
+      }
+    ]
   },
   "sheets": {
     "Anleitung": [
@@ -28,7 +49,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:48:45",
+        "06.08.2026 05:49:15",
         "",
         "",
         "",
@@ -83,6 +104,38 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
+      ],
+      [
+        0,
+        "Tobis Gang",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Jagenbach",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "Winterseite",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        3,
+        "Die Füße Gottes",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -105,6 +158,30 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
+      ],
+      [
+        1,
+        3,
+        "Die Füße Gottes",
+        0
+      ],
+      [
+        2,
+        1,
+        "Jagenbach",
+        0
+      ],
+      [
+        3,
+        0,
+        "Tobis Gang",
+        0
+      ],
+      [
+        4,
+        2,
+        "Winterseite",
+        0
       ]
     ],
     "Spiele": [
@@ -126,7 +203,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:48:45"
+        "06.08.2026 05:49:15"
       ],
       [
         "Phase",
@@ -142,7 +219,7 @@
       ],
       [
         "Teams",
-        0
+        4
       ],
       [
         "Turniermodus",
