@@ -1,12 +1,33 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T12:21:29",
+  "updated_at": "2026-08-06T12:21:59",
   "live_view": {
     "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
     "standings": [],
-    "spritzer": []
+    "spritzer": [
+      {
+        "team": "Ggg",
+        "score": 0,
+        "rank": 1
+      },
+      {
+        "team": "Ll",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "team": "Zu",
+        "score": 0,
+        "rank": 3
+      },
+      {
+        "team": "Tzz",
+        "score": 0,
+        "rank": 4
+      }
+    ]
   },
   "sheets": {
     "Anleitung": [
@@ -28,7 +49,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 12:21:29",
+        "06.08.2026 12:21:59",
         "",
         "",
         "",
@@ -83,6 +104,38 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
+      ],
+      [
+        0,
+        "Ggg",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Ll",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "Zu",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        3,
+        "Tzz",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -105,6 +158,30 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
+      ],
+      [
+        1,
+        0,
+        "Ggg",
+        0
+      ],
+      [
+        2,
+        1,
+        "Ll",
+        0
+      ],
+      [
+        3,
+        3,
+        "Tzz",
+        0
+      ],
+      [
+        4,
+        2,
+        "Zu",
+        0
       ]
     ],
     "Spiele": [
@@ -126,7 +203,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 12:21:29"
+        "06.08.2026 12:21:59"
       ],
       [
         "Phase",
@@ -142,7 +219,7 @@
       ],
       [
         "Teams",
-        0
+        4
       ],
       [
         "Turniermodus",
