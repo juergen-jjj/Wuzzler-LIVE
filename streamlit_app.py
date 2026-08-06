@@ -285,20 +285,121 @@ st.header("🔴 Aktuelles Spiel")
 if current_match:
     team1 = safe_text(current_match.get("team1", "?"))
     team2 = safe_text(current_match.get("team2", "?"))
+    team3 = safe_text(current_match.get("team3", ""))
     phase = safe_text(current_match.get("phase", "Turnier"))
 
-    # HTML ohne Einrückungen innerhalb des f-Strings
-    html_current = f"""<div style="text-align: center; padding: 35px; border-radius: 20px; background: #12324a; color: white;">
-    <div style="font-size: 20px; color: #8fd3ff; font-weight: bold; margin-bottom: 18px;">{phase}</div>
-    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team1}</div>
-    <div style="font-size: 24px; color: #ffd34e; margin: 12px 0;">⚽ GEGEN ⚽</div>
-    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team2}</div>
-</div>"""
+   if current_match.get("phase") == "🏆 Turnier beendet":
 
-    st.markdown(html_current, unsafe_allow_html=True)
-else:
-    st.warning("Aktuell ist kein Spiel gestartet.")
-
+        html_current = f"""
+    <div style="
+        text-align:center;
+        padding:45px;
+        border-radius:25px;
+        background:linear-gradient(180deg,#102b40,#07151f);
+        color:white;
+        border:4px solid gold;
+    ">
+    
+    <div style="
+        font-size:54px;
+        font-weight:bold;
+        color:#FFD700;
+        margin-bottom:35px;
+    ">
+    🏆 TURNIER BEENDET 🏆
+    </div>
+    
+    <div style="
+        font-size:20px;
+        color:#cccccc;
+        margin-bottom:18px;
+    ">
+    SIEGEREHRUNG
+    </div>
+    
+    <div style="
+        background:#d4af37;
+        color:black;
+        border-radius:18px;
+        padding:18px;
+        margin:18px auto;
+        width:85%;
+        box-shadow:0 0 20px gold;
+    ">
+    
+    <div style="font-size:34px;">
+    🥇 1. PLATZ
+    </div>
+    
+    <div style="
+        font-size:46px;
+        font-weight:bold;
+        margin-top:10px;
+    ">
+    {team1}
+    </div>
+    
+    </div>
+    
+    
+    <div style="
+        background:#c0c0c0;
+        color:black;
+        border-radius:18px;
+        padding:16px;
+        margin:18px auto;
+        width:80%;
+        box-shadow:0 0 15px #dddddd;
+    ">
+    
+    <div style="font-size:30px;">
+    🥈 2. PLATZ
+    </div>
+    
+    <div style="
+        font-size:38px;
+        font-weight:bold;
+        margin-top:8px;
+    ">
+    {team2}
+    </div>
+    
+    </div>
+    
+    
+    <div style="
+        background:#cd7f32;
+        color:white;
+        border-radius:18px;
+        padding:16px;
+        margin:18px auto;
+        width:75%;
+        box-shadow:0 0 15px #cd7f32;
+    ">
+    
+    <div style="font-size:28px;">
+    🥉 3. PLATZ
+    </div>
+    
+    <div style="
+        font-size:34px;
+        font-weight:bold;
+        margin-top:8px;
+    ">
+    {team3}
+    </div>
+    
+    </div>
+    
+    <div style="
+        margin-top:35px;
+        font-size:22px;
+        color:#8fd3ff;
+    ">
+    Vielen Dank an alle Teilnehmer!
+    </div>
+    
+    </div>
 
 # ============================================================
 # NÄCHSTES SPIEL
