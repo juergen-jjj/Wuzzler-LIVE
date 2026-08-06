@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T05:56:47",
+  "updated_at": "2026-08-06T05:57:17",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -140,48 +140,48 @@
         "rank": 3
       },
       {
-        "team": "Jagenbach",
-        "score": 80,
+        "team": "Tobis Gang",
+        "score": 90,
         "rank": 4
       },
       {
-        "team": "Zwett1",
-        "score": 50,
+        "team": "Jagenbach",
+        "score": 80,
         "rank": 5
       },
       {
-        "team": "Die Füße Gottes",
-        "score": 40,
+        "team": "Radler Trinker",
+        "score": 70,
         "rank": 6
       },
       {
-        "team": "Radler Trinker",
-        "score": 10,
+        "team": "Hurenkinder",
+        "score": 60,
         "rank": 7
       },
       {
-        "team": "Tobis Gang",
-        "score": 0,
+        "team": "Do wos Stinkt",
+        "score": 60,
         "rank": 8
       },
       {
         "team": "Winterseite",
-        "score": 0,
+        "score": 50,
         "rank": 9
       },
       {
-        "team": "Hurenkinder",
-        "score": 0,
+        "team": "Zwett1",
+        "score": 50,
         "rank": 10
       },
       {
-        "team": "Do wos Stinkt",
-        "score": 0,
+        "team": "Die Füße Gottes",
+        "score": 40,
         "rank": 11
       },
       {
         "team": "Hartl Haus",
-        "score": 0,
+        "score": 30,
         "rank": 12
       }
     ]
@@ -206,7 +206,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:56:47",
+        "06.08.2026 05:57:17",
         "",
         "",
         "",
@@ -267,7 +267,7 @@
         "Tobis Gang",
         "Ja",
         "Ja",
-        0,
+        90,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -283,7 +283,7 @@
         "Winterseite",
         "Ja",
         "Ja",
-        0,
+        50,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -307,7 +307,7 @@
         "Radler Trinker",
         "Ja",
         "Ja",
-        10,
+        70,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -323,7 +323,7 @@
         "Hurenkinder",
         "Ja",
         "Ja",
-        0,
+        60,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -331,7 +331,7 @@
         "Do wos Stinkt",
         "Ja",
         "Ja",
-        0,
+        60,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -355,7 +355,7 @@
         "Hartl Haus",
         "Ja",
         "Ja",
-        0,
+        30,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -544,57 +544,57 @@
       ],
       [
         4,
+        0,
+        "Tobis Gang",
+        90
+      ],
+      [
+        5,
         1,
         "Jagenbach",
         80
       ],
       [
+        6,
         5,
+        "Radler Trinker",
+        70
+      ],
+      [
+        7,
+        8,
+        "Do wos Stinkt",
+        60
+      ],
+      [
+        8,
+        7,
+        "Hurenkinder",
+        60
+      ],
+      [
+        9,
+        2,
+        "Winterseite",
+        50
+      ],
+      [
+        10,
         6,
         "Zwett1",
         50
       ],
       [
-        6,
+        11,
         3,
         "Die Füße Gottes",
         40
       ],
       [
-        7,
-        5,
-        "Radler Trinker",
-        10
-      ],
-      [
-        8,
-        8,
-        "Do wos Stinkt",
-        0
-      ],
-      [
-        9,
+        12,
         11,
         "Hartl Haus",
-        0
-      ],
-      [
-        10,
-        7,
-        "Hurenkinder",
-        0
-      ],
-      [
-        11,
-        0,
-        "Tobis Gang",
-        0
-      ],
-      [
-        12,
-        2,
-        "Winterseite",
-        0
+        30
       ]
     ],
     "Spiele": [
@@ -736,7 +736,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:56:47"
+        "06.08.2026 05:57:17"
       ],
       [
         "Phase",
