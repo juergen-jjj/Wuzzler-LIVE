@@ -283,125 +283,26 @@ st.divider()
 st.header("🔴 Aktuelles Spiel")
 
 if current_match:
+
     team1 = safe_text(current_match.get("team1", "?"))
     team2 = safe_text(current_match.get("team2", "?"))
-    team3 = safe_text(current_match.get("team3", "?"))
+    team3 = safe_text(current_match.get("team3", ""))
     phase = safe_text(current_match.get("phase", "Turnier"))
 
-       if current_match.get("phase") == "🏆 Turnier beendet":
+    if phase == "🏆 Turnier beendet":
 
         html_current = f"""
-        <div style="
-        text-align:center;
-        padding:45px;
-        border-radius:25px;
-        background:linear-gradient(180deg,#102b40,#07151f);
-        border:4px solid gold;
-        color:white;
-        ">
-        
-        <div style="
-        font-size:58px;
-        font-weight:bold;
-        color:#FFD700;
-        margin-bottom:35px;
-        ">
-        🏆 TURNIER BEENDET 🏆
-        </div>
-        
-        <div style="
-        font-size:24px;
-        color:#8fd3ff;
-        margin-bottom:25px;
-        ">
-        SIEGEREHRUNG
-        </div>
-        
-        <div style="
-        background:#FFD700;
-        color:black;
-        padding:22px;
-        border-radius:20px;
-        margin:18px auto;
-        width:85%;
-        box-shadow:0 0 30px gold;
-        ">
-        
-        <div style="font-size:32px;">🥇 1. PLATZ</div>
-        
-        <div style="
-        font-size:48px;
-        font-weight:bold;
-        margin-top:10px;
-        ">
-        {team1}
-        </div>
-        
-        </div>
-        
-        <div style="
-        background:#C0C0C0;
-        color:black;
-        padding:20px;
-        border-radius:18px;
-        margin:18px auto;
-        width:78%;
-        box-shadow:0 0 20px #dddddd;
-        ">
-        
-        <div style="font-size:28px;">🥈 2. PLATZ</div>
-        
-        <div style="
-        font-size:40px;
-        font-weight:bold;
-        margin-top:8px;
-        ">
-        {team2}
-        </div>
-        
-        </div>
-        
-        <div style="
-        background:#CD7F32;
-        color:white;
-        padding:18px;
-        border-radius:18px;
-        margin:18px auto;
-        width:72%;
-        box-shadow:0 0 20px #CD7F32;
-        ">
-        
-        <div style="font-size:26px;">🥉 3. PLATZ</div>
-        
-        <div style="
-        font-size:34px;
-        font-weight:bold;
-        margin-top:8px;
-        ">
-        {team3}
-        </div>
-        
-        </div>
-        
-        <div style="
-        margin-top:35px;
-        font-size:24px;
-        color:#8fd3ff;
-        font-weight:bold;
-        ">
-        Vielen Dank an alle Teilnehmer!
-        </div>
-        
-        </div>
+        ... dein kompletter Sieger-HTML-Code ...
+        """
 
     else:
 
         html_current = f"""
 <div style="text-align: center; padding: 35px; border-radius: 20px; background: #12324a; color: white;">
-    <div style="font-size: 20px; color: #8fd3ff; font-weight: bold; margin-bottom: 18px;">{phase}</div>
-    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team1}</div>
-    <div style="font-size: 24px; color: #ffd34e; margin: 12px 0;">⚽ GEGEN ⚽</div>
-    <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team2}</div>
+    <div style="font-size:20px;color:#8fd3ff;font-weight:bold;margin-bottom:18px;">{phase}</div>
+    <div style="font-size:48px;font-weight:bold;">{team1}</div>
+    <div style="font-size:24px;color:#ffd34e;margin:12px 0;">⚽ GEGEN ⚽</div>
+    <div style="font-size:48px;font-weight:bold;">{team2}</div>
 </div>
 """
 
