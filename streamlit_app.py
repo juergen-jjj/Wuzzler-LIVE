@@ -285,17 +285,28 @@ st.header("🔴 Aktuelles Spiel")
 if current_match:
     team1 = safe_text(current_match.get("team1", "?"))
     team2 = safe_text(current_match.get("team2", "?"))
+    team3 = safe_text(current_match.get("team3", "?"))
     phase = safe_text(current_match.get("phase", "Turnier"))
 
-    # HTML ohne Einrückungen innerhalb des f-Strings
-    html_current = f"""<div style="text-align: center; padding: 35px; border-radius: 20px; background: #12324a; color: white;">
+    if current_match.get("phase") == "🏆 Turnier beendet":
+
+        html_current = f"""
+        HIER KOMMT DEIN GESAMTER HTML-BLOCK
+        """
+
+    else:
+
+        html_current = f"""
+<div style="text-align: center; padding: 35px; border-radius: 20px; background: #12324a; color: white;">
     <div style="font-size: 20px; color: #8fd3ff; font-weight: bold; margin-bottom: 18px;">{phase}</div>
     <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team1}</div>
     <div style="font-size: 24px; color: #ffd34e; margin: 12px 0;">⚽ GEGEN ⚽</div>
     <div style="font-size: 48px; font-weight: bold; overflow-wrap: anywhere;">{team2}</div>
-</div>"""
+</div>
+"""
 
     st.markdown(html_current, unsafe_allow_html=True)
+
 else:
     st.warning("Aktuell ist kein Spiel gestartet.")
 
