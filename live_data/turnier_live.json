@@ -1,10 +1,81 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T05:54:47",
+  "updated_at": "2026-08-06T05:55:17",
   "live_view": {
-    "current_match": {},
-    "next_match": {},
-    "upcoming_matches": [],
+    "current_match": {
+      "team1": "Do wos Stinkt",
+      "team2": "Winterseite",
+      "score1": 0,
+      "score2": 0,
+      "phase": "Gruppe A"
+    },
+    "next_match": {
+      "team1": "Hartl Haus",
+      "team2": "Die Füße Gottes",
+      "phase": "Gruppe B"
+    },
+    "upcoming_matches": [
+      {
+        "order": 3,
+        "team1": "Die Alkis",
+        "team2": "Hurenkinder",
+        "phase": "Gruppe C"
+      },
+      {
+        "order": 4,
+        "team1": "Jagenbach",
+        "team2": "FF 1",
+        "phase": "Gruppe D"
+      },
+      {
+        "order": 5,
+        "team1": "Winterseite",
+        "team2": "Zwett1",
+        "phase": "Gruppe A"
+      },
+      {
+        "order": 6,
+        "team1": "Radler Trinker",
+        "team2": "Hartl Haus",
+        "phase": "Gruppe B"
+      },
+      {
+        "order": 7,
+        "team1": "Tobis Gang",
+        "team2": "Die Alkis",
+        "phase": "Gruppe C"
+      },
+      {
+        "order": 8,
+        "team1": "Senk Holz",
+        "team2": "FF 1",
+        "phase": "Gruppe D"
+      },
+      {
+        "order": 9,
+        "team1": "Zwett1",
+        "team2": "Do wos Stinkt",
+        "phase": "Gruppe A"
+      },
+      {
+        "order": 10,
+        "team1": "Die Füße Gottes",
+        "team2": "Radler Trinker",
+        "phase": "Gruppe B"
+      },
+      {
+        "order": 11,
+        "team1": "Tobis Gang",
+        "team2": "Hurenkinder",
+        "phase": "Gruppe C"
+      },
+      {
+        "order": 12,
+        "team1": "Senk Holz",
+        "team2": "Jagenbach",
+        "phase": "Gruppe D"
+      }
+    ],
     "standings": [
       {
         "group": "Gruppe A",
@@ -18,7 +89,7 @@
             "rank": 1
           },
           {
-            "team": "Senk Holz",
+            "team": "Do wos Stinkt",
             "points": 0,
             "goals": 0,
             "against": 0,
@@ -26,20 +97,12 @@
             "rank": 2
           },
           {
-            "team": "Radler Trinker",
+            "team": "Winterseite",
             "points": 0,
             "goals": 0,
             "against": 0,
             "games": 0,
             "rank": 3
-          },
-          {
-            "team": "Do wos Stinkt",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 4
           }
         ]
       },
@@ -55,7 +118,7 @@
             "rank": 1
           },
           {
-            "team": "Tobis Gang",
+            "team": "Die Füße Gottes",
             "points": 0,
             "goals": 0,
             "against": 0,
@@ -63,20 +126,12 @@
             "rank": 2
           },
           {
-            "team": "Die Alkis",
+            "team": "Radler Trinker",
             "points": 0,
             "goals": 0,
             "against": 0,
             "games": 0,
             "rank": 3
-          },
-          {
-            "team": "Die Füße Gottes",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 4
           }
         ]
       },
@@ -84,7 +139,7 @@
         "group": "Gruppe C",
         "teams": [
           {
-            "team": "Hurenkinder",
+            "team": "Die Alkis",
             "points": 0,
             "goals": 0,
             "against": 0,
@@ -92,7 +147,7 @@
             "rank": 1
           },
           {
-            "team": "Winterseite",
+            "team": "Hurenkinder",
             "points": 0,
             "goals": 0,
             "against": 0,
@@ -100,20 +155,41 @@
             "rank": 2
           },
           {
-            "team": "Jagenbach",
+            "team": "Tobis Gang",
             "points": 0,
             "goals": 0,
             "against": 0,
             "games": 0,
             "rank": 3
-          },
+          }
+        ]
+      },
+      {
+        "group": "Gruppe D",
+        "teams": [
           {
             "team": "FF 1",
             "points": 0,
             "goals": 0,
             "against": 0,
             "games": 0,
-            "rank": 4
+            "rank": 1
+          },
+          {
+            "team": "Jagenbach",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "Senk Holz",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 3
           }
         ]
       }
@@ -201,7 +277,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:54:47",
+        "06.08.2026 05:55:17",
         "",
         "",
         "",
@@ -209,7 +285,7 @@
       ],
       [
         "Aktuelle Phase",
-        "setup",
+        "group",
         "",
         "",
         "",
@@ -382,8 +458,8 @@
       [
         "Gruppe A",
         2,
-        9,
-        "Senk Holz",
+        8,
+        "Do wos Stinkt",
         0,
         0,
         0,
@@ -394,26 +470,14 @@
       [
         "Gruppe A",
         3,
-        5,
-        "Radler Trinker",
+        2,
+        "Winterseite",
         0,
         0,
         0,
         "=F4-G4",
         0,
         "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Gruppe A",
-        4,
-        8,
-        "Do wos Stinkt",
-        0,
-        0,
-        0,
-        "=F5-G5",
-        0,
-        "=IF(I5=0,0,E5/I5)"
       ],
       [
         "Gruppe B",
@@ -423,15 +487,27 @@
         0,
         0,
         0,
+        "=F5-G5",
+        0,
+        "=IF(I5=0,0,E5/I5)"
+      ],
+      [
+        "Gruppe B",
+        2,
+        3,
+        "Die Füße Gottes",
+        0,
+        0,
+        0,
         "=F6-G6",
         0,
         "=IF(I6=0,0,E6/I6)"
       ],
       [
         "Gruppe B",
-        2,
-        0,
-        "Tobis Gang",
+        3,
+        5,
+        "Radler Trinker",
         0,
         0,
         0,
@@ -440,8 +516,8 @@
         "=IF(I7=0,0,E7/I7)"
       ],
       [
-        "Gruppe B",
-        3,
+        "Gruppe C",
+        1,
         4,
         "Die Alkis",
         0,
@@ -452,10 +528,10 @@
         "=IF(I8=0,0,E8/I8)"
       ],
       [
-        "Gruppe B",
-        4,
-        3,
-        "Die Füße Gottes",
+        "Gruppe C",
+        2,
+        7,
+        "Hurenkinder",
         0,
         0,
         0,
@@ -465,9 +541,9 @@
       ],
       [
         "Gruppe C",
-        1,
-        7,
-        "Hurenkinder",
+        3,
+        0,
+        "Tobis Gang",
         0,
         0,
         0,
@@ -476,10 +552,10 @@
         "=IF(I10=0,0,E10/I10)"
       ],
       [
-        "Gruppe C",
-        2,
-        2,
-        "Winterseite",
+        "Gruppe D",
+        1,
+        10,
+        "FF 1",
         0,
         0,
         0,
@@ -488,8 +564,8 @@
         "=IF(I11=0,0,E11/I11)"
       ],
       [
-        "Gruppe C",
-        3,
+        "Gruppe D",
+        2,
         1,
         "Jagenbach",
         0,
@@ -500,10 +576,10 @@
         "=IF(I12=0,0,E12/I12)"
       ],
       [
-        "Gruppe C",
-        4,
-        10,
-        "FF 1",
+        "Gruppe D",
+        3,
+        9,
+        "Senk Holz",
         0,
         0,
         0,
@@ -602,6 +678,126 @@
         "Team 2",
         "Sieger",
         "Status"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        1,
+        "Do wos Stinkt",
+        "",
+        "Winterseite",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        2,
+        "Hartl Haus",
+        "",
+        "Die Füße Gottes",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        3,
+        "Die Alkis",
+        "",
+        "Hurenkinder",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe D",
+        4,
+        "Jagenbach",
+        "",
+        "FF 1",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        5,
+        "Winterseite",
+        "",
+        "Zwett1",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        6,
+        "Radler Trinker",
+        "",
+        "Hartl Haus",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        7,
+        "Tobis Gang",
+        "",
+        "Die Alkis",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe D",
+        8,
+        "Senk Holz",
+        "",
+        "FF 1",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        9,
+        "Zwett1",
+        "",
+        "Do wos Stinkt",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        10,
+        "Die Füße Gottes",
+        "",
+        "Radler Trinker",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        11,
+        "Tobis Gang",
+        "",
+        "Hurenkinder",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe D",
+        12,
+        "Senk Holz",
+        "",
+        "Jagenbach",
+        "",
+        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -611,15 +807,15 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:54:47"
+        "06.08.2026 05:55:17"
       ],
       [
         "Phase",
-        "setup"
+        "group"
       ],
       [
         "Turnier gestartet",
-        "Nein"
+        "Ja"
       ],
       [
         "Aktuelles Spiel",
@@ -635,11 +831,11 @@
       ],
       [
         "Gruppen",
-        3
+        4
       ],
       [
         "Spiele pro Team",
-        3
+        2
       ],
       [
         "Spritzerwertung gesperrt",
