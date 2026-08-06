@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T05:49:45",
+  "updated_at": "2026-08-06T05:50:16",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -36,6 +36,16 @@
         "team": "Radler Trinker",
         "score": 0,
         "rank": 6
+      },
+      {
+        "team": "Zwett1",
+        "score": 0,
+        "rank": 7
+      },
+      {
+        "team": "Hurenkinder",
+        "score": 0,
+        "rank": 8
       }
     ]
   },
@@ -59,7 +69,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:49:45",
+        "06.08.2026 05:50:15",
         "",
         "",
         "",
@@ -162,6 +172,22 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        6,
+        "Zwett1",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        7,
+        "Hurenkinder",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -199,26 +225,38 @@
       ],
       [
         3,
+        7,
+        "Hurenkinder",
+        0
+      ],
+      [
+        4,
         1,
         "Jagenbach",
         0
       ],
       [
-        4,
+        5,
         5,
         "Radler Trinker",
         0
       ],
       [
-        5,
+        6,
         0,
         "Tobis Gang",
         0
       ],
       [
-        6,
+        7,
         2,
         "Winterseite",
+        0
+      ],
+      [
+        8,
+        6,
+        "Zwett1",
         0
       ]
     ],
@@ -241,7 +279,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:49:45"
+        "06.08.2026 05:50:15"
       ],
       [
         "Phase",
@@ -257,7 +295,7 @@
       ],
       [
         "Teams",
-        6
+        8
       ],
       [
         "Turniermodus",
