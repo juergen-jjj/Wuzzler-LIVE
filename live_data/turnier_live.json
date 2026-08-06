@@ -1,11 +1,123 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T05:54:16",
+  "updated_at": "2026-08-06T05:54:47",
   "live_view": {
     "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
-    "standings": [],
+    "standings": [
+      {
+        "group": "Gruppe A",
+        "teams": [
+          {
+            "team": "Zwett1",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "Senk Holz",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "Radler Trinker",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 3
+          },
+          {
+            "team": "Do wos Stinkt",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "group": "Gruppe B",
+        "teams": [
+          {
+            "team": "Hartl Haus",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "Tobis Gang",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "Die Alkis",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 3
+          },
+          {
+            "team": "Die Füße Gottes",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "group": "Gruppe C",
+        "teams": [
+          {
+            "team": "Hurenkinder",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "Winterseite",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "Jagenbach",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 3
+          },
+          {
+            "team": "FF 1",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 4
+          }
+        ]
+      }
+    ],
     "spritzer": [
       {
         "team": "Tobis Gang",
@@ -89,7 +201,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:54:16",
+        "06.08.2026 05:54:47",
         "",
         "",
         "",
@@ -254,6 +366,150 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
+      ],
+      [
+        "Gruppe A",
+        1,
+        6,
+        "Zwett1",
+        0,
+        0,
+        0,
+        "=F2-G2",
+        0,
+        "=IF(I2=0,0,E2/I2)"
+      ],
+      [
+        "Gruppe A",
+        2,
+        9,
+        "Senk Holz",
+        0,
+        0,
+        0,
+        "=F3-G3",
+        0,
+        "=IF(I3=0,0,E3/I3)"
+      ],
+      [
+        "Gruppe A",
+        3,
+        5,
+        "Radler Trinker",
+        0,
+        0,
+        0,
+        "=F4-G4",
+        0,
+        "=IF(I4=0,0,E4/I4)"
+      ],
+      [
+        "Gruppe A",
+        4,
+        8,
+        "Do wos Stinkt",
+        0,
+        0,
+        0,
+        "=F5-G5",
+        0,
+        "=IF(I5=0,0,E5/I5)"
+      ],
+      [
+        "Gruppe B",
+        1,
+        11,
+        "Hartl Haus",
+        0,
+        0,
+        0,
+        "=F6-G6",
+        0,
+        "=IF(I6=0,0,E6/I6)"
+      ],
+      [
+        "Gruppe B",
+        2,
+        0,
+        "Tobis Gang",
+        0,
+        0,
+        0,
+        "=F7-G7",
+        0,
+        "=IF(I7=0,0,E7/I7)"
+      ],
+      [
+        "Gruppe B",
+        3,
+        4,
+        "Die Alkis",
+        0,
+        0,
+        0,
+        "=F8-G8",
+        0,
+        "=IF(I8=0,0,E8/I8)"
+      ],
+      [
+        "Gruppe B",
+        4,
+        3,
+        "Die Füße Gottes",
+        0,
+        0,
+        0,
+        "=F9-G9",
+        0,
+        "=IF(I9=0,0,E9/I9)"
+      ],
+      [
+        "Gruppe C",
+        1,
+        7,
+        "Hurenkinder",
+        0,
+        0,
+        0,
+        "=F10-G10",
+        0,
+        "=IF(I10=0,0,E10/I10)"
+      ],
+      [
+        "Gruppe C",
+        2,
+        2,
+        "Winterseite",
+        0,
+        0,
+        0,
+        "=F11-G11",
+        0,
+        "=IF(I11=0,0,E11/I11)"
+      ],
+      [
+        "Gruppe C",
+        3,
+        1,
+        "Jagenbach",
+        0,
+        0,
+        0,
+        "=F12-G12",
+        0,
+        "=IF(I12=0,0,E12/I12)"
+      ],
+      [
+        "Gruppe C",
+        4,
+        10,
+        "FF 1",
+        0,
+        0,
+        0,
+        "=F13-G13",
+        0,
+        "=IF(I13=0,0,E13/I13)"
       ]
     ],
     "Spritzerwertung": [
@@ -355,7 +611,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:54:16"
+        "06.08.2026 05:54:47"
       ],
       [
         "Phase",
@@ -379,7 +635,7 @@
       ],
       [
         "Gruppen",
-        0
+        3
       ],
       [
         "Spiele pro Team",
