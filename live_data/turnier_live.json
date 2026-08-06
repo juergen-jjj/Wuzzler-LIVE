@@ -1,99 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-05T17:32:39",
+  "updated_at": "2026-08-06T05:47:40",
   "live_view": {
-    "current_match": {
-      "team1": "Lenz Moser",
-      "team2": "Huremkinder",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
-      "team1": "Der Bastinator",
-      "team2": "Otto and Kids",
-      "phase": "Gruppe B"
-    },
-    "upcoming_matches": [
-      {
-        "order": 3,
-        "team1": "Huremkinder",
-        "team2": "Lenz Moser",
-        "phase": "Gruppe A"
-      },
-      {
-        "order": 4,
-        "team1": "Otto and Kids",
-        "team2": "Der Bastinator",
-        "phase": "Gruppe B"
-      }
-    ],
-    "standings": [
-      {
-        "group": "Gruppe A",
-        "teams": [
-          {
-            "team": "Lenz Moser",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
-            "team": "Huremkinder",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          }
-        ]
-      },
-      {
-        "group": "Gruppe B",
-        "teams": [
-          {
-            "team": "Otto and Kids",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
-            "team": "Der Bastinator",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "team": "Otto and Kids",
-        "score": 160,
-        "rank": 1
-      },
-      {
-        "team": "Der Bastinator",
-        "score": 51,
-        "rank": 2
-      },
-      {
-        "team": "Huremkinder",
-        "score": 40,
-        "rank": 3
-      },
-      {
-        "team": "Lenz Moser",
-        "score": 20,
-        "rank": 4
-      }
-    ]
+    "current_match": {},
+    "next_match": {},
+    "upcoming_matches": [],
+    "standings": [],
+    "spritzer": []
   },
   "sheets": {
     "Anleitung": [
@@ -115,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 17:32:39",
+        "06.08.2026 05:47:40",
         "",
         "",
         "",
@@ -123,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "setup",
         "",
         "",
         "",
@@ -170,38 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Der Bastinator",
-        "Ja",
-        "Ja",
-        51,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Otto and Kids",
-        "Ja",
-        "Ja",
-        160,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "Lenz Moser",
-        "Ja",
-        "Ja",
-        20,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "Huremkinder",
-        "Ja",
-        "Ja",
-        40,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -216,54 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Gruppe A",
-        1,
-        2,
-        "Lenz Moser",
-        0,
-        0,
-        0,
-        "=F2-G2",
-        0,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Gruppe A",
-        2,
-        3,
-        "Huremkinder",
-        0,
-        0,
-        0,
-        "=F3-G3",
-        0,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Gruppe B",
-        1,
-        1,
-        "Otto and Kids",
-        0,
-        0,
-        0,
-        "=F4-G4",
-        0,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Gruppe B",
-        2,
-        0,
-        "Der Bastinator",
-        0,
-        0,
-        0,
-        "=F5-G5",
-        0,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -272,30 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        1,
-        "Otto and Kids",
-        160
-      ],
-      [
-        2,
-        0,
-        "Der Bastinator",
-        51
-      ],
-      [
-        3,
-        3,
-        "Huremkinder",
-        40
-      ],
-      [
-        4,
-        2,
-        "Lenz Moser",
-        20
       ]
     ],
     "Spiele": [
@@ -308,46 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        1,
-        "Lenz Moser",
-        "",
-        "Huremkinder",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        2,
-        "Der Bastinator",
-        "",
-        "Otto and Kids",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        3,
-        "Huremkinder",
-        "",
-        "Lenz Moser",
-        "",
-        "Offen"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        4,
-        "Otto and Kids",
-        "",
-        "Der Bastinator",
-        "",
-        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -357,15 +126,15 @@
       ],
       [
         "Gespeichert am",
-        "05.08.2026 17:32:39"
+        "06.08.2026 05:47:40"
       ],
       [
         "Phase",
-        "group"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
@@ -373,7 +142,7 @@
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
@@ -381,11 +150,11 @@
       ],
       [
         "Gruppen",
-        2
+        0
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
