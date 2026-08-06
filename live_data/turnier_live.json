@@ -1,18 +1,18 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T06:17:37",
+  "updated_at": "2026-08-06T06:18:07",
   "live_view": {
     "current_match": {
-      "team1": "Iii",
-      "team2": "Zzz",
+      "team1": "Zzz",
+      "team2": "Fff",
       "score1": 1,
       "score2": 0,
-      "phase": "Halbfinale"
+      "phase": "Finale"
     },
     "next_match": {
-      "team1": "Ttt",
-      "team2": "Fff",
-      "phase": "Halbfinale"
+      "team1": "Iii",
+      "team2": "Ttt",
+      "phase": "Finale"
     },
     "upcoming_matches": [],
     "standings": [
@@ -102,7 +102,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 06:17:37",
+        "06.08.2026 06:18:07",
         "",
         "",
         "",
@@ -110,7 +110,7 @@
       ],
       [
         "Aktuelle Phase",
-        "ko_intro_halbfinale",
+        "final_intro",
         "",
         "",
         "",
@@ -315,6 +315,26 @@
         "Zzz",
         "Ttt",
         "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        1,
+        "Iii",
+        "1:0",
+        "Zzz",
+        "Iii",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        2,
+        "Ttt",
+        "1:0",
+        "Fff",
+        "Ttt",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -324,11 +344,11 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 06:17:37"
+        "06.08.2026 06:18:07"
       ],
       [
         "Phase",
-        "ko_intro_halbfinale"
+        "final_intro"
       ],
       [
         "Turnier gestartet",
