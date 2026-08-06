@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-06T05:56:17",
+  "updated_at": "2026-08-06T05:56:47",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -126,56 +126,56 @@
     "spritzer": [
       {
         "team": "Senk Holz",
-        "score": 90,
+        "score": 140,
         "rank": 1
       },
       {
-        "team": "Jagenbach",
-        "score": 10,
+        "team": "Die Alkis",
+        "score": 110,
         "rank": 2
       },
       {
-        "team": "Die Füße Gottes",
-        "score": 10,
+        "team": "FF 1",
+        "score": 100,
         "rank": 3
       },
       {
-        "team": "Tobis Gang",
-        "score": 0,
+        "team": "Jagenbach",
+        "score": 80,
         "rank": 4
       },
       {
-        "team": "Winterseite",
-        "score": 0,
+        "team": "Zwett1",
+        "score": 50,
         "rank": 5
       },
       {
-        "team": "Die Alkis",
-        "score": 0,
+        "team": "Die Füße Gottes",
+        "score": 40,
         "rank": 6
       },
       {
         "team": "Radler Trinker",
-        "score": 0,
+        "score": 10,
         "rank": 7
       },
       {
-        "team": "Zwett1",
+        "team": "Tobis Gang",
         "score": 0,
         "rank": 8
       },
       {
-        "team": "Hurenkinder",
+        "team": "Winterseite",
         "score": 0,
         "rank": 9
       },
       {
-        "team": "Do wos Stinkt",
+        "team": "Hurenkinder",
         "score": 0,
         "rank": 10
       },
       {
-        "team": "FF 1",
+        "team": "Do wos Stinkt",
         "score": 0,
         "rank": 11
       },
@@ -206,7 +206,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:56:17",
+        "06.08.2026 05:56:47",
         "",
         "",
         "",
@@ -275,7 +275,7 @@
         "Jagenbach",
         "Ja",
         "Ja",
-        10,
+        80,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -291,7 +291,7 @@
         "Die Füße Gottes",
         "Ja",
         "Ja",
-        10,
+        40,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -299,7 +299,7 @@
         "Die Alkis",
         "Ja",
         "Ja",
-        0,
+        110,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -307,7 +307,7 @@
         "Radler Trinker",
         "Ja",
         "Ja",
-        0,
+        10,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -315,7 +315,7 @@
         "Zwett1",
         "Ja",
         "Ja",
-        0,
+        50,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -339,7 +339,7 @@
         "Senk Holz",
         "Ja",
         "Ja",
-        90,
+        140,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -347,7 +347,7 @@
         "FF 1",
         "Ja",
         "Ja",
-        0,
+        100,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -528,72 +528,72 @@
         1,
         9,
         "Senk Holz",
-        90
+        140
       ],
       [
         2,
-        3,
-        "Die Füße Gottes",
-        10
-      ],
-      [
-        3,
-        1,
-        "Jagenbach",
-        10
-      ],
-      [
-        4,
         4,
         "Die Alkis",
-        0
+        110
+      ],
+      [
+        3,
+        10,
+        "FF 1",
+        100
+      ],
+      [
+        4,
+        1,
+        "Jagenbach",
+        80
       ],
       [
         5,
+        6,
+        "Zwett1",
+        50
+      ],
+      [
+        6,
+        3,
+        "Die Füße Gottes",
+        40
+      ],
+      [
+        7,
+        5,
+        "Radler Trinker",
+        10
+      ],
+      [
+        8,
         8,
         "Do wos Stinkt",
         0
       ],
       [
-        6,
-        10,
-        "FF 1",
-        0
-      ],
-      [
-        7,
+        9,
         11,
         "Hartl Haus",
         0
       ],
       [
-        8,
+        10,
         7,
         "Hurenkinder",
         0
       ],
       [
-        9,
-        5,
-        "Radler Trinker",
-        0
-      ],
-      [
-        10,
+        11,
         0,
         "Tobis Gang",
         0
       ],
       [
-        11,
+        12,
         2,
         "Winterseite",
-        0
-      ],
-      [
-        12,
-        6,
-        "Zwett1",
         0
       ]
     ],
@@ -736,7 +736,7 @@
       ],
       [
         "Gespeichert am",
-        "06.08.2026 05:56:17"
+        "06.08.2026 05:56:47"
       ],
       [
         "Phase",
