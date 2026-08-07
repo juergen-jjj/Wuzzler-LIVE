@@ -1,19 +1,9 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T13:43:40",
+  "updated_at": "2026-08-07T13:44:10",
   "live_view": {
-    "current_match": {
-      "team1": "Basti and the Fessls",
-      "team2": "Die Zigeuner",
-      "score1": 1,
-      "score2": 0,
-      "phase": "Halbfinale"
-    },
-    "next_match": {
-      "team1": "Die Füße Gottes",
-      "team2": "Jagenbach1",
-      "phase": "Halbfinale"
-    },
+    "current_match": {},
+    "next_match": {},
     "upcoming_matches": [],
     "standings": [
       {
@@ -133,7 +123,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:43:39",
+        "07.08.2026 13:44:10",
         "",
         "",
         "",
@@ -141,7 +131,7 @@
       ],
       [
         "Aktuelle Phase",
-        "ko_intro_halbfinale",
+        "final_ranking",
         "",
         "",
         "",
@@ -438,6 +428,46 @@
         "TagadaCrew",
         "Die Zigeuner",
         "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        1,
+        "Basti and the Fessls",
+        "1:0",
+        "Die Zigeuner",
+        "Basti and the Fessls",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        2,
+        "Die Füße Gottes",
+        "1:0",
+        "Jagenbach1",
+        "Die Füße Gottes",
+        "Beendet"
+      ],
+      [
+        "Spiel Um Platz 3",
+        "",
+        3,
+        "Die Zigeuner",
+        "1:0",
+        "Jagenbach1",
+        "Die Zigeuner",
+        "Beendet"
+      ],
+      [
+        "Finale",
+        "",
+        4,
+        "Basti and the Fessls",
+        "1:0",
+        "Die Füße Gottes",
+        "Basti and the Fessls",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -447,11 +477,11 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:43:39"
+        "07.08.2026 13:44:10"
       ],
       [
         "Phase",
-        "ko_intro_halbfinale"
+        "final_ranking"
       ],
       [
         "Turnier gestartet",
@@ -459,7 +489,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        3
       ],
       [
         "Teams",
@@ -479,7 +509,7 @@
       ],
       [
         "Spritzerwertung gesperrt",
-        "Nein"
+        "Ja"
       ],
       [
         "Spritzer-Endtimer aktiv",
