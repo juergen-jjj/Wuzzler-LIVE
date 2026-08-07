@@ -1,12 +1,23 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T13:40:39",
+  "updated_at": "2026-08-07T13:41:09",
   "live_view": {
     "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
     "standings": [],
-    "spritzer": []
+    "spritzer": [
+      {
+        "team": "Jagenbach1",
+        "score": 0,
+        "rank": 1
+      },
+      {
+        "team": "Die Füße Gottes",
+        "score": 0,
+        "rank": 2
+      }
+    ]
   },
   "sheets": {
     "Anleitung": [
@@ -28,7 +39,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:40:39",
+        "07.08.2026 13:41:09",
         "",
         "",
         "",
@@ -83,6 +94,22 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
+      ],
+      [
+        0,
+        "Jagenbach1",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "Die Füße Gottes",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -105,6 +132,18 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
+      ],
+      [
+        1,
+        1,
+        "Die Füße Gottes",
+        0
+      ],
+      [
+        2,
+        0,
+        "Jagenbach1",
+        0
       ]
     ],
     "Spiele": [
@@ -126,7 +165,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:40:39"
+        "07.08.2026 13:41:09"
       ],
       [
         "Phase",
@@ -142,7 +181,7 @@
       ],
       [
         "Teams",
-        0
+        2
       ],
       [
         "Turniermodus",
