@@ -1,71 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T07:08:23",
+  "updated_at": "2026-08-07T07:09:03",
   "live_view": {
     "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
-    "standings": [
-      {
-        "group": "Vorrunde",
-        "teams": [
-          {
-            "team": "U",
-            "points": 6,
-            "goals": 2,
-            "against": 0,
-            "games": 2,
-            "rank": 1
-          },
-          {
-            "team": "45555",
-            "points": 6,
-            "goals": 2,
-            "against": 0,
-            "games": 2,
-            "rank": 2
-          },
-          {
-            "team": "älöö",
-            "points": 0,
-            "goals": 0,
-            "against": 2,
-            "games": 2,
-            "rank": 3
-          },
-          {
-            "team": "2222",
-            "points": 0,
-            "goals": 0,
-            "against": 2,
-            "games": 2,
-            "rank": 4
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "team": "U",
-        "score": 0,
-        "rank": 1
-      },
-      {
-        "team": "2222",
-        "score": 0,
-        "rank": 2
-      },
-      {
-        "team": "älöö",
-        "score": 0,
-        "rank": 3
-      },
-      {
-        "team": "45555",
-        "score": 0,
-        "rank": 4
-      }
-    ]
+    "standings": [],
+    "spritzer": []
   },
   "sheets": {
     "Anleitung": [
@@ -87,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 07:08:23",
+        "07.08.2026 07:09:03",
         "",
         "",
         "",
@@ -95,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "final_ranking",
+        "setup",
         "",
         "",
         "",
@@ -142,38 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "U",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "2222",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "älöö",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "45555",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -188,54 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Vorrunde",
-        1,
-        0,
-        "U",
-        6,
-        2,
-        0,
-        "=F2-G2",
-        2,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Vorrunde",
-        2,
-        3,
-        "45555",
-        6,
-        2,
-        0,
-        "=F3-G3",
-        2,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Vorrunde",
-        3,
-        2,
-        "älöö",
-        0,
-        0,
-        2,
-        "=F4-G4",
-        2,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Vorrunde",
-        4,
-        1,
-        "2222",
-        0,
-        0,
-        2,
-        "=F5-G5",
-        2,
-        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -244,30 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        1,
-        "2222",
-        0
-      ],
-      [
-        2,
-        3,
-        "45555",
-        0
-      ],
-      [
-        3,
-        0,
-        "U",
-        0
-      ],
-      [
-        4,
-        2,
-        "älöö",
-        0
       ]
     ],
     "Spiele": [
@@ -280,86 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        1,
-        "U",
-        "1:0",
-        "älöö",
-        "U",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        2,
-        "45555",
-        "1:0",
-        "2222",
-        "45555",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        3,
-        "U",
-        "1:0",
-        "2222",
-        "U",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        4,
-        "45555",
-        "1:0",
-        "älöö",
-        "45555",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        1,
-        "45555",
-        "1:0",
-        "U",
-        "45555",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        2,
-        "älöö",
-        "1:0",
-        "2222",
-        "älöö",
-        "Beendet"
-      ],
-      [
-        "Spiel Um Platz 3",
-        "",
-        3,
-        "U",
-        "1:0",
-        "2222",
-        "U",
-        "Beendet"
-      ],
-      [
-        "Finale",
-        "",
-        4,
-        "45555",
-        "1:0",
-        "älöö",
-        "45555",
-        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -369,27 +126,27 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 07:08:23"
+        "07.08.2026 07:09:03"
       ],
       [
         "Phase",
-        "final_ranking"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
-        3
+        1
       ],
       [
         "Teams",
-        4
+        0
       ],
       [
         "Turniermodus",
-        "Ohne Gruppen"
+        "Mit Gruppen"
       ],
       [
         "Gruppen",
@@ -397,11 +154,11 @@
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
-        "Ja"
+        "Nein"
       ],
       [
         "Spritzer-Endtimer aktiv",
