@@ -1,18 +1,18 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T13:39:08",
+  "updated_at": "2026-08-07T13:39:39",
   "live_view": {
     "current_match": {
-      "team1": "bnbnbn",
+      "team1": "U",
       "team2": "k,jk",
       "score1": 0,
       "score2": 0,
-      "phase": "Gruppe A"
+      "phase": "Finale"
     },
     "next_match": {
-      "team1": "klkl",
-      "team2": "U",
-      "phase": "Gruppe B"
+      "team1": "bnbnbn",
+      "team2": "klkl",
+      "phase": "Finale"
     },
     "upcoming_matches": [],
     "standings": [
@@ -21,18 +21,18 @@
         "teams": [
           {
             "team": "bnbnbn",
-            "points": 0,
-            "goals": 0,
+            "points": 3,
+            "goals": 2,
             "against": 0,
-            "games": 0,
+            "games": 1,
             "rank": 1
           },
           {
             "team": "k,jk",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
+            "against": 2,
+            "games": 1,
             "rank": 2
           }
         ]
@@ -41,19 +41,19 @@
         "group": "Gruppe B",
         "teams": [
           {
-            "team": "U",
-            "points": 0,
-            "goals": 0,
+            "team": "klkl",
+            "points": 3,
+            "goals": 1,
             "against": 0,
-            "games": 0,
+            "games": 1,
             "rank": 1
           },
           {
-            "team": "klkl",
+            "team": "U",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
+            "against": 1,
+            "games": 1,
             "rank": 2
           }
         ]
@@ -102,7 +102,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:39:08",
+        "07.08.2026 13:39:39",
         "",
         "",
         "",
@@ -110,7 +110,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "final_play",
         "",
         "",
         "",
@@ -209,11 +209,11 @@
         1,
         1,
         "bnbnbn",
-        0,
-        0,
+        3,
+        2,
         0,
         "=F2-G2",
-        0,
+        1,
         "=IF(I2=0,0,E2/I2)"
       ],
       [
@@ -223,33 +223,33 @@
         "k,jk",
         0,
         0,
-        0,
+        2,
         "=F3-G3",
-        0,
+        1,
         "=IF(I3=0,0,E3/I3)"
       ],
       [
         "Gruppe B",
         1,
-        0,
-        "U",
-        0,
-        0,
+        3,
+        "klkl",
+        3,
+        1,
         0,
         "=F4-G4",
-        0,
+        1,
         "=IF(I4=0,0,E4/I4)"
       ],
       [
         "Gruppe B",
         2,
-        3,
-        "klkl",
+        0,
+        "U",
         0,
         0,
-        0,
+        1,
         "=F5-G5",
-        0,
+        1,
         "=IF(I5=0,0,E5/I5)"
       ]
     ],
@@ -301,20 +301,40 @@
         "Gruppe A",
         1,
         "bnbnbn",
-        "",
+        "2:0",
         "k,jk",
-        "",
-        "Offen"
+        "bnbnbn",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe B",
         2,
         "klkl",
-        "",
+        "1:0",
         "U",
+        "klkl",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
         "",
-        "Offen"
+        1,
+        "bnbnbn",
+        "1:0",
+        "U",
+        "bnbnbn",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        2,
+        "klkl",
+        "1:0",
+        "k,jk",
+        "klkl",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -324,11 +344,11 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:39:08"
+        "07.08.2026 13:39:39"
       ],
       [
         "Phase",
-        "group"
+        "final_play"
       ],
       [
         "Turnier gestartet",
