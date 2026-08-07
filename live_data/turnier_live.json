@@ -1,89 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T13:47:49",
+  "updated_at": "2026-08-07T13:48:00",
   "live_view": {
-    "current_match": {
-      "team1": "vlkkl",
-      "team2": "hl#",
-      "team3": "bkg",
-      "phase": "🏆 Turnier beendet"
-    },
+    "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
-    "standings": [
-      {
-        "group": "Vorrunde",
-        "teams": [
-          {
-            "team": "hl#",
-            "points": 3,
-            "goals": 2,
-            "against": 1,
-            "games": 2,
-            "rank": 1
-          },
-          {
-            "team": "Tg",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 2
-          },
-          {
-            "team": "bkg",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 3
-          },
-          {
-            "team": "vlkkl",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 4
-          },
-          {
-            "team": "bvbbb",
-            "points": 3,
-            "goals": 1,
-            "against": 2,
-            "games": 2,
-            "rank": 5
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "team": "Tg",
-        "score": 0,
-        "rank": 1
-      },
-      {
-        "team": "bvbbb",
-        "score": 0,
-        "rank": 2
-      },
-      {
-        "team": "vlkkl",
-        "score": 0,
-        "rank": 3
-      },
-      {
-        "team": "bkg",
-        "score": 0,
-        "rank": 4
-      },
-      {
-        "team": "hl#",
-        "score": 0,
-        "rank": 5
-      }
-    ]
+    "standings": [],
+    "spritzer": []
   },
   "sheets": {
     "Anleitung": [
@@ -105,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:47:49",
+        "07.08.2026 13:48:00",
         "",
         "",
         "",
@@ -113,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "final_ranking",
+        "setup",
         "",
         "",
         "",
@@ -160,46 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Tg",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "bvbbb",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "vlkkl",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "bkg",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        4,
-        "hl#",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -214,66 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Vorrunde",
-        1,
-        4,
-        "hl#",
-        3,
-        2,
-        1,
-        "=F2-G2",
-        2,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Vorrunde",
-        2,
-        0,
-        "Tg",
-        3,
-        1,
-        1,
-        "=F3-G3",
-        2,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Vorrunde",
-        3,
-        3,
-        "bkg",
-        3,
-        1,
-        1,
-        "=F4-G4",
-        2,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Vorrunde",
-        4,
-        2,
-        "vlkkl",
-        3,
-        1,
-        1,
-        "=F5-G5",
-        2,
-        "=IF(I5=0,0,E5/I5)"
-      ],
-      [
-        "Vorrunde",
-        5,
-        1,
-        "bvbbb",
-        3,
-        1,
-        2,
-        "=F6-G6",
-        2,
-        "=IF(I6=0,0,E6/I6)"
       ]
     ],
     "Spritzerwertung": [
@@ -282,36 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        0,
-        "Tg",
-        0
-      ],
-      [
-        2,
-        3,
-        "bkg",
-        0
-      ],
-      [
-        3,
-        1,
-        "bvbbb",
-        0
-      ],
-      [
-        4,
-        4,
-        "hl#",
-        0
-      ],
-      [
-        5,
-        2,
-        "vlkkl",
-        0
       ]
     ],
     "Spiele": [
@@ -324,96 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        1,
-        "bvbbb",
-        "1:0",
-        "bkg",
-        "bvbbb",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        2,
-        "vlkkl",
-        "1:0",
-        "Tg",
-        "vlkkl",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        3,
-        "hl#",
-        "2:0",
-        "bvbbb",
-        "hl#",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        4,
-        "bkg",
-        "1:0",
-        "vlkkl",
-        "bkg",
-        "Beendet"
-      ],
-      [
-        "Vorrunde",
-        "Vorrunde",
-        5,
-        "Tg",
-        "1:0",
-        "hl#",
-        "Tg",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        1,
-        "vlkkl",
-        "1:0",
-        "bkg",
-        "vlkkl",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        2,
-        "hl#",
-        "1:0",
-        "Tg",
-        "hl#",
-        "Beendet"
-      ],
-      [
-        "Spiel Um Platz 3",
-        "",
-        3,
-        "bkg",
-        "2:0",
-        "Tg",
-        "bkg",
-        "Beendet"
-      ],
-      [
-        "Finale",
-        "",
-        4,
-        "vlkkl",
-        "1:0",
-        "hl#",
-        "vlkkl",
-        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -423,27 +126,27 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:47:49"
+        "07.08.2026 13:48:00"
       ],
       [
         "Phase",
-        "final_ranking"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
-        3
+        1
       ],
       [
         "Teams",
-        5
+        0
       ],
       [
         "Turniermodus",
-        "Ohne Gruppen"
+        "Mit Gruppen"
       ],
       [
         "Gruppen",
@@ -451,11 +154,11 @@
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
-        "Ja"
+        "Nein"
       ],
       [
         "Spritzer-Endtimer aktiv",
