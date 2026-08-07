@@ -1,19 +1,9 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T07:10:07",
+  "updated_at": "2026-08-07T07:10:38",
   "live_view": {
-    "current_match": {
-      "team1": "gchkugk",
-      "team2": "Hhhk",
-      "score1": 1,
-      "score2": 0,
-      "phase": "Halbfinale"
-    },
-    "next_match": {
-      "team1": "ghkuku",
-      "team2": "Hhh",
-      "phase": "Halbfinale"
-    },
+    "current_match": {},
+    "next_match": {},
     "upcoming_matches": [],
     "standings": [
       {
@@ -97,7 +87,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 07:10:07",
+        "07.08.2026 07:10:38",
         "",
         "",
         "",
@@ -105,7 +95,7 @@
       ],
       [
         "Aktuelle Phase",
-        "ko_intro_halbfinale",
+        "final_ranking",
         "",
         "",
         "",
@@ -330,6 +320,46 @@
         "gchkugk",
         "Hhh",
         "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        1,
+        "gchkugk",
+        "1:0",
+        "Hhhk",
+        "gchkugk",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        2,
+        "ghkuku",
+        "1:0",
+        "Hhh",
+        "ghkuku",
+        "Beendet"
+      ],
+      [
+        "Spiel Um Platz 3",
+        "",
+        3,
+        "Hhhk",
+        "1:0",
+        "Hhh",
+        "Hhhk",
+        "Beendet"
+      ],
+      [
+        "Finale",
+        "",
+        4,
+        "gchkugk",
+        "1:0",
+        "ghkuku",
+        "gchkugk",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -339,11 +369,11 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 07:10:07"
+        "07.08.2026 07:10:38"
       ],
       [
         "Phase",
-        "ko_intro_halbfinale"
+        "final_ranking"
       ],
       [
         "Turnier gestartet",
@@ -351,7 +381,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        3
       ],
       [
         "Teams",
@@ -371,7 +401,7 @@
       ],
       [
         "Spritzerwertung gesperrt",
-        "Nein"
+        "Ja"
       ],
       [
         "Spritzer-Endtimer aktiv",
