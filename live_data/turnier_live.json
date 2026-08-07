@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T13:41:39",
+  "updated_at": "2026-08-07T13:42:09",
   "live_view": {
     "current_match": {
       "team1": "Basti and the Fessls",
@@ -108,31 +108,31 @@
     "spritzer": [
       {
         "team": "Jagenbach1",
-        "score": 0,
+        "score": 130,
         "rank": 1
       },
       {
-        "team": "Die Füße Gottes",
-        "score": 0,
+        "team": "Rauschgasse",
+        "score": 120,
         "rank": 2
       },
       {
-        "team": "Basti and the Fessls",
-        "score": 0,
+        "team": "Die Füße Gottes",
+        "score": 95,
         "rank": 3
       },
       {
-        "team": "Die Zigeuner",
-        "score": 0,
+        "team": "Basti and the Fessls",
+        "score": 40,
         "rank": 4
       },
       {
         "team": "TagadaCrew",
-        "score": 0,
+        "score": 10,
         "rank": 5
       },
       {
-        "team": "Rauschgasse",
+        "team": "Die Zigeuner",
         "score": 0,
         "rank": 6
       }
@@ -158,7 +158,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:41:39",
+        "07.08.2026 13:42:09",
         "",
         "",
         "",
@@ -219,7 +219,7 @@
         "Jagenbach1",
         "Ja",
         "Ja",
-        0,
+        130,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -227,7 +227,7 @@
         "Die Füße Gottes",
         "Ja",
         "Ja",
-        0,
+        95,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -235,7 +235,7 @@
         "Basti and the Fessls",
         "Ja",
         "Ja",
-        0,
+        40,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -251,7 +251,7 @@
         "TagadaCrew",
         "Ja",
         "Ja",
-        0,
+        10,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -259,7 +259,7 @@
         "Rauschgasse",
         "Ja",
         "Ja",
-        0,
+        120,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -358,38 +358,38 @@
       ],
       [
         1,
-        2,
-        "Basti and the Fessls",
-        0
+        0,
+        "Jagenbach1",
+        130
       ],
       [
         2,
+        5,
+        "Rauschgasse",
+        120
+      ],
+      [
+        3,
         1,
         "Die Füße Gottes",
-        0
-      ],
-      [
-        3,
-        3,
-        "Die Zigeuner",
-        0
+        95
       ],
       [
         4,
-        0,
-        "Jagenbach1",
-        0
+        2,
+        "Basti and the Fessls",
+        40
       ],
       [
         5,
-        5,
-        "Rauschgasse",
-        0
+        4,
+        "TagadaCrew",
+        10
       ],
       [
         6,
-        4,
-        "TagadaCrew",
+        3,
+        "Die Zigeuner",
         0
       ]
     ],
@@ -472,7 +472,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:41:39"
+        "07.08.2026 13:42:09"
       ],
       [
         "Phase",
