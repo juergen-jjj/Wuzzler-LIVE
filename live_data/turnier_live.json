@@ -1,69 +1,62 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T13:46:19",
+  "updated_at": "2026-08-07T13:46:49",
   "live_view": {
     "current_match": {
-      "team1": "hl#",
-      "team2": "bvbbb",
-      "score1": 0,
+      "team1": "bkg",
+      "team2": "Tg",
+      "score1": 1,
       "score2": 0,
-      "phase": "Vorrunde"
+      "phase": "Finale"
     },
     "next_match": {
-      "team1": "bkg",
-      "team2": "vlkkl",
-      "phase": "Vorrunde"
+      "team1": "vlkkl",
+      "team2": "hl#",
+      "phase": "Finale"
     },
-    "upcoming_matches": [
-      {
-        "order": 5,
-        "team1": "Tg",
-        "team2": "hl#",
-        "phase": "Vorrunde"
-      }
-    ],
+    "upcoming_matches": [],
     "standings": [
       {
         "group": "Vorrunde",
         "teams": [
           {
+            "team": "hl#",
+            "points": 3,
+            "goals": 2,
+            "against": 1,
+            "games": 2,
+            "rank": 1
+          },
+          {
+            "team": "Tg",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
+            "games": 2,
+            "rank": 2
+          },
+          {
+            "team": "bkg",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
+            "games": 2,
+            "rank": 3
+          },
+          {
             "team": "vlkkl",
             "points": 3,
             "goals": 1,
-            "against": 0,
-            "games": 1,
-            "rank": 1
+            "against": 1,
+            "games": 2,
+            "rank": 4
           },
           {
             "team": "bvbbb",
             "points": 3,
             "goals": 1,
-            "against": 0,
-            "games": 1,
-            "rank": 2
-          },
-          {
-            "team": "hl#",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 3
-          },
-          {
-            "team": "Tg",
-            "points": 0,
-            "goals": 0,
-            "against": 1,
-            "games": 1,
-            "rank": 4
-          },
-          {
-            "team": "bkg",
-            "points": 0,
-            "goals": 0,
-            "against": 1,
-            "games": 1,
+            "against": 2,
+            "games": 2,
             "rank": 5
           }
         ]
@@ -117,7 +110,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:46:19",
+        "07.08.2026 13:46:49",
         "",
         "",
         "",
@@ -125,7 +118,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "final_play",
         "",
         "",
         "",
@@ -230,61 +223,61 @@
       [
         "Vorrunde",
         1,
-        2,
-        "vlkkl",
+        4,
+        "hl#",
         3,
+        2,
         1,
-        0,
         "=F2-G2",
-        1,
+        2,
         "=IF(I2=0,0,E2/I2)"
       ],
       [
         "Vorrunde",
         2,
-        1,
-        "bvbbb",
+        0,
+        "Tg",
         3,
         1,
-        0,
-        "=F3-G3",
         1,
+        "=F3-G3",
+        2,
         "=IF(I3=0,0,E3/I3)"
       ],
       [
         "Vorrunde",
         3,
-        4,
-        "hl#",
-        0,
-        0,
-        0,
+        3,
+        "bkg",
+        3,
+        1,
+        1,
         "=F4-G4",
-        0,
+        2,
         "=IF(I4=0,0,E4/I4)"
       ],
       [
         "Vorrunde",
         4,
-        0,
-        "Tg",
-        0,
-        0,
+        2,
+        "vlkkl",
+        3,
+        1,
         1,
         "=F5-G5",
-        1,
+        2,
         "=IF(I5=0,0,E5/I5)"
       ],
       [
         "Vorrunde",
         5,
+        1,
+        "bvbbb",
         3,
-        "bkg",
-        0,
-        0,
         1,
+        2,
         "=F6-G6",
-        1,
+        2,
         "=IF(I6=0,0,E6/I6)"
       ]
     ],
@@ -362,30 +355,50 @@
         "Vorrunde",
         3,
         "hl#",
-        "",
+        "2:0",
         "bvbbb",
-        "",
-        "Offen"
+        "hl#",
+        "Beendet"
       ],
       [
         "Vorrunde",
         "Vorrunde",
         4,
         "bkg",
-        "",
+        "1:0",
         "vlkkl",
-        "",
-        "Offen"
+        "bkg",
+        "Beendet"
       ],
       [
         "Vorrunde",
         "Vorrunde",
         5,
         "Tg",
-        "",
+        "1:0",
         "hl#",
+        "Tg",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
         "",
-        "Offen"
+        1,
+        "vlkkl",
+        "1:0",
+        "bkg",
+        "vlkkl",
+        "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        2,
+        "hl#",
+        "1:0",
+        "Tg",
+        "hl#",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -395,11 +408,11 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:46:19"
+        "07.08.2026 13:46:49"
       ],
       [
         "Phase",
-        "group"
+        "final_play"
       ],
       [
         "Turnier gestartet",
@@ -407,7 +420,7 @@
       ],
       [
         "Aktuelles Spiel",
-        3
+        1
       ],
       [
         "Teams",
