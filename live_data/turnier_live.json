@@ -1,16 +1,84 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-07T13:38:38",
+  "updated_at": "2026-08-07T13:39:08",
   "live_view": {
-    "current_match": {},
-    "next_match": {},
+    "current_match": {
+      "team1": "bnbnbn",
+      "team2": "k,jk",
+      "score1": 0,
+      "score2": 0,
+      "phase": "Gruppe A"
+    },
+    "next_match": {
+      "team1": "klkl",
+      "team2": "U",
+      "phase": "Gruppe B"
+    },
     "upcoming_matches": [],
-    "standings": [],
+    "standings": [
+      {
+        "group": "Gruppe A",
+        "teams": [
+          {
+            "team": "bnbnbn",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "k,jk",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          }
+        ]
+      },
+      {
+        "group": "Gruppe B",
+        "teams": [
+          {
+            "team": "U",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "klkl",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          }
+        ]
+      }
+    ],
     "spritzer": [
       {
         "team": "U",
         "score": 0,
         "rank": 1
+      },
+      {
+        "team": "bnbnbn",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "team": "k,jk",
+        "score": 0,
+        "rank": 3
+      },
+      {
+        "team": "klkl",
+        "score": 0,
+        "rank": 4
       }
     ]
   },
@@ -34,7 +102,7 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:38:38",
+        "07.08.2026 13:39:08",
         "",
         "",
         "",
@@ -42,7 +110,7 @@
       ],
       [
         "Aktuelle Phase",
-        "setup",
+        "group",
         "",
         "",
         "",
@@ -97,6 +165,30 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        1,
+        "bnbnbn",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        2,
+        "k,jk",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        3,
+        "klkl",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -111,6 +203,54 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
+      ],
+      [
+        "Gruppe A",
+        1,
+        1,
+        "bnbnbn",
+        0,
+        0,
+        0,
+        "=F2-G2",
+        0,
+        "=IF(I2=0,0,E2/I2)"
+      ],
+      [
+        "Gruppe A",
+        2,
+        2,
+        "k,jk",
+        0,
+        0,
+        0,
+        "=F3-G3",
+        0,
+        "=IF(I3=0,0,E3/I3)"
+      ],
+      [
+        "Gruppe B",
+        1,
+        0,
+        "U",
+        0,
+        0,
+        0,
+        "=F4-G4",
+        0,
+        "=IF(I4=0,0,E4/I4)"
+      ],
+      [
+        "Gruppe B",
+        2,
+        3,
+        "klkl",
+        0,
+        0,
+        0,
+        "=F5-G5",
+        0,
+        "=IF(I5=0,0,E5/I5)"
       ]
     ],
     "Spritzerwertung": [
@@ -125,6 +265,24 @@
         0,
         "U",
         0
+      ],
+      [
+        2,
+        1,
+        "bnbnbn",
+        0
+      ],
+      [
+        3,
+        2,
+        "k,jk",
+        0
+      ],
+      [
+        4,
+        3,
+        "klkl",
+        0
       ]
     ],
     "Spiele": [
@@ -137,6 +295,26 @@
         "Team 2",
         "Sieger",
         "Status"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        1,
+        "bnbnbn",
+        "",
+        "k,jk",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        2,
+        "klkl",
+        "",
+        "U",
+        "",
+        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -146,15 +324,15 @@
       ],
       [
         "Gespeichert am",
-        "07.08.2026 13:38:38"
+        "07.08.2026 13:39:08"
       ],
       [
         "Phase",
-        "setup"
+        "group"
       ],
       [
         "Turnier gestartet",
-        "Nein"
+        "Ja"
       ],
       [
         "Aktuelles Spiel",
@@ -162,7 +340,7 @@
       ],
       [
         "Teams",
-        1
+        4
       ],
       [
         "Turniermodus",
@@ -170,11 +348,11 @@
       ],
       [
         "Gruppen",
-        0
+        2
       ],
       [
         "Spiele pro Team",
-        3
+        1
       ],
       [
         "Spritzerwertung gesperrt",
