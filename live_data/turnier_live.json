@@ -1,13 +1,8 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:37:18",
+  "updated_at": "2026-08-08T11:41:17",
   "live_view": {
-    "current_match": {
-      "team1": "Kerstin undKatze",
-      "team2": "Basti an Friends",
-      "team3": "Senk Holz",
-      "phase": "🏆 Turnier beendet"
-    },
+    "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
     "standings": [
@@ -15,15 +10,15 @@
         "group": "Gruppe A",
         "teams": [
           {
-            "team": "Senk Holz",
-            "points": 6,
-            "goals": 2,
-            "against": 0,
+            "team": "Zwett1",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
             "games": 2,
             "rank": 1
           },
           {
-            "team": "Basti an Friends",
+            "team": "Do wos Stinkt",
             "points": 3,
             "goals": 1,
             "against": 1,
@@ -31,10 +26,10 @@
             "rank": 2
           },
           {
-            "team": "Die Zigeuner",
-            "points": 0,
-            "goals": 0,
-            "against": 2,
+            "team": "Winterseite",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
             "games": 2,
             "rank": 3
           }
@@ -44,49 +39,150 @@
         "group": "Gruppe B",
         "teams": [
           {
-            "team": "Kerstin undKatze",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
+            "team": "Hartl Haus",
+            "points": 6,
+            "goals": 2,
+            "against": 0,
             "games": 2,
             "rank": 1
           },
           {
-            "team": "Schniedel",
+            "team": "Die Füße Gottes",
             "points": 3,
             "goals": 1,
             "against": 1,
             "games": 2,
             "rank": 2
+          },
+          {
+            "team": "Radler Trinker",
+            "points": 0,
+            "goals": 0,
+            "against": 2,
+            "games": 2,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "group": "Gruppe C",
+        "teams": [
+          {
+            "team": "Tobis Gang",
+            "points": 6,
+            "goals": 2,
+            "against": 0,
+            "games": 2,
+            "rank": 1
+          },
+          {
+            "team": "Die Alkis",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
+            "games": 2,
+            "rank": 2
+          },
+          {
+            "team": "Hurenkinder",
+            "points": 0,
+            "goals": 0,
+            "against": 2,
+            "games": 2,
+            "rank": 3
+          }
+        ]
+      },
+      {
+        "group": "Gruppe D",
+        "teams": [
+          {
+            "team": "Jagenbach",
+            "points": 6,
+            "goals": 2,
+            "against": 0,
+            "games": 2,
+            "rank": 1
+          },
+          {
+            "team": "Senk Holz",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
+            "games": 2,
+            "rank": 2
+          },
+          {
+            "team": "FF 1",
+            "points": 0,
+            "goals": 0,
+            "against": 2,
+            "games": 2,
+            "rank": 3
           }
         ]
       }
     ],
     "spritzer": [
       {
-        "team": "Basti an Friends",
-        "score": 170,
+        "team": "Senk Holz",
+        "score": 140,
         "rank": 1
       },
       {
-        "team": "Kerstin undKatze",
-        "score": 90,
+        "team": "Die Alkis",
+        "score": 110,
         "rank": 2
       },
       {
-        "team": "Senk Holz",
-        "score": 60,
+        "team": "FF 1",
+        "score": 100,
         "rank": 3
       },
       {
-        "team": "Die Zigeuner",
-        "score": 60,
+        "team": "Tobis Gang",
+        "score": 90,
         "rank": 4
       },
       {
-        "team": "Schniedel",
-        "score": 50,
+        "team": "Jagenbach",
+        "score": 80,
         "rank": 5
+      },
+      {
+        "team": "Radler Trinker",
+        "score": 70,
+        "rank": 6
+      },
+      {
+        "team": "Hurenkinder",
+        "score": 60,
+        "rank": 7
+      },
+      {
+        "team": "Do wos Stinkt",
+        "score": 60,
+        "rank": 8
+      },
+      {
+        "team": "Winterseite",
+        "score": 50,
+        "rank": 9
+      },
+      {
+        "team": "Zwett1",
+        "score": 50,
+        "rank": 10
+      },
+      {
+        "team": "Die Füße Gottes",
+        "score": 40,
+        "rank": 11
+      },
+      {
+        "team": "Hartl Haus",
+        "score": 30,
+        "rank": 12
       }
     ]
   },
@@ -110,7 +206,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:37:18",
+        "08.08.2026 11:41:17",
         "",
         "",
         "",
@@ -118,7 +214,7 @@
       ],
       [
         "Aktuelle Phase",
-        "final_ranking",
+        "post-group",
         "",
         "",
         "",
@@ -168,42 +264,98 @@
       ],
       [
         0,
-        "Schniedel",
-        "Ja",
-        "Ja",
-        50,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Kerstin undKatze",
+        "Tobis Gang",
         "Ja",
         "Ja",
         90,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
+        1,
+        "Jagenbach",
+        "Ja",
+        "Ja",
+        80,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
         2,
-        "Basti an Friends",
+        "Winterseite",
         "Ja",
         "Ja",
-        170,
+        50,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
         3,
-        "Senk Holz",
+        "Die Füße Gottes",
+        "Ja",
+        "Ja",
+        40,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        4,
+        "Die Alkis",
+        "Ja",
+        "Ja",
+        110,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        5,
+        "Radler Trinker",
+        "Ja",
+        "Ja",
+        70,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        6,
+        "Zwett1",
+        "Ja",
+        "Ja",
+        50,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        7,
+        "Hurenkinder",
         "Ja",
         "Ja",
         60,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
-        4,
-        "Die Zigeuner",
+        8,
+        "Do wos Stinkt",
         "Ja",
         "Ja",
         60,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        9,
+        "Senk Holz",
+        "Ja",
+        "Ja",
+        140,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        10,
+        "FF 1",
+        "Ja",
+        "Ja",
+        100,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        11,
+        "Hartl Haus",
+        "Ja",
+        "Ja",
+        30,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -223,11 +375,11 @@
       [
         "Gruppe A",
         1,
-        3,
-        "Senk Holz",
         6,
-        2,
-        0,
+        "Zwett1",
+        3,
+        1,
+        1,
         "=F2-G2",
         2,
         "=IF(I2=0,0,E2/I2)"
@@ -235,8 +387,8 @@
       [
         "Gruppe A",
         2,
-        2,
-        "Basti an Friends",
+        8,
+        "Do wos Stinkt",
         3,
         1,
         1,
@@ -247,11 +399,11 @@
       [
         "Gruppe A",
         3,
-        4,
-        "Die Zigeuner",
-        0,
-        0,
         2,
+        "Winterseite",
+        3,
+        1,
+        1,
         "=F4-G4",
         2,
         "=IF(I4=0,0,E4/I4)"
@@ -259,11 +411,11 @@
       [
         "Gruppe B",
         1,
-        1,
-        "Kerstin undKatze",
-        3,
-        1,
-        1,
+        11,
+        "Hartl Haus",
+        6,
+        2,
+        0,
         "=F5-G5",
         2,
         "=IF(I5=0,0,E5/I5)"
@@ -271,14 +423,98 @@
       [
         "Gruppe B",
         2,
-        0,
-        "Schniedel",
+        3,
+        "Die Füße Gottes",
         3,
         1,
         1,
         "=F6-G6",
         2,
         "=IF(I6=0,0,E6/I6)"
+      ],
+      [
+        "Gruppe B",
+        3,
+        5,
+        "Radler Trinker",
+        0,
+        0,
+        2,
+        "=F7-G7",
+        2,
+        "=IF(I7=0,0,E7/I7)"
+      ],
+      [
+        "Gruppe C",
+        1,
+        0,
+        "Tobis Gang",
+        6,
+        2,
+        0,
+        "=F8-G8",
+        2,
+        "=IF(I8=0,0,E8/I8)"
+      ],
+      [
+        "Gruppe C",
+        2,
+        4,
+        "Die Alkis",
+        3,
+        1,
+        1,
+        "=F9-G9",
+        2,
+        "=IF(I9=0,0,E9/I9)"
+      ],
+      [
+        "Gruppe C",
+        3,
+        7,
+        "Hurenkinder",
+        0,
+        0,
+        2,
+        "=F10-G10",
+        2,
+        "=IF(I10=0,0,E10/I10)"
+      ],
+      [
+        "Gruppe D",
+        1,
+        1,
+        "Jagenbach",
+        6,
+        2,
+        0,
+        "=F11-G11",
+        2,
+        "=IF(I11=0,0,E11/I11)"
+      ],
+      [
+        "Gruppe D",
+        2,
+        9,
+        "Senk Holz",
+        3,
+        1,
+        1,
+        "=F12-G12",
+        2,
+        "=IF(I12=0,0,E12/I12)"
+      ],
+      [
+        "Gruppe D",
+        3,
+        10,
+        "FF 1",
+        0,
+        0,
+        2,
+        "=F13-G13",
+        2,
+        "=IF(I13=0,0,E13/I13)"
       ]
     ],
     "Spritzerwertung": [
@@ -290,33 +526,75 @@
       ],
       [
         1,
-        2,
-        "Basti an Friends",
-        170
+        9,
+        "Senk Holz",
+        140
       ],
       [
         2,
-        1,
-        "Kerstin undKatze",
+        4,
+        "Die Alkis",
+        110
+      ],
+      [
+        3,
+        10,
+        "FF 1",
+        100
+      ],
+      [
+        4,
+        0,
+        "Tobis Gang",
         90
       ],
       [
-        3,
-        4,
-        "Die Zigeuner",
-        60
-      ],
-      [
-        4,
-        3,
-        "Senk Holz",
-        60
-      ],
-      [
         5,
-        0,
-        "Schniedel",
+        1,
+        "Jagenbach",
+        80
+      ],
+      [
+        6,
+        5,
+        "Radler Trinker",
+        70
+      ],
+      [
+        7,
+        8,
+        "Do wos Stinkt",
+        60
+      ],
+      [
+        8,
+        7,
+        "Hurenkinder",
+        60
+      ],
+      [
+        9,
+        2,
+        "Winterseite",
         50
+      ],
+      [
+        10,
+        6,
+        "Zwett1",
+        50
+      ],
+      [
+        11,
+        3,
+        "Die Füße Gottes",
+        40
+      ],
+      [
+        12,
+        11,
+        "Hartl Haus",
+        30
       ]
     ],
     "Spiele": [
@@ -334,90 +612,120 @@
         "Gruppenphase",
         "Gruppe A",
         1,
-        "Senk Holz",
+        "Do wos Stinkt",
         "1:0",
-        "Die Zigeuner",
-        "Senk Holz",
+        "Winterseite",
+        "Do wos Stinkt",
         "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe B",
         2,
-        "Kerstin undKatze",
+        "Hartl Haus",
         "1:0",
-        "Schniedel",
-        "Kerstin undKatze",
+        "Die Füße Gottes",
+        "Hartl Haus",
         "Beendet"
       ],
       [
         "Gruppenphase",
-        "Gruppe A",
+        "Gruppe C",
         3,
-        "Senk Holz",
+        "Die Alkis",
         "1:0",
-        "Basti an Friends",
-        "Senk Holz",
+        "Hurenkinder",
+        "Die Alkis",
         "Beendet"
       ],
       [
         "Gruppenphase",
-        "Gruppe B",
+        "Gruppe D",
         4,
-        "Schniedel",
+        "Jagenbach",
         "1:0",
-        "Kerstin undKatze",
-        "Schniedel",
+        "FF 1",
+        "Jagenbach",
         "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe A",
         5,
-        "Basti an Friends",
+        "Winterseite",
         "1:0",
-        "Die Zigeuner",
-        "Basti an Friends",
+        "Zwett1",
+        "Winterseite",
         "Beendet"
       ],
       [
-        "Halbfinale",
-        "",
-        1,
-        "Kerstin undKatze",
+        "Gruppenphase",
+        "Gruppe B",
+        6,
+        "Radler Trinker",
+        "0:1",
+        "Hartl Haus",
+        "Hartl Haus",
+        "Beendet"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        7,
+        "Tobis Gang",
         "1:0",
+        "Die Alkis",
+        "Tobis Gang",
+        "Beendet"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe D",
+        8,
         "Senk Holz",
-        "Kerstin undKatze",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        2,
-        "Basti an Friends",
         "1:0",
-        "Schniedel",
-        "Basti an Friends",
-        "Beendet"
-      ],
-      [
-        "Spiel Um Platz 3",
-        "",
-        3,
-        "Senk Holz",
-        "1:0",
-        "Schniedel",
+        "FF 1",
         "Senk Holz",
         "Beendet"
       ],
       [
-        "Finale",
-        "",
-        4,
-        "Kerstin undKatze",
+        "Gruppenphase",
+        "Gruppe A",
+        9,
+        "Zwett1",
         "1:0",
-        "Basti an Friends",
-        "Kerstin undKatze",
+        "Do wos Stinkt",
+        "Zwett1",
+        "Beendet"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        10,
+        "Die Füße Gottes",
+        "1:0",
+        "Radler Trinker",
+        "Die Füße Gottes",
+        "Beendet"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        11,
+        "Tobis Gang",
+        "1:0",
+        "Hurenkinder",
+        "Tobis Gang",
+        "Beendet"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe D",
+        12,
+        "Senk Holz",
+        "0:1",
+        "Jagenbach",
+        "Jagenbach",
         "Beendet"
       ]
     ],
@@ -428,11 +736,11 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:37:18"
+        "08.08.2026 11:41:17"
       ],
       [
         "Phase",
-        "final_ranking"
+        "post-group"
       ],
       [
         "Turnier gestartet",
@@ -440,11 +748,11 @@
       ],
       [
         "Aktuelles Spiel",
-        3
+        13
       ],
       [
         "Teams",
-        5
+        12
       ],
       [
         "Turniermodus",
@@ -452,7 +760,7 @@
       ],
       [
         "Gruppen",
-        2
+        4
       ],
       [
         "Spiele pro Team",
@@ -460,7 +768,7 @@
       ],
       [
         "Spritzerwertung gesperrt",
-        "Ja"
+        "Nein"
       ],
       [
         "Spritzer-Endtimer aktiv",
