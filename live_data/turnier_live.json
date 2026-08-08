@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:48:28",
+  "updated_at": "2026-08-08T11:48:58",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -46,6 +46,11 @@
         "team": "Spritzer",
         "score": 0,
         "rank": 8
+      },
+      {
+        "team": "RLH Schweiggers",
+        "score": 0,
+        "rank": 9
       }
     ]
   },
@@ -69,7 +74,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:48:28",
+        "08.08.2026 11:48:58",
         "",
         "",
         "",
@@ -188,6 +193,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        8,
+        "RLH Schweiggers",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -255,6 +268,12 @@
       ],
       [
         8,
+        8,
+        "RLH Schweiggers",
+        0
+      ],
+      [
+        9,
         7,
         "Spritzer",
         0
@@ -279,7 +298,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:48:28"
+        "08.08.2026 11:48:58"
       ],
       [
         "Phase",
@@ -295,7 +314,7 @@
       ],
       [
         "Teams",
-        8
+        9
       ],
       [
         "Turniermodus",
