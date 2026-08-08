@@ -119,15 +119,12 @@ def live_display():
 </div>"""
         st.markdown(html_current, unsafe_allow_html=True)
     elif current_match:
-        score1 = safe_number(current_match.get("score1", 0))
-        score2 = safe_number(current_match.get("score2", 0))
         html_current = f"""
 <div style="text-align:center;padding:32px 20px;border-radius:22px;background:linear-gradient(180deg,#12324a,#0b202f);color:white;border:2px solid #2c78a0;">
 <div style="font-size:21px;color:#8fd3ff;font-weight:bold;margin-bottom:20px;">{phase}</div>
 <div style="font-size:42px;font-weight:bold;overflow-wrap:anywhere;">{team1}</div>
 <div style="font-size:24px;color:#ffd34e;margin:12px 0;">⚽ GEGEN ⚽</div>
 <div style="font-size:42px;font-weight:bold;overflow-wrap:anywhere;">{team2}</div>
-<div style="margin-top:22px;font-size:34px;font-weight:bold;color:#ffd34e;">{score1} : {score2}</div>
 </div>"""
         st.markdown(html_current, unsafe_allow_html=True)
     else:
