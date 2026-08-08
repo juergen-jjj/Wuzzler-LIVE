@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:47:57",
+  "updated_at": "2026-08-08T11:48:28",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -31,6 +31,21 @@
         "team": "Die Füße Gottes",
         "score": 0,
         "rank": 5
+      },
+      {
+        "team": "FF Jagenbach",
+        "score": 0,
+        "rank": 6
+      },
+      {
+        "team": "Musik",
+        "score": 0,
+        "rank": 7
+      },
+      {
+        "team": "Spritzer",
+        "score": 0,
+        "rank": 8
       }
     ]
   },
@@ -54,7 +69,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:47:57",
+        "08.08.2026 11:48:28",
         "",
         "",
         "",
@@ -149,6 +164,30 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        5,
+        "FF Jagenbach",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        6,
+        "Musik",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        7,
+        "Spritzer",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -198,8 +237,26 @@
       ],
       [
         5,
+        5,
+        "FF Jagenbach",
+        0
+      ],
+      [
+        6,
         0,
         "Lenz Moser",
+        0
+      ],
+      [
+        7,
+        6,
+        "Musik",
+        0
+      ],
+      [
+        8,
+        7,
+        "Spritzer",
         0
       ]
     ],
@@ -222,7 +279,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:47:57"
+        "08.08.2026 11:48:28"
       ],
       [
         "Phase",
@@ -238,7 +295,7 @@
       ],
       [
         "Teams",
-        5
+        8
       ],
       [
         "Turniermodus",
