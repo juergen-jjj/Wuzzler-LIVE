@@ -1,195 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:46:13",
+  "updated_at": "2026-08-08T11:46:53",
   "live_view": {
-    "current_match": {
-      "team1": "Tobis Gang",
-      "team2": "Hartl Haus",
-      "team3": "Jagenbach",
-      "phase": "🏆 Turnier beendet"
-    },
+    "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
-    "standings": [
-      {
-        "group": "Gruppe A",
-        "teams": [
-          {
-            "team": "Zwett1",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 1
-          },
-          {
-            "team": "Do wos Stinkt",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 2
-          },
-          {
-            "team": "Winterseite",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 3
-          }
-        ]
-      },
-      {
-        "group": "Gruppe B",
-        "teams": [
-          {
-            "team": "Hartl Haus",
-            "points": 6,
-            "goals": 2,
-            "against": 0,
-            "games": 2,
-            "rank": 1
-          },
-          {
-            "team": "Die Füße Gottes",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 2
-          },
-          {
-            "team": "Radler Trinker",
-            "points": 0,
-            "goals": 0,
-            "against": 2,
-            "games": 2,
-            "rank": 3
-          }
-        ]
-      },
-      {
-        "group": "Gruppe C",
-        "teams": [
-          {
-            "team": "Tobis Gang",
-            "points": 6,
-            "goals": 2,
-            "against": 0,
-            "games": 2,
-            "rank": 1
-          },
-          {
-            "team": "Die Alkis",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 2
-          },
-          {
-            "team": "Hurenkinder",
-            "points": 0,
-            "goals": 0,
-            "against": 2,
-            "games": 2,
-            "rank": 3
-          }
-        ]
-      },
-      {
-        "group": "Gruppe D",
-        "teams": [
-          {
-            "team": "Jagenbach",
-            "points": 6,
-            "goals": 2,
-            "against": 0,
-            "games": 2,
-            "rank": 1
-          },
-          {
-            "team": "Senk Holz",
-            "points": 3,
-            "goals": 1,
-            "against": 1,
-            "games": 2,
-            "rank": 2
-          },
-          {
-            "team": "FF 1",
-            "points": 0,
-            "goals": 0,
-            "against": 2,
-            "games": 2,
-            "rank": 3
-          }
-        ]
-      }
-    ],
-    "spritzer": [
-      {
-        "team": "Senk Holz",
-        "score": 140,
-        "rank": 1
-      },
-      {
-        "team": "Die Alkis",
-        "score": 110,
-        "rank": 2
-      },
-      {
-        "team": "FF 1",
-        "score": 100,
-        "rank": 3
-      },
-      {
-        "team": "Tobis Gang",
-        "score": 90,
-        "rank": 4
-      },
-      {
-        "team": "Jagenbach",
-        "score": 80,
-        "rank": 5
-      },
-      {
-        "team": "Radler Trinker",
-        "score": 70,
-        "rank": 6
-      },
-      {
-        "team": "Hurenkinder",
-        "score": 60,
-        "rank": 7
-      },
-      {
-        "team": "Do wos Stinkt",
-        "score": 60,
-        "rank": 8
-      },
-      {
-        "team": "Winterseite",
-        "score": 50,
-        "rank": 9
-      },
-      {
-        "team": "Zwett1",
-        "score": 50,
-        "rank": 10
-      },
-      {
-        "team": "Die Füße Gottes",
-        "score": 40,
-        "rank": 11
-      },
-      {
-        "team": "Hartl Haus",
-        "score": 30,
-        "rank": 12
-      }
-    ]
+    "standings": [],
+    "spritzer": []
   },
   "sheets": {
     "Anleitung": [
@@ -211,7 +28,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:46:13",
+        "08.08.2026 11:46:53",
         "",
         "",
         "",
@@ -219,7 +36,7 @@
       ],
       [
         "Aktuelle Phase",
-        "final_ranking",
+        "setup",
         "",
         "",
         "",
@@ -266,102 +83,6 @@
         "In Spritzerwertung",
         "Spritzer-Punkte",
         "Hinweis"
-      ],
-      [
-        0,
-        "Tobis Gang",
-        "Ja",
-        "Ja",
-        90,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        1,
-        "Jagenbach",
-        "Ja",
-        "Ja",
-        80,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        2,
-        "Winterseite",
-        "Ja",
-        "Ja",
-        50,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        3,
-        "Die Füße Gottes",
-        "Ja",
-        "Ja",
-        40,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        4,
-        "Die Alkis",
-        "Ja",
-        "Ja",
-        110,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        5,
-        "Radler Trinker",
-        "Ja",
-        "Ja",
-        70,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        6,
-        "Zwett1",
-        "Ja",
-        "Ja",
-        50,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        7,
-        "Hurenkinder",
-        "Ja",
-        "Ja",
-        60,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        8,
-        "Do wos Stinkt",
-        "Ja",
-        "Ja",
-        60,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        9,
-        "Senk Holz",
-        "Ja",
-        "Ja",
-        140,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        10,
-        "FF 1",
-        "Ja",
-        "Ja",
-        100,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        11,
-        "Hartl Haus",
-        "Ja",
-        "Ja",
-        30,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -376,150 +97,6 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
-      ],
-      [
-        "Gruppe A",
-        1,
-        6,
-        "Zwett1",
-        3,
-        1,
-        1,
-        "=F2-G2",
-        2,
-        "=IF(I2=0,0,E2/I2)"
-      ],
-      [
-        "Gruppe A",
-        2,
-        8,
-        "Do wos Stinkt",
-        3,
-        1,
-        1,
-        "=F3-G3",
-        2,
-        "=IF(I3=0,0,E3/I3)"
-      ],
-      [
-        "Gruppe A",
-        3,
-        2,
-        "Winterseite",
-        3,
-        1,
-        1,
-        "=F4-G4",
-        2,
-        "=IF(I4=0,0,E4/I4)"
-      ],
-      [
-        "Gruppe B",
-        1,
-        11,
-        "Hartl Haus",
-        6,
-        2,
-        0,
-        "=F5-G5",
-        2,
-        "=IF(I5=0,0,E5/I5)"
-      ],
-      [
-        "Gruppe B",
-        2,
-        3,
-        "Die Füße Gottes",
-        3,
-        1,
-        1,
-        "=F6-G6",
-        2,
-        "=IF(I6=0,0,E6/I6)"
-      ],
-      [
-        "Gruppe B",
-        3,
-        5,
-        "Radler Trinker",
-        0,
-        0,
-        2,
-        "=F7-G7",
-        2,
-        "=IF(I7=0,0,E7/I7)"
-      ],
-      [
-        "Gruppe C",
-        1,
-        0,
-        "Tobis Gang",
-        6,
-        2,
-        0,
-        "=F8-G8",
-        2,
-        "=IF(I8=0,0,E8/I8)"
-      ],
-      [
-        "Gruppe C",
-        2,
-        4,
-        "Die Alkis",
-        3,
-        1,
-        1,
-        "=F9-G9",
-        2,
-        "=IF(I9=0,0,E9/I9)"
-      ],
-      [
-        "Gruppe C",
-        3,
-        7,
-        "Hurenkinder",
-        0,
-        0,
-        2,
-        "=F10-G10",
-        2,
-        "=IF(I10=0,0,E10/I10)"
-      ],
-      [
-        "Gruppe D",
-        1,
-        1,
-        "Jagenbach",
-        6,
-        2,
-        0,
-        "=F11-G11",
-        2,
-        "=IF(I11=0,0,E11/I11)"
-      ],
-      [
-        "Gruppe D",
-        2,
-        9,
-        "Senk Holz",
-        3,
-        1,
-        1,
-        "=F12-G12",
-        2,
-        "=IF(I12=0,0,E12/I12)"
-      ],
-      [
-        "Gruppe D",
-        3,
-        10,
-        "FF 1",
-        0,
-        0,
-        2,
-        "=F13-G13",
-        2,
-        "=IF(I13=0,0,E13/I13)"
       ]
     ],
     "Spritzerwertung": [
@@ -528,78 +105,6 @@
         "ID",
         "Name",
         "Spritzer-Punkte"
-      ],
-      [
-        1,
-        9,
-        "Senk Holz",
-        140
-      ],
-      [
-        2,
-        4,
-        "Die Alkis",
-        110
-      ],
-      [
-        3,
-        10,
-        "FF 1",
-        100
-      ],
-      [
-        4,
-        0,
-        "Tobis Gang",
-        90
-      ],
-      [
-        5,
-        1,
-        "Jagenbach",
-        80
-      ],
-      [
-        6,
-        5,
-        "Radler Trinker",
-        70
-      ],
-      [
-        7,
-        8,
-        "Do wos Stinkt",
-        60
-      ],
-      [
-        8,
-        7,
-        "Hurenkinder",
-        60
-      ],
-      [
-        9,
-        2,
-        "Winterseite",
-        50
-      ],
-      [
-        10,
-        6,
-        "Zwett1",
-        50
-      ],
-      [
-        11,
-        3,
-        "Die Füße Gottes",
-        40
-      ],
-      [
-        12,
-        11,
-        "Hartl Haus",
-        30
       ]
     ],
     "Spiele": [
@@ -612,166 +117,6 @@
         "Team 2",
         "Sieger",
         "Status"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        1,
-        "Do wos Stinkt",
-        "1:0",
-        "Winterseite",
-        "Do wos Stinkt",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        2,
-        "Hartl Haus",
-        "1:0",
-        "Die Füße Gottes",
-        "Hartl Haus",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe C",
-        3,
-        "Die Alkis",
-        "1:0",
-        "Hurenkinder",
-        "Die Alkis",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe D",
-        4,
-        "Jagenbach",
-        "1:0",
-        "FF 1",
-        "Jagenbach",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        5,
-        "Winterseite",
-        "1:0",
-        "Zwett1",
-        "Winterseite",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        6,
-        "Radler Trinker",
-        "0:1",
-        "Hartl Haus",
-        "Hartl Haus",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe C",
-        7,
-        "Tobis Gang",
-        "1:0",
-        "Die Alkis",
-        "Tobis Gang",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe D",
-        8,
-        "Senk Holz",
-        "1:0",
-        "FF 1",
-        "Senk Holz",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe A",
-        9,
-        "Zwett1",
-        "1:0",
-        "Do wos Stinkt",
-        "Zwett1",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe B",
-        10,
-        "Die Füße Gottes",
-        "1:0",
-        "Radler Trinker",
-        "Die Füße Gottes",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe C",
-        11,
-        "Tobis Gang",
-        "1:0",
-        "Hurenkinder",
-        "Tobis Gang",
-        "Beendet"
-      ],
-      [
-        "Gruppenphase",
-        "Gruppe D",
-        12,
-        "Senk Holz",
-        "0:1",
-        "Jagenbach",
-        "Jagenbach",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        1,
-        "Tobis Gang",
-        "1:0",
-        "Jagenbach",
-        "Tobis Gang",
-        "Beendet"
-      ],
-      [
-        "Halbfinale",
-        "",
-        2,
-        "Hartl Haus",
-        "2:0",
-        "Zwett1",
-        "Hartl Haus",
-        "Beendet"
-      ],
-      [
-        "Spiel Um Platz 3",
-        "",
-        3,
-        "Jagenbach",
-        "1:0",
-        "Zwett1",
-        "Jagenbach",
-        "Beendet"
-      ],
-      [
-        "Finale",
-        "",
-        4,
-        "Tobis Gang",
-        "1:0",
-        "Hartl Haus",
-        "Tobis Gang",
-        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -781,23 +126,23 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:46:13"
+        "08.08.2026 11:46:53"
       ],
       [
         "Phase",
-        "final_ranking"
+        "setup"
       ],
       [
         "Turnier gestartet",
-        "Ja"
+        "Nein"
       ],
       [
         "Aktuelles Spiel",
-        3
+        1
       ],
       [
         "Teams",
-        12
+        0
       ],
       [
         "Turniermodus",
@@ -805,15 +150,15 @@
       ],
       [
         "Gruppen",
-        4
+        0
       ],
       [
         "Spiele pro Team",
-        2
+        3
       ],
       [
         "Spritzerwertung gesperrt",
-        "Ja"
+        "Nein"
       ],
       [
         "Spritzer-Endtimer aktiv",
