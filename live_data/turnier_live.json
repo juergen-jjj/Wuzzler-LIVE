@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:58:49",
+  "updated_at": "2026-08-08T11:59:19",
   "live_view": {
     "current_match": {
-      "team1": "Lenz Moser",
-      "team2": "Spritzer",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
       "team1": "FF Jagenbach",
       "team2": "Die Letzten",
+      "score1": 1,
+      "score2": 0,
       "phase": "Gruppe B"
     },
+    "next_match": {
+      "team1": "Die Zigeuner",
+      "team2": "Musik",
+      "phase": "Gruppe C"
+    },
     "upcoming_matches": [
-      {
-        "order": 3,
-        "team1": "Die Zigeuner",
-        "team2": "Musik",
-        "phase": "Gruppe C"
-      },
       {
         "order": 4,
         "team1": "Lenz Moser",
@@ -63,20 +57,12 @@
         "group": "Gruppe A",
         "teams": [
           {
-            "team": "Spritzer",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 1
-          },
-          {
             "team": "Lenz Moser",
-            "points": 0,
-            "goals": 0,
+            "points": 3,
+            "goals": 1,
             "against": 0,
-            "games": 0,
-            "rank": 2
+            "games": 1,
+            "rank": 1
           },
           {
             "team": "RLH Schweiggers",
@@ -84,6 +70,14 @@
             "goals": 0,
             "against": 0,
             "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "Spritzer",
+            "points": 0,
+            "goals": 0,
+            "against": 1,
+            "games": 1,
             "rank": 3
           }
         ]
@@ -215,7 +209,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:58:49",
+        "08.08.2026 11:59:19",
         "",
         "",
         "",
@@ -360,20 +354,20 @@
       [
         "Gruppe A",
         1,
-        7,
-        "Spritzer",
         0,
-        0,
+        "Lenz Moser",
+        3,
+        1,
         0,
         "=F2-G2",
-        0,
+        1,
         "=IF(I2=0,0,E2/I2)"
       ],
       [
         "Gruppe A",
         2,
-        0,
-        "Lenz Moser",
+        8,
+        "RLH Schweiggers",
         0,
         0,
         0,
@@ -384,13 +378,13 @@
       [
         "Gruppe A",
         3,
-        8,
-        "RLH Schweiggers",
+        7,
+        "Spritzer",
         0,
         0,
-        0,
+        1,
         "=F4-G4",
-        0,
+        1,
         "=IF(I4=0,0,E4/I4)"
       ],
       [
@@ -544,10 +538,10 @@
         "Gruppe A",
         1,
         "Lenz Moser",
-        "",
+        "1:0",
         "Spritzer",
-        "",
-        "Offen"
+        "Lenz Moser",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -637,7 +631,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:58:49"
+        "08.08.2026 11:59:19"
       ],
       [
         "Phase",
@@ -649,7 +643,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        2
       ],
       [
         "Teams",
