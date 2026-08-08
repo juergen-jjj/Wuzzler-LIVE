@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:47:27",
+  "updated_at": "2026-08-08T11:47:57",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -21,6 +21,16 @@
         "team": "Die Zigeuner",
         "score": 0,
         "rank": 3
+      },
+      {
+        "team": "Die Letzten",
+        "score": 0,
+        "rank": 4
+      },
+      {
+        "team": "Die Füße Gottes",
+        "score": 0,
+        "rank": 5
       }
     ]
   },
@@ -44,7 +54,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:47:27",
+        "08.08.2026 11:47:57",
         "",
         "",
         "",
@@ -123,6 +133,22 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        3,
+        "Die Letzten",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        4,
+        "Die Füße Gottes",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -154,12 +180,24 @@
       ],
       [
         2,
+        4,
+        "Die Füße Gottes",
+        0
+      ],
+      [
+        3,
+        3,
+        "Die Letzten",
+        0
+      ],
+      [
+        4,
         2,
         "Die Zigeuner",
         0
       ],
       [
-        3,
+        5,
         0,
         "Lenz Moser",
         0
@@ -184,7 +222,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:47:27"
+        "08.08.2026 11:47:57"
       ],
       [
         "Phase",
@@ -200,7 +238,7 @@
       ],
       [
         "Teams",
-        3
+        5
       ],
       [
         "Turniermodus",
