@@ -1,83 +1,46 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:59:19",
+  "updated_at": "2026-08-08T11:59:49",
   "live_view": {
     "current_match": {
-      "team1": "FF Jagenbach",
-      "team2": "Die Letzten",
-      "score1": 1,
-      "score2": 0,
-      "phase": "Gruppe B"
+      "team1": "RLH Schweiggers",
+      "team2": "Musik",
+      "score1": 0,
+      "score2": 1,
+      "phase": "Halbfinale"
     },
     "next_match": {
-      "team1": "Die Zigeuner",
-      "team2": "Musik",
-      "phase": "Gruppe C"
+      "team1": "Lenz Moser",
+      "team2": "Bastinator",
+      "phase": "Halbfinale"
     },
-    "upcoming_matches": [
-      {
-        "order": 4,
-        "team1": "Lenz Moser",
-        "team2": "RLH Schweiggers",
-        "phase": "Gruppe A"
-      },
-      {
-        "order": 5,
-        "team1": "Die Letzten",
-        "team2": "Bastinator",
-        "phase": "Gruppe B"
-      },
-      {
-        "order": 6,
-        "team1": "Die Füße Gottes",
-        "team2": "Die Zigeuner",
-        "phase": "Gruppe C"
-      },
-      {
-        "order": 7,
-        "team1": "Spritzer",
-        "team2": "RLH Schweiggers",
-        "phase": "Gruppe A"
-      },
-      {
-        "order": 8,
-        "team1": "FF Jagenbach",
-        "team2": "Bastinator",
-        "phase": "Gruppe B"
-      },
-      {
-        "order": 9,
-        "team1": "Die Füße Gottes",
-        "team2": "Musik",
-        "phase": "Gruppe C"
-      }
-    ],
+    "upcoming_matches": [],
     "standings": [
       {
         "group": "Gruppe A",
         "teams": [
           {
-            "team": "Lenz Moser",
-            "points": 3,
-            "goals": 1,
+            "team": "RLH Schweiggers",
+            "points": 6,
+            "goals": 2,
             "against": 0,
-            "games": 1,
+            "games": 2,
             "rank": 1
           },
           {
-            "team": "RLH Schweiggers",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
+            "team": "Lenz Moser",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
+            "games": 2,
             "rank": 2
           },
           {
             "team": "Spritzer",
             "points": 0,
             "goals": 0,
-            "against": 1,
-            "games": 1,
+            "against": 2,
+            "games": 2,
             "rank": 3
           }
         ]
@@ -86,27 +49,27 @@
         "group": "Gruppe B",
         "teams": [
           {
-            "team": "Die Letzten",
-            "points": 0,
-            "goals": 0,
+            "team": "Bastinator",
+            "points": 6,
+            "goals": 2,
             "against": 0,
-            "games": 0,
+            "games": 2,
             "rank": 1
           },
           {
-            "team": "Bastinator",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
+            "team": "FF Jagenbach",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
+            "games": 2,
             "rank": 2
           },
           {
-            "team": "FF Jagenbach",
+            "team": "Die Letzten",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
+            "against": 2,
+            "games": 2,
             "rank": 3
           }
         ]
@@ -115,27 +78,27 @@
         "group": "Gruppe C",
         "teams": [
           {
-            "team": "Die Zigeuner",
-            "points": 0,
-            "goals": 0,
+            "team": "Musik",
+            "points": 6,
+            "goals": 2,
             "against": 0,
-            "games": 0,
+            "games": 2,
             "rank": 1
           },
           {
-            "team": "Musik",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
+            "team": "Die Zigeuner",
+            "points": 3,
+            "goals": 1,
+            "against": 1,
+            "games": 2,
             "rank": 2
           },
           {
             "team": "Die Füße Gottes",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
+            "against": 2,
+            "games": 2,
             "rank": 3
           }
         ]
@@ -143,17 +106,17 @@
     ],
     "spritzer": [
       {
-        "team": "Lenz Moser",
-        "score": 0,
+        "team": "Die Zigeuner",
+        "score": 40,
         "rank": 1
       },
       {
-        "team": "Bastinator",
+        "team": "Lenz Moser",
         "score": 0,
         "rank": 2
       },
       {
-        "team": "Die Zigeuner",
+        "team": "Bastinator",
         "score": 0,
         "rank": 3
       },
@@ -209,7 +172,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:59:19",
+        "08.08.2026 11:59:49",
         "",
         "",
         "",
@@ -217,7 +180,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "ko_intro_halbfinale",
         "",
         "",
         "",
@@ -286,7 +249,7 @@
         "Die Zigeuner",
         "Ja",
         "Ja",
-        0,
+        40,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -354,25 +317,25 @@
       [
         "Gruppe A",
         1,
-        0,
-        "Lenz Moser",
-        3,
-        1,
+        8,
+        "RLH Schweiggers",
+        6,
+        2,
         0,
         "=F2-G2",
-        1,
+        2,
         "=IF(I2=0,0,E2/I2)"
       ],
       [
         "Gruppe A",
         2,
-        8,
-        "RLH Schweiggers",
         0,
-        0,
-        0,
+        "Lenz Moser",
+        3,
+        1,
+        1,
         "=F3-G3",
-        0,
+        2,
         "=IF(I3=0,0,E3/I3)"
       ],
       [
@@ -382,69 +345,69 @@
         "Spritzer",
         0,
         0,
-        1,
+        2,
         "=F4-G4",
-        1,
+        2,
         "=IF(I4=0,0,E4/I4)"
       ],
       [
         "Gruppe B",
         1,
-        3,
-        "Die Letzten",
-        0,
-        0,
+        1,
+        "Bastinator",
+        6,
+        2,
         0,
         "=F5-G5",
-        0,
+        2,
         "=IF(I5=0,0,E5/I5)"
       ],
       [
         "Gruppe B",
         2,
+        5,
+        "FF Jagenbach",
+        3,
         1,
-        "Bastinator",
-        0,
-        0,
-        0,
+        1,
         "=F6-G6",
-        0,
+        2,
         "=IF(I6=0,0,E6/I6)"
       ],
       [
         "Gruppe B",
         3,
-        5,
-        "FF Jagenbach",
+        3,
+        "Die Letzten",
         0,
         0,
-        0,
+        2,
         "=F7-G7",
-        0,
+        2,
         "=IF(I7=0,0,E7/I7)"
       ],
       [
         "Gruppe C",
         1,
+        6,
+        "Musik",
+        6,
         2,
-        "Die Zigeuner",
-        0,
-        0,
         0,
         "=F8-G8",
-        0,
+        2,
         "=IF(I8=0,0,E8/I8)"
       ],
       [
         "Gruppe C",
         2,
-        6,
-        "Musik",
-        0,
-        0,
-        0,
+        2,
+        "Die Zigeuner",
+        3,
+        1,
+        1,
         "=F9-G9",
-        0,
+        2,
         "=IF(I9=0,0,E9/I9)"
       ],
       [
@@ -454,9 +417,9 @@
         "Die Füße Gottes",
         0,
         0,
-        0,
+        2,
         "=F10-G10",
-        0,
+        2,
         "=IF(I10=0,0,E10/I10)"
       ]
     ],
@@ -469,26 +432,26 @@
       ],
       [
         1,
+        2,
+        "Die Zigeuner",
+        40
+      ],
+      [
+        2,
         1,
         "Bastinator",
         0
       ],
       [
-        2,
+        3,
         4,
         "Die Füße Gottes",
         0
       ],
       [
-        3,
+        4,
         3,
         "Die Letzten",
-        0
-      ],
-      [
-        4,
-        2,
-        "Die Zigeuner",
         0
       ],
       [
@@ -548,80 +511,80 @@
         "Gruppe B",
         2,
         "FF Jagenbach",
-        "",
+        "1:0",
         "Die Letzten",
-        "",
-        "Offen"
+        "FF Jagenbach",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe C",
         3,
         "Die Zigeuner",
-        "",
+        "0:1",
         "Musik",
-        "",
-        "Offen"
+        "Musik",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe A",
         4,
         "Lenz Moser",
-        "",
+        "0:1",
         "RLH Schweiggers",
-        "",
-        "Offen"
+        "RLH Schweiggers",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe B",
         5,
         "Die Letzten",
-        "",
+        "0:1",
         "Bastinator",
-        "",
-        "Offen"
+        "Bastinator",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe C",
         6,
         "Die Füße Gottes",
-        "",
+        "0:1",
         "Die Zigeuner",
-        "",
-        "Offen"
+        "Die Zigeuner",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe A",
         7,
         "Spritzer",
-        "",
+        "0:1",
         "RLH Schweiggers",
-        "",
-        "Offen"
+        "RLH Schweiggers",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe B",
         8,
         "FF Jagenbach",
-        "",
+        "0:1",
         "Bastinator",
-        "",
-        "Offen"
+        "Bastinator",
+        "Beendet"
       ],
       [
         "Gruppenphase",
         "Gruppe C",
         9,
         "Die Füße Gottes",
-        "",
+        "0:1",
         "Musik",
-        "",
-        "Offen"
+        "Musik",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -631,11 +594,11 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:59:19"
+        "08.08.2026 11:59:49"
       ],
       [
         "Phase",
-        "group"
+        "ko_intro_halbfinale"
       ],
       [
         "Turnier gestartet",
@@ -643,7 +606,7 @@
       ],
       [
         "Aktuelles Spiel",
-        2
+        1
       ],
       [
         "Teams",
