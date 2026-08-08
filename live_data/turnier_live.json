@@ -1,9 +1,19 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-08T11:42:42",
+  "updated_at": "2026-08-08T11:43:12",
   "live_view": {
-    "current_match": {},
-    "next_match": {},
+    "current_match": {
+      "team1": "Tobis Gang",
+      "team2": "Jagenbach",
+      "score1": 0,
+      "score2": 1,
+      "phase": "Halbfinale"
+    },
+    "next_match": {
+      "team1": "Hartl Haus",
+      "team2": "Zwett1",
+      "phase": "Halbfinale"
+    },
     "upcoming_matches": [],
     "standings": [
       {
@@ -206,7 +216,7 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:42:42",
+        "08.08.2026 11:43:12",
         "",
         "",
         "",
@@ -214,7 +224,7 @@
       ],
       [
         "Aktuelle Phase",
-        "post-group",
+        "ko_intro_halbfinale",
         "",
         "",
         "",
@@ -736,11 +746,11 @@
       ],
       [
         "Gespeichert am",
-        "08.08.2026 11:42:42"
+        "08.08.2026 11:43:12"
       ],
       [
         "Phase",
-        "post-group"
+        "ko_intro_halbfinale"
       ],
       [
         "Turnier gestartet",
@@ -748,7 +758,7 @@
       ],
       [
         "Aktuelles Spiel",
-        13
+        1
       ],
       [
         "Teams",
