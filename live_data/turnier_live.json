@@ -1,10 +1,75 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:16:15",
+  "updated_at": "2026-08-09T14:16:46",
   "live_view": {
-    "current_match": {},
-    "next_match": {},
-    "upcoming_matches": [],
+    "current_match": {
+      "team1": "USC Jagenbach",
+      "team2": "SV Weitra U16",
+      "score1": 0,
+      "score2": 0,
+      "phase": "Gruppe A"
+    },
+    "next_match": {
+      "team1": "1 FC Magic Soccers",
+      "team2": "Vollbenziner",
+      "phase": "Gruppe B"
+    },
+    "upcoming_matches": [
+      {
+        "order": 3,
+        "team1": "Die Neusiedler Stangen",
+        "team2": "FC Ruditschck",
+        "phase": "Gruppe C"
+      },
+      {
+        "order": 4,
+        "team1": "TrinksportgemeinschaftTSG",
+        "team2": "SV Webanie",
+        "phase": "Gruppe A"
+      },
+      {
+        "order": 5,
+        "team1": "Waldenstein & Co",
+        "team2": "FC Lieber am Pool",
+        "phase": "Gruppe B"
+      },
+      {
+        "order": 6,
+        "team1": "FC Gschmeidig Zua",
+        "team2": "FC Ruditschck",
+        "phase": "Gruppe C"
+      },
+      {
+        "order": 7,
+        "team1": "TrinksportgemeinschaftTSG",
+        "team2": "USC Jagenbach",
+        "phase": "Gruppe A"
+      },
+      {
+        "order": 8,
+        "team1": "1 FC Magic Soccers",
+        "team2": "FC Lieber am Pool",
+        "phase": "Gruppe B"
+      },
+      {
+        "order": 9,
+        "team1": "Die Neusiedler Stangen",
+        "team2": "FC Gschmeidig Zua",
+        "phase": "Gruppe C"
+      },
+      {
+        "order": 10,
+        "team1": "SV Weitra U16",
+        "team2": "SV Webanie",
+        "phase": "Gruppe A"
+      },
+      {
+        "order": 11,
+        "team1": "Waldenstein & Co",
+        "team2": "Vollbenziner",
+        "phase": "Gruppe B"
+      }
+    ],
     "standings": [
       {
         "group": "Gruppe A",
@@ -188,7 +253,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:16:15",
+        "09.08.2026 14:16:46",
         "",
         "",
         "",
@@ -196,7 +261,7 @@
       ],
       [
         "Aktuelle Phase",
-        "setup",
+        "group",
         "",
         "",
         "",
@@ -563,6 +628,116 @@
         "Team 2",
         "Sieger",
         "Status"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        1,
+        "USC Jagenbach",
+        "",
+        "SV Weitra U16",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        2,
+        "1 FC Magic Soccers",
+        "",
+        "Vollbenziner",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        3,
+        "Die Neusiedler Stangen",
+        "",
+        "FC Ruditschck",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        4,
+        "TrinksportgemeinschaftTSG",
+        "",
+        "SV Webanie",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        5,
+        "Waldenstein & Co",
+        "",
+        "FC Lieber am Pool",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        6,
+        "FC Gschmeidig Zua",
+        "",
+        "FC Ruditschck",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        7,
+        "TrinksportgemeinschaftTSG",
+        "",
+        "USC Jagenbach",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        8,
+        "1 FC Magic Soccers",
+        "",
+        "FC Lieber am Pool",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe C",
+        9,
+        "Die Neusiedler Stangen",
+        "",
+        "FC Gschmeidig Zua",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe A",
+        10,
+        "SV Weitra U16",
+        "",
+        "SV Webanie",
+        "",
+        "Offen"
+      ],
+      [
+        "Gruppenphase",
+        "Gruppe B",
+        11,
+        "Waldenstein & Co",
+        "",
+        "Vollbenziner",
+        "",
+        "Offen"
       ]
     ],
     "Turnierübersicht": [
@@ -572,15 +747,15 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:16:15"
+        "09.08.2026 14:16:46"
       ],
       [
         "Phase",
-        "setup"
+        "group"
       ],
       [
         "Turnier gestartet",
-        "Nein"
+        "Ja"
       ],
       [
         "Aktuelles Spiel",
@@ -600,7 +775,7 @@
       ],
       [
         "Spiele pro Team",
-        3
+        2
       ],
       [
         "Spritzerwertung gesperrt",
