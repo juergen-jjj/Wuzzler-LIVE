@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:52:25",
+  "updated_at": "2026-08-09T14:52:55",
   "live_view": {
     "current_match": {
-      "team1": "Waldenstein & Co",
-      "team2": "FC Lieber am Pool",
-      "score1": 1,
-      "score2": 0,
-      "phase": "Gruppe B"
-    },
-    "next_match": {
       "team1": "FC Gschmeidig Zua",
       "team2": "FC Ruditschck",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe C"
     },
+    "next_match": {
+      "team1": "TrinksportgemeinschaftTSG",
+      "team2": "USC Jagenbach",
+      "phase": "Gruppe A"
+    },
     "upcoming_matches": [
-      {
-        "order": 7,
-        "team1": "TrinksportgemeinschaftTSG",
-        "team2": "USC Jagenbach",
-        "phase": "Gruppe A"
-      },
       {
         "order": 8,
         "team1": "1 FC Magic Soccers",
@@ -97,18 +91,18 @@
           },
           {
             "team": "Waldenstein & Co",
-            "points": 0,
-            "goals": 0,
+            "points": 3,
+            "goals": 1,
             "against": 0,
-            "games": 0,
+            "games": 1,
             "rank": 2
           },
           {
             "team": "FC Lieber am Pool",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
+            "against": 1,
+            "games": 1,
             "rank": 3
           },
           {
@@ -229,7 +223,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:52:25",
+        "09.08.2026 14:52:55",
         "",
         "",
         "",
@@ -452,11 +446,11 @@
         2,
         4,
         "Waldenstein & Co",
-        0,
-        0,
+        3,
+        1,
         0,
         "=F7-G7",
-        0,
+        1,
         "=IF(I7=0,0,E7/I7)"
       ],
       [
@@ -466,9 +460,9 @@
         "FC Lieber am Pool",
         0,
         0,
-        0,
+        1,
         "=F8-G8",
-        0,
+        1,
         "=IF(I8=0,0,E8/I8)"
       ],
       [
@@ -650,10 +644,10 @@
         "Gruppe B",
         5,
         "Waldenstein & Co",
-        "",
+        "1:0",
         "FC Lieber am Pool",
-        "",
-        "Offen"
+        "Waldenstein & Co",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -723,7 +717,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:52:25"
+        "09.08.2026 14:52:55"
       ],
       [
         "Phase",
@@ -735,7 +729,7 @@
       ],
       [
         "Aktuelles Spiel",
-        5
+        6
       ],
       [
         "Teams",
