@@ -1,27 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:19:02",
+  "updated_at": "2026-08-09T15:19:32",
   "live_view": {
     "current_match": {
-      "team1": "Die Neusiedler Stangen",
-      "team2": "FC Gschmeidig Zua",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe C"
-    },
-    "next_match": {
       "team1": "SV Weitra U16",
       "team2": "SV Webanie",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe A"
     },
-    "upcoming_matches": [
-      {
-        "order": 11,
-        "team1": "Waldenstein & Co",
-        "team2": "Vollbenziner",
-        "phase": "Gruppe B"
-      }
-    ],
+    "next_match": {
+      "team1": "Waldenstein & Co",
+      "team2": "Vollbenziner",
+      "phase": "Gruppe B"
+    },
+    "upcoming_matches": [],
     "standings": [
       {
         "group": "Gruppe A",
@@ -109,19 +102,19 @@
             "rank": 1
           },
           {
-            "team": "Die Neusiedler Stangen",
+            "team": "FC Gschmeidig Zua",
             "points": 3,
-            "goals": 3,
-            "against": 2,
-            "games": 1,
+            "goals": 4,
+            "against": 3,
+            "games": 2,
             "rank": 2
           },
           {
-            "team": "FC Gschmeidig Zua",
-            "points": 0,
-            "goals": 0,
-            "against": 3,
-            "games": 1,
+            "team": "Die Neusiedler Stangen",
+            "points": 3,
+            "goals": 3,
+            "against": 6,
+            "games": 2,
             "rank": 3
           }
         ]
@@ -205,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:19:02",
+        "09.08.2026 15:19:32",
         "",
         "",
         "",
@@ -474,25 +467,25 @@
       [
         "Gruppe C",
         2,
+        11,
+        "FC Gschmeidig Zua",
         3,
-        "Die Neusiedler Stangen",
+        4,
         3,
-        3,
-        2,
         "=F11-G11",
-        1,
+        2,
         "=IF(I11=0,0,E11/I11)"
       ],
       [
         "Gruppe C",
         3,
-        11,
-        "FC Gschmeidig Zua",
-        0,
-        0,
         3,
+        "Die Neusiedler Stangen",
+        3,
+        3,
+        6,
         "=F12-G12",
-        1,
+        2,
         "=IF(I12=0,0,E12/I12)"
       ]
     ],
@@ -666,10 +659,10 @@
         "Gruppe C",
         9,
         "Die Neusiedler Stangen",
-        "",
+        "0:4",
         "FC Gschmeidig Zua",
-        "",
-        "Offen"
+        "FC Gschmeidig Zua",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -699,7 +692,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:19:02"
+        "09.08.2026 15:19:32"
       ],
       [
         "Phase",
@@ -711,7 +704,7 @@
       ],
       [
         "Aktuelles Spiel",
-        9
+        10
       ],
       [
         "Teams",
