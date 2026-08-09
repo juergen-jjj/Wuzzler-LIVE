@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:34:22",
+  "updated_at": "2026-08-09T16:34:53",
   "live_view": {
     "current_match": {
       "team1": "SV Webanie",
@@ -139,7 +139,7 @@
       },
       {
         "team": "Die Neusiedler Stangen",
-        "score": 47,
+        "score": 55,
         "rank": 5
       },
       {
@@ -194,7 +194,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:34:22",
+        "09.08.2026 16:34:53",
         "",
         "",
         "",
@@ -279,7 +279,7 @@
         "Die Neusiedler Stangen",
         "Ja",
         "Ja",
-        47,
+        55,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -520,7 +520,7 @@
         5,
         3,
         "Die Neusiedler Stangen",
-        47
+        55
       ],
       [
         6,
@@ -738,7 +738,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:34:22"
+        "09.08.2026 16:34:53"
       ],
       [
         "Phase",
