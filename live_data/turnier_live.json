@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:04:44",
+  "updated_at": "2026-08-09T16:05:14",
   "live_view": {
     "current_match": {
       "team1": "SV Webanie",
@@ -143,7 +143,7 @@
       },
       {
         "team": "Die Neusiedler Stangen",
-        "score": 37,
+        "score": 47,
         "rank": 5
       },
       {
@@ -157,22 +157,22 @@
         "rank": 7
       },
       {
-        "team": "SV Weitra U16",
+        "team": "Waldenstein & Co",
         "score": 10,
         "rank": 8
       },
       {
-        "team": "Waldenstein & Co",
-        "score": 10,
+        "team": "1 FC Magic Soccers",
+        "score": 8,
         "rank": 9
       },
       {
-        "team": "1 FC Magic Soccers",
-        "score": 8,
+        "team": "FC Ruditschck",
+        "score": 0,
         "rank": 10
       },
       {
-        "team": "FC Ruditschck",
+        "team": "SV Weitra U16",
         "score": 0,
         "rank": 11
       }
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:04:44",
+        "09.08.2026 16:05:14",
         "",
         "",
         "",
@@ -275,7 +275,7 @@
         "SV Weitra U16",
         "Ja",
         "Ja",
-        10,
+        0,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -283,7 +283,7 @@
         "Die Neusiedler Stangen",
         "Ja",
         "Ja",
-        37,
+        47,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -524,7 +524,7 @@
         5,
         3,
         "Die Neusiedler Stangen",
-        37
+        47
       ],
       [
         6,
@@ -540,26 +540,26 @@
       ],
       [
         8,
-        2,
-        "SV Weitra U16",
-        10
-      ],
-      [
-        9,
         4,
         "Waldenstein & Co",
         10
       ],
       [
-        10,
+        9,
         10,
         "1 FC Magic Soccers",
         8
       ],
       [
-        11,
+        10,
         0,
         "FC Ruditschck",
+        0
+      ],
+      [
+        11,
+        2,
+        "SV Weitra U16",
         0
       ]
     ],
@@ -712,7 +712,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:04:44"
+        "09.08.2026 16:05:14"
       ],
       [
         "Phase",
