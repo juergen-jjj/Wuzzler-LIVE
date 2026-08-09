@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:44:38",
+  "updated_at": "2026-08-09T13:45:08",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -8,7 +8,7 @@
     "standings": [],
     "spritzer": [
       {
-        "team": "Lenz Moser",
+        "team": "FC Ruditschck",
         "score": 0,
         "rank": 1
       },
@@ -89,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:44:38",
+        "09.08.2026 13:45:08",
         "",
         "",
         "",
@@ -147,7 +147,7 @@
       ],
       [
         0,
-        "Lenz Moser",
+        "FC Ruditschck",
         "Ja",
         "Ja",
         0,
@@ -301,14 +301,14 @@
       ],
       [
         7,
-        5,
-        "FF Jagenbach",
+        0,
+        "FC Ruditschck",
         0
       ],
       [
         8,
-        0,
-        "Lenz Moser",
+        5,
+        "FF Jagenbach",
         0
       ],
       [
@@ -355,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:44:38"
+        "09.08.2026 13:45:08"
       ],
       [
         "Phase",
