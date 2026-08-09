@@ -1,11 +1,11 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:51:55",
+  "updated_at": "2026-08-09T14:52:25",
   "live_view": {
     "current_match": {
       "team1": "Waldenstein & Co",
       "team2": "FC Lieber am Pool",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
       "phase": "Gruppe B"
     },
@@ -229,7 +229,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:51:55",
+        "09.08.2026 14:52:25",
         "",
         "",
         "",
@@ -723,7 +723,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:51:55"
+        "09.08.2026 14:52:25"
       ],
       [
         "Phase",
