@@ -1,12 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:27:20",
+  "updated_at": "2026-08-09T16:27:51",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
       "team2": "FC Gschmeidig Zua",
-      "score1": 3,
-      "score2": 2,
+      "score1": 0,
+      "score2": 0,
       "phase": "Halbfinale"
     },
     "next_match": {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:27:20",
+        "09.08.2026 16:27:51",
         "",
         "",
         "",
@@ -206,7 +206,7 @@
       ],
       [
         "Aktuelle Phase",
-        "ko_intro_halbfinale",
+        "ko_play",
         "",
         "",
         "",
@@ -732,11 +732,11 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:27:20"
+        "09.08.2026 16:27:51"
       ],
       [
         "Phase",
-        "ko_intro_halbfinale"
+        "ko_play"
       ],
       [
         "Turnier gestartet",
