@@ -1,12 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:22:17",
+  "updated_at": "2026-08-09T14:22:47",
   "live_view": {
     "current_match": {
       "team1": "USC Jagenbach",
       "team2": "SV Weitra U16",
       "score1": 0,
-      "score2": 0,
+      "score2": 1,
       "phase": "Gruppe A"
     },
     "next_match": {
@@ -177,57 +177,57 @@
     ],
     "spritzer": [
       {
+        "team": "FC Gschmeidig Zua",
+        "score": 50,
+        "rank": 1
+      },
+      {
         "team": "SV Webanie",
         "score": 16,
-        "rank": 1
+        "rank": 2
       },
       {
         "team": "Die Neusiedler Stangen",
         "score": 10,
-        "rank": 2
+        "rank": 3
       },
       {
         "team": "Vollbenziner",
         "score": 10,
-        "rank": 3
+        "rank": 4
       },
       {
         "team": "USC Jagenbach",
         "score": 1,
-        "rank": 4
+        "rank": 5
       },
       {
         "team": "FC Ruditschck",
         "score": 0,
-        "rank": 5
+        "rank": 6
       },
       {
         "team": "SV Weitra U16",
         "score": 0,
-        "rank": 6
+        "rank": 7
       },
       {
         "team": "Waldenstein & Co",
         "score": 0,
-        "rank": 7
+        "rank": 8
       },
       {
         "team": "FC Lieber am Pool",
         "score": 0,
-        "rank": 8
+        "rank": 9
       },
       {
         "team": "TrinksportgemeinschaftTSG",
         "score": 0,
-        "rank": 9
-      },
-      {
-        "team": "1 FC Magic Soccers",
-        "score": 0,
         "rank": 10
       },
       {
-        "team": "FC Gschmeidig Zua",
+        "team": "1 FC Magic Soccers",
         "score": 0,
         "rank": 11
       }
@@ -253,7 +253,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:22:17",
+        "09.08.2026 14:22:47",
         "",
         "",
         "",
@@ -394,7 +394,7 @@
         "FC Gschmeidig Zua",
         "Ja",
         "Ja",
-        0,
+        50,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -553,38 +553,38 @@
       ],
       [
         1,
+        11,
+        "FC Gschmeidig Zua",
+        50
+      ],
+      [
+        2,
         1,
         "SV Webanie",
         16
       ],
       [
-        2,
+        3,
         3,
         "Die Neusiedler Stangen",
         10
       ],
       [
-        3,
+        4,
         6,
         "Vollbenziner",
         10
       ],
       [
-        4,
+        5,
         5,
         "USC Jagenbach",
         1
       ],
       [
-        5,
+        6,
         10,
         "1 FC Magic Soccers",
-        0
-      ],
-      [
-        6,
-        11,
-        "FC Gschmeidig Zua",
         0
       ],
       [
@@ -747,7 +747,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:22:17"
+        "09.08.2026 14:22:47"
       ],
       [
         "Phase",
