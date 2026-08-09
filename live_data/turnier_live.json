@@ -1,13 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:57:29",
+  "updated_at": "2026-08-09T16:58:00",
   "live_view": {
     "current_match": {
       "team1": "FC Gschmeidig Zua",
       "team2": "SV Webanie",
-      "score1": 2,
-      "score2": 2,
-      "phase": "Finale"
+      "team3": "1 FC Magic Soccers",
+      "phase": "🏆 Turnier beendet"
     },
     "next_match": {},
     "upcoming_matches": [],
@@ -194,7 +193,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:57:29",
+        "09.08.2026 16:57:59",
         "",
         "",
         "",
@@ -202,7 +201,7 @@
       ],
       [
         "Aktuelle Phase",
-        "final_play",
+        "final_ranking",
         "",
         "",
         "",
@@ -749,6 +748,16 @@
         "Waldenstein & Co",
         "1 FC Magic Soccers",
         "Beendet"
+      ],
+      [
+        "Finale",
+        "",
+        8,
+        "FC Gschmeidig Zua",
+        "2:0",
+        "SV Webanie",
+        "FC Gschmeidig Zua",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -758,11 +767,11 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:57:29"
+        "09.08.2026 16:57:59"
       ],
       [
         "Phase",
-        "final_play"
+        "final_ranking"
       ],
       [
         "Turnier gestartet",
@@ -770,7 +779,7 @@
       ],
       [
         "Aktuelles Spiel",
-        2
+        3
       ],
       [
         "Teams",
