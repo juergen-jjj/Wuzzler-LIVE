@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:23:50",
+  "updated_at": "2026-08-09T16:24:20",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -158,7 +158,7 @@
       },
       {
         "team": "Waldenstein & Co",
-        "score": 10,
+        "score": 25,
         "rank": 8
       },
       {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:23:49",
+        "09.08.2026 16:24:20",
         "",
         "",
         "",
@@ -291,7 +291,7 @@
         "Waldenstein & Co",
         "Ja",
         "Ja",
-        10,
+        25,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -542,7 +542,7 @@
         8,
         4,
         "Waldenstein & Co",
-        10
+        25
       ],
       [
         9,
@@ -732,7 +732,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:23:49"
+        "09.08.2026 16:24:20"
       ],
       [
         "Phase",
