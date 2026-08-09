@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:35:36",
+  "updated_at": "2026-08-09T15:38:07",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -146,22 +146,22 @@
       },
       {
         "team": "TrinksportgemeinschaftTSG",
-        "score": 99,
+        "score": 105,
         "rank": 3
+      },
+      {
+        "team": "FC Lieber am Pool",
+        "score": 52,
+        "rank": 4
       },
       {
         "team": "Die Neusiedler Stangen",
         "score": 37,
-        "rank": 4
+        "rank": 5
       },
       {
         "team": "USC Jagenbach",
         "score": 25,
-        "rank": 5
-      },
-      {
-        "team": "FC Lieber am Pool",
-        "score": 24,
         "rank": 6
       },
       {
@@ -170,22 +170,22 @@
         "rank": 7
       },
       {
+        "team": "Waldenstein & Co",
+        "score": 10,
+        "rank": 8
+      },
+      {
         "team": "1 FC Magic Soccers",
         "score": 8,
-        "rank": 8
+        "rank": 9
       },
       {
         "team": "FC Ruditschck",
         "score": 0,
-        "rank": 9
-      },
-      {
-        "team": "SV Weitra U16",
-        "score": 0,
         "rank": 10
       },
       {
-        "team": "Waldenstein & Co",
+        "team": "SV Weitra U16",
         "score": 0,
         "rank": 11
       }
@@ -211,7 +211,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:35:36",
+        "09.08.2026 15:38:07",
         "",
         "",
         "",
@@ -304,7 +304,7 @@
         "Waldenstein & Co",
         "Ja",
         "Ja",
-        0,
+        10,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -328,7 +328,7 @@
         "FC Lieber am Pool",
         "Ja",
         "Ja",
-        24,
+        52,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -336,7 +336,7 @@
         "TrinksportgemeinschaftTSG",
         "Ja",
         "Ja",
-        99,
+        105,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -525,25 +525,25 @@
         3,
         9,
         "TrinksportgemeinschaftTSG",
-        99
+        105
       ],
       [
         4,
+        7,
+        "FC Lieber am Pool",
+        52
+      ],
+      [
+        5,
         3,
         "Die Neusiedler Stangen",
         37
       ],
       [
-        5,
+        6,
         5,
         "USC Jagenbach",
         25
-      ],
-      [
-        6,
-        7,
-        "FC Lieber am Pool",
-        24
       ],
       [
         7,
@@ -553,26 +553,26 @@
       ],
       [
         8,
+        4,
+        "Waldenstein & Co",
+        10
+      ],
+      [
+        9,
         10,
         "1 FC Magic Soccers",
         8
       ],
       [
-        9,
+        10,
         0,
         "FC Ruditschck",
         0
       ],
       [
-        10,
+        11,
         2,
         "SV Weitra U16",
-        0
-      ],
-      [
-        11,
-        4,
-        "Waldenstein & Co",
         0
       ]
     ],
@@ -705,7 +705,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:35:36"
+        "09.08.2026 15:38:07"
       ],
       [
         "Phase",
