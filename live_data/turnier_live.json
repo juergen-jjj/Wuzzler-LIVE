@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:55:56",
+  "updated_at": "2026-08-09T14:56:26",
   "live_view": {
     "current_match": {
       "team1": "FC Gschmeidig Zua",
@@ -153,7 +153,7 @@
       },
       {
         "team": "Vollbenziner",
-        "score": 60,
+        "score": 62,
         "rank": 2
       },
       {
@@ -223,7 +223,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:55:56",
+        "09.08.2026 14:56:26",
         "",
         "",
         "",
@@ -332,7 +332,7 @@
         "Vollbenziner",
         "Ja",
         "Ja",
-        60,
+        62,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -531,7 +531,7 @@
         2,
         6,
         "Vollbenziner",
-        60
+        62
       ],
       [
         3,
@@ -717,7 +717,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:55:56"
+        "09.08.2026 14:56:26"
       ],
       [
         "Phase",
