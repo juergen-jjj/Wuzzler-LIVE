@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:36:36",
+  "updated_at": "2026-08-09T13:37:06",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -56,6 +56,11 @@
         "team": "Trinksportgemeinschaft TS",
         "score": 0,
         "rank": 10
+      },
+      {
+        "team": "1 FC Magic Soccers",
+        "score": 0,
+        "rank": 11
       }
     ]
   },
@@ -79,7 +84,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:36:36",
+        "09.08.2026 13:37:06",
         "",
         "",
         "",
@@ -214,6 +219,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        10,
+        "1 FC Magic Soccers",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -239,60 +252,66 @@
       ],
       [
         1,
+        10,
+        "1 FC Magic Soccers",
+        0
+      ],
+      [
+        2,
         1,
         "Bastinator",
         0
       ],
       [
-        2,
+        3,
         4,
         "Die Füße Gottes",
         0
       ],
       [
-        3,
+        4,
         3,
         "Die Letzten",
         0
       ],
       [
-        4,
+        5,
         2,
         "Die Zigeuner",
         0
       ],
       [
-        5,
+        6,
         5,
         "FF Jagenbach",
         0
       ],
       [
-        6,
+        7,
         0,
         "Lenz Moser",
         0
       ],
       [
-        7,
+        8,
         6,
         "Musik",
         0
       ],
       [
-        8,
+        9,
         8,
         "RLH Schweiggers",
         0
       ],
       [
-        9,
+        10,
         7,
         "Spritzer",
         0
       ],
       [
-        10,
+        11,
         9,
         "Trinksportgemeinschaft TS",
         0
@@ -317,7 +336,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:36:36"
+        "09.08.2026 13:37:06"
       ],
       [
         "Phase",
@@ -333,7 +352,7 @@
       ],
       [
         "Teams",
-        10
+        11
       ],
       [
         "Turniermodus",
