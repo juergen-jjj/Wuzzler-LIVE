@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:30:19",
+  "updated_at": "2026-08-09T14:30:49",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -177,7 +177,7 @@
       },
       {
         "team": "TrinksportgemeinschaftTSG",
-        "score": 31,
+        "score": 33,
         "rank": 2
       },
       {
@@ -196,27 +196,27 @@
         "rank": 5
       },
       {
+        "team": "FC Lieber am Pool",
+        "score": 6,
+        "rank": 6
+      },
+      {
         "team": "USC Jagenbach",
         "score": 3,
-        "rank": 6
+        "rank": 7
       },
       {
         "team": "FC Ruditschck",
         "score": 0,
-        "rank": 7
+        "rank": 8
       },
       {
         "team": "SV Weitra U16",
         "score": 0,
-        "rank": 8
-      },
-      {
-        "team": "Waldenstein & Co",
-        "score": 0,
         "rank": 9
       },
       {
-        "team": "FC Lieber am Pool",
+        "team": "Waldenstein & Co",
         "score": 0,
         "rank": 10
       },
@@ -247,7 +247,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:30:19",
+        "09.08.2026 14:30:49",
         "",
         "",
         "",
@@ -364,7 +364,7 @@
         "FC Lieber am Pool",
         "Ja",
         "Ja",
-        0,
+        6,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -372,7 +372,7 @@
         "TrinksportgemeinschaftTSG",
         "Ja",
         "Ja",
-        31,
+        33,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -555,7 +555,7 @@
         2,
         9,
         "TrinksportgemeinschaftTSG",
-        31
+        33
       ],
       [
         3,
@@ -577,20 +577,20 @@
       ],
       [
         6,
+        7,
+        "FC Lieber am Pool",
+        6
+      ],
+      [
+        7,
         5,
         "USC Jagenbach",
         3
       ],
       [
-        7,
+        8,
         10,
         "1 FC Magic Soccers",
-        0
-      ],
-      [
-        8,
-        7,
-        "FC Lieber am Pool",
         0
       ],
       [
@@ -741,7 +741,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:30:19"
+        "09.08.2026 14:30:49"
       ],
       [
         "Phase",
