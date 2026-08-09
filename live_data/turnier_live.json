@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:02:12",
+  "updated_at": "2026-08-09T14:02:42",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -48,29 +48,24 @@
         "rank": 8
       },
       {
-        "team": "FC Mieteinander",
+        "team": "TrinksportgemeinschaftTSG",
         "score": 0,
         "rank": 9
       },
       {
-        "team": "TrinksportgemeinschaftTSG",
+        "team": "1 FC Magic Soccers",
         "score": 0,
         "rank": 10
       },
       {
-        "team": "1 FC Magic Soccers",
+        "team": "FC Gschmeidig Zua",
         "score": 0,
         "rank": 11
       },
       {
-        "team": "FC Gschmeidig Zua",
-        "score": 0,
-        "rank": 12
-      },
-      {
         "team": "Dhaulagiri",
         "score": 0,
-        "rank": 13
+        "rank": 12
       }
     ]
   },
@@ -94,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:02:12",
+        "09.08.2026 14:02:42",
         "",
         "",
         "",
@@ -215,14 +210,6 @@
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
-        8,
-        "FC Mieteinander",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
         9,
         "TrinksportgemeinschaftTSG",
         "Ja",
@@ -308,48 +295,42 @@
       ],
       [
         6,
-        8,
-        "FC Mieteinander",
-        0
-      ],
-      [
-        7,
         0,
         "FC Ruditschck",
         0
       ],
       [
-        8,
+        7,
         1,
         "SV Webanie",
         0
       ],
       [
-        9,
+        8,
         2,
         "SV Weitra U16",
         0
       ],
       [
-        10,
+        9,
         9,
         "TrinksportgemeinschaftTSG",
         0
       ],
       [
-        11,
+        10,
         5,
         "USC Jagenbach",
         0
       ],
       [
-        12,
+        11,
         6,
         "Vollbenziner",
         0
       ],
       [
-        13,
+        12,
         4,
         "Waldenstein & Co",
         0
@@ -374,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:02:12"
+        "09.08.2026 14:02:42"
       ],
       [
         "Phase",
@@ -390,7 +371,7 @@
       ],
       [
         "Teams",
-        13
+        12
       ],
       [
         "Turniermodus",
