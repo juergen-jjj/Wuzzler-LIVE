@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:38:36",
+  "updated_at": "2026-08-09T13:39:06",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -28,7 +28,7 @@
         "rank": 4
       },
       {
-        "team": "Die Füße Gottes",
+        "team": "Waldenstein & Co",
         "score": 0,
         "rank": 5
       },
@@ -89,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:38:36",
+        "09.08.2026 13:39:06",
         "",
         "",
         "",
@@ -179,7 +179,7 @@
       ],
       [
         4,
-        "Die Füße Gottes",
+        "Waldenstein & Co",
         "Ja",
         "Ja",
         0,
@@ -277,62 +277,62 @@
       ],
       [
         3,
-        4,
-        "Die Füße Gottes",
-        0
-      ],
-      [
-        4,
         3,
         "Die Letzten",
         0
       ],
       [
-        5,
+        4,
         2,
         "Die Zigeuner",
         0
       ],
       [
-        6,
+        5,
         11,
         "FC Gschmeidig Zua",
         0
       ],
       [
-        7,
+        6,
         5,
         "FF Jagenbach",
         0
       ],
       [
-        8,
+        7,
         0,
         "Lenz Moser",
         0
       ],
       [
-        9,
+        8,
         6,
         "Musik",
         0
       ],
       [
-        10,
+        9,
         8,
         "RLH Schweiggers",
         0
       ],
       [
-        11,
+        10,
         7,
         "Spritzer",
         0
       ],
       [
-        12,
+        11,
         9,
         "Trinksportgemeinschaft TS",
+        0
+      ],
+      [
+        12,
+        4,
+        "Waldenstein & Co",
         0
       ]
     ],
@@ -355,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:38:36"
+        "09.08.2026 13:39:06"
       ],
       [
         "Phase",
