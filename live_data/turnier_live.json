@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:10:44",
+  "updated_at": "2026-08-09T14:11:14",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -8,27 +8,27 @@
     "standings": [],
     "spritzer": [
       {
-        "team": "Vollbenziner",
+        "team": "Die Neusiedler Stangen",
         "score": 10,
         "rank": 1
       },
       {
-        "team": "FC Ruditschck",
-        "score": 0,
+        "team": "Vollbenziner",
+        "score": 10,
         "rank": 2
       },
       {
-        "team": "SV Webanie",
+        "team": "FC Ruditschck",
         "score": 0,
         "rank": 3
       },
       {
-        "team": "SV Weitra U16",
+        "team": "SV Webanie",
         "score": 0,
         "rank": 4
       },
       {
-        "team": "Die Neusiedler Stangen",
+        "team": "SV Weitra U16",
         "score": 0,
         "rank": 5
       },
@@ -84,7 +84,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:10:44",
+        "09.08.2026 14:11:14",
         "",
         "",
         "",
@@ -169,7 +169,7 @@
         "Die Neusiedler Stangen",
         "Ja",
         "Ja",
-        0,
+        10,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -252,20 +252,20 @@
       ],
       [
         1,
+        3,
+        "Die Neusiedler Stangen",
+        10
+      ],
+      [
+        2,
         6,
         "Vollbenziner",
         10
       ],
       [
-        2,
+        3,
         10,
         "1 FC Magic Soccers",
-        0
-      ],
-      [
-        3,
-        3,
-        "Die Neusiedler Stangen",
         0
       ],
       [
@@ -336,7 +336,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:10:44"
+        "09.08.2026 14:11:14"
       ],
       [
         "Phase",
