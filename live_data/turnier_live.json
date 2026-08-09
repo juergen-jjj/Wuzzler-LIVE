@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:10:14",
+  "updated_at": "2026-08-09T14:10:44",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -8,37 +8,37 @@
     "standings": [],
     "spritzer": [
       {
-        "team": "FC Ruditschck",
-        "score": 0,
+        "team": "Vollbenziner",
+        "score": 10,
         "rank": 1
       },
       {
-        "team": "SV Webanie",
+        "team": "FC Ruditschck",
         "score": 0,
         "rank": 2
       },
       {
-        "team": "SV Weitra U16",
+        "team": "SV Webanie",
         "score": 0,
         "rank": 3
       },
       {
-        "team": "Die Neusiedler Stangen",
+        "team": "SV Weitra U16",
         "score": 0,
         "rank": 4
       },
       {
-        "team": "Waldenstein & Co",
+        "team": "Die Neusiedler Stangen",
         "score": 0,
         "rank": 5
       },
       {
-        "team": "USC Jagenbach",
+        "team": "Waldenstein & Co",
         "score": 0,
         "rank": 6
       },
       {
-        "team": "Vollbenziner",
+        "team": "USC Jagenbach",
         "score": 0,
         "rank": 7
       },
@@ -84,7 +84,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:10:14",
+        "09.08.2026 14:10:44",
         "",
         "",
         "",
@@ -193,7 +193,7 @@
         "Vollbenziner",
         "Ja",
         "Ja",
-        0,
+        10,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -252,62 +252,62 @@
       ],
       [
         1,
+        6,
+        "Vollbenziner",
+        10
+      ],
+      [
+        2,
         10,
         "1 FC Magic Soccers",
         0
       ],
       [
-        2,
+        3,
         3,
         "Die Neusiedler Stangen",
         0
       ],
       [
-        3,
+        4,
         11,
         "FC Gschmeidig Zua",
         0
       ],
       [
-        4,
+        5,
         7,
         "FC Lieber am Pool",
         0
       ],
       [
-        5,
+        6,
         0,
         "FC Ruditschck",
         0
       ],
       [
-        6,
+        7,
         1,
         "SV Webanie",
         0
       ],
       [
-        7,
+        8,
         2,
         "SV Weitra U16",
         0
       ],
       [
-        8,
+        9,
         9,
         "TrinksportgemeinschaftTSG",
         0
       ],
       [
-        9,
+        10,
         5,
         "USC Jagenbach",
-        0
-      ],
-      [
-        10,
-        6,
-        "Vollbenziner",
         0
       ],
       [
@@ -336,7 +336,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:10:14"
+        "09.08.2026 14:10:44"
       ],
       [
         "Phase",
