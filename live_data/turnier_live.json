@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:41:52",
+  "updated_at": "2026-08-09T14:42:22",
   "live_view": {
     "current_match": {
-      "team1": "Die Neusiedler Stangen",
-      "team2": "FC Ruditschck",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe C"
-    },
-    "next_match": {
       "team1": "TrinksportgemeinschaftTSG",
       "team2": "SV Webanie",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe A"
     },
+    "next_match": {
+      "team1": "Waldenstein & Co",
+      "team2": "FC Lieber am Pool",
+      "phase": "Gruppe B"
+    },
     "upcoming_matches": [
-      {
-        "order": 5,
-        "team1": "Waldenstein & Co",
-        "team2": "FC Lieber am Pool",
-        "phase": "Gruppe B"
-      },
       {
         "order": 6,
         "team1": "FC Gschmeidig Zua",
@@ -138,10 +132,10 @@
         "teams": [
           {
             "team": "Die Neusiedler Stangen",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
+            "points": 3,
+            "goals": 3,
+            "against": 2,
+            "games": 1,
             "rank": 1
           },
           {
@@ -155,9 +149,9 @@
           {
             "team": "FC Ruditschck",
             "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
+            "goals": 2,
+            "against": 3,
+            "games": 1,
             "rank": 3
           }
         ]
@@ -165,13 +159,13 @@
     ],
     "spritzer": [
       {
-        "team": "Vollbenziner",
-        "score": 60,
+        "team": "FC Gschmeidig Zua",
+        "score": 66,
         "rank": 1
       },
       {
-        "team": "FC Gschmeidig Zua",
-        "score": 50,
+        "team": "Vollbenziner",
+        "score": 60,
         "rank": 2
       },
       {
@@ -241,7 +235,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:41:52",
+        "09.08.2026 14:42:22",
         "",
         "",
         "",
@@ -382,7 +376,7 @@
         "FC Gschmeidig Zua",
         "Ja",
         "Ja",
-        50,
+        66,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -500,11 +494,11 @@
         1,
         3,
         "Die Neusiedler Stangen",
-        0,
-        0,
-        0,
+        3,
+        3,
+        2,
         "=F10-G10",
-        0,
+        1,
         "=IF(I10=0,0,E10/I10)"
       ],
       [
@@ -525,10 +519,10 @@
         0,
         "FC Ruditschck",
         0,
-        0,
-        0,
+        2,
+        3,
         "=F12-G12",
-        0,
+        1,
         "=IF(I12=0,0,E12/I12)"
       ]
     ],
@@ -541,15 +535,15 @@
       ],
       [
         1,
-        6,
-        "Vollbenziner",
-        60
+        11,
+        "FC Gschmeidig Zua",
+        66
       ],
       [
         2,
-        11,
-        "FC Gschmeidig Zua",
-        50
+        6,
+        "Vollbenziner",
+        60
       ],
       [
         3,
@@ -642,10 +636,10 @@
         "Gruppe C",
         3,
         "Die Neusiedler Stangen",
-        "",
+        "3:2",
         "FC Ruditschck",
-        "",
-        "Offen"
+        "Die Neusiedler Stangen",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -735,7 +729,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:41:52"
+        "09.08.2026 14:42:22"
       ],
       [
         "Phase",
@@ -747,7 +741,7 @@
       ],
       [
         "Aktuelles Spiel",
-        3
+        4
       ],
       [
         "Teams",
