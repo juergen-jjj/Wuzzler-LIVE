@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:40:54",
+  "updated_at": "2026-08-09T16:41:25",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -128,7 +128,7 @@
       },
       {
         "team": "TrinksportgemeinschaftTSG",
-        "score": 177,
+        "score": 187,
         "rank": 2
       },
       {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:40:54",
+        "09.08.2026 16:41:25",
         "",
         "",
         "",
@@ -323,7 +323,7 @@
         "TrinksportgemeinschaftTSG",
         "Ja",
         "Ja",
-        177,
+        187,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -506,7 +506,7 @@
         2,
         9,
         "TrinksportgemeinschaftTSG",
-        177
+        187
       ],
       [
         3,
@@ -752,7 +752,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:40:54"
+        "09.08.2026 16:41:25"
       ],
       [
         "Phase",
