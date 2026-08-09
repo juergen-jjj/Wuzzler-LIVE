@@ -1,12 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:52:58",
+  "updated_at": "2026-08-09T16:53:28",
   "live_view": {
     "current_match": {
       "team1": "FC Gschmeidig Zua",
       "team2": "SV Webanie",
-      "score1": 0,
-      "score2": 0,
+      "score1": 1,
+      "score2": 2,
       "phase": "Finale"
     },
     "next_match": {},
@@ -194,7 +194,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:52:58",
+        "09.08.2026 16:53:28",
         "",
         "",
         "",
@@ -758,7 +758,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:52:58"
+        "09.08.2026 16:53:28"
       ],
       [
         "Phase",
