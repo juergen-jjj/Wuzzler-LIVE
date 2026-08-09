@@ -1,16 +1,33 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:29:35",
+  "updated_at": "2026-08-09T15:30:05",
   "live_view": {
     "current_match": {
-      "team1": "Waldenstein & Co",
-      "team2": "Vollbenziner",
+      "team1": "1 FC Magic Soccers",
+      "team2": "SV Weitra U16",
       "score1": 3,
       "score2": 0,
-      "phase": "Gruppe B"
+      "phase": "Viertelfinale"
     },
-    "next_match": {},
-    "upcoming_matches": [],
+    "next_match": {
+      "team1": "FC Gschmeidig Zua",
+      "team2": "Die Neusiedler Stangen",
+      "phase": "Viertelfinale"
+    },
+    "upcoming_matches": [
+      {
+        "order": 3,
+        "team1": "SV Webanie",
+        "team2": "TrinksportgemeinschaftTSG",
+        "phase": "Viertelfinale"
+      },
+      {
+        "order": 4,
+        "team1": "Waldenstein & Co",
+        "team2": "FC Ruditschck",
+        "phase": "Viertelfinale"
+      }
+    ],
     "standings": [
       {
         "group": "Gruppe A",
@@ -53,19 +70,19 @@
         "group": "Gruppe B",
         "teams": [
           {
+            "team": "Waldenstein & Co",
+            "points": 6,
+            "goals": 4,
+            "against": 0,
+            "games": 2,
+            "rank": 1
+          },
+          {
             "team": "1 FC Magic Soccers",
             "points": 4,
             "goals": 7,
             "against": 2,
             "games": 2,
-            "rank": 1
-          },
-          {
-            "team": "Waldenstein & Co",
-            "points": 3,
-            "goals": 1,
-            "against": 0,
-            "games": 1,
             "rank": 2
           },
           {
@@ -80,8 +97,8 @@
             "team": "Vollbenziner",
             "points": 0,
             "goals": 0,
-            "against": 5,
-            "games": 1,
+            "against": 8,
+            "games": 2,
             "rank": 4
           }
         ]
@@ -194,7 +211,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:29:35",
+        "09.08.2026 15:30:05",
         "",
         "",
         "",
@@ -202,7 +219,7 @@
       ],
       [
         "Aktuelle Phase",
-        "group",
+        "ko_intro_viertelfinale",
         "",
         "",
         "",
@@ -403,11 +420,11 @@
       [
         "Gruppe B",
         1,
-        10,
-        "1 FC Magic Soccers",
         4,
-        7,
-        2,
+        "Waldenstein & Co",
+        6,
+        4,
+        0,
         "=F6-G6",
         2,
         "=IF(I6=0,0,E6/I6)"
@@ -415,13 +432,13 @@
       [
         "Gruppe B",
         2,
+        10,
+        "1 FC Magic Soccers",
         4,
-        "Waldenstein & Co",
-        3,
-        1,
-        0,
+        7,
+        2,
         "=F7-G7",
-        1,
+        2,
         "=IF(I7=0,0,E7/I7)"
       ],
       [
@@ -443,9 +460,9 @@
         "Vollbenziner",
         0,
         0,
-        5,
+        8,
         "=F9-G9",
-        1,
+        2,
         "=IF(I9=0,0,E9/I9)"
       ],
       [
@@ -675,10 +692,10 @@
         "Gruppe B",
         11,
         "Waldenstein & Co",
-        "",
+        "3:0",
         "Vollbenziner",
-        "",
-        "Offen"
+        "Waldenstein & Co",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -688,11 +705,11 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:29:35"
+        "09.08.2026 15:30:05"
       ],
       [
         "Phase",
-        "group"
+        "ko_intro_viertelfinale"
       ],
       [
         "Turnier gestartet",
@@ -700,7 +717,7 @@
       ],
       [
         "Aktuelles Spiel",
-        11
+        1
       ],
       [
         "Teams",
