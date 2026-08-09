@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:04:14",
+  "updated_at": "2026-08-09T16:04:44",
   "live_view": {
     "current_match": {
       "team1": "SV Webanie",
@@ -133,7 +133,7 @@
       },
       {
         "team": "TrinksportgemeinschaftTSG",
-        "score": 105,
+        "score": 115,
         "rank": 3
       },
       {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:04:14",
+        "09.08.2026 16:04:44",
         "",
         "",
         "",
@@ -323,7 +323,7 @@
         "TrinksportgemeinschaftTSG",
         "Ja",
         "Ja",
-        105,
+        115,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -512,7 +512,7 @@
         3,
         9,
         "TrinksportgemeinschaftTSG",
-        105
+        115
       ],
       [
         4,
@@ -712,7 +712,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:04:14"
+        "09.08.2026 16:04:44"
       ],
       [
         "Phase",
