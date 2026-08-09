@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:35:53",
+  "updated_at": "2026-08-09T16:36:23",
   "live_view": {
     "current_match": {
       "team1": "SV Webanie",
@@ -149,7 +149,7 @@
       },
       {
         "team": "USC Jagenbach",
-        "score": 35,
+        "score": 38,
         "rank": 7
       },
       {
@@ -194,7 +194,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:35:53",
+        "09.08.2026 16:36:23",
         "",
         "",
         "",
@@ -295,7 +295,7 @@
         "USC Jagenbach",
         "Ja",
         "Ja",
-        35,
+        38,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -532,7 +532,7 @@
         7,
         5,
         "USC Jagenbach",
-        35
+        38
       ],
       [
         8,
@@ -738,7 +738,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:35:53"
+        "09.08.2026 16:36:23"
       ],
       [
         "Phase",
