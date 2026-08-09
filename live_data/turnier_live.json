@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:27:51",
+  "updated_at": "2026-08-09T16:28:21",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -148,7 +148,7 @@
       },
       {
         "team": "SV Webanie",
-        "score": 42,
+        "score": 44,
         "rank": 6
       },
       {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:27:51",
+        "09.08.2026 16:28:21",
         "",
         "",
         "",
@@ -267,7 +267,7 @@
         "SV Webanie",
         "Ja",
         "Ja",
-        42,
+        44,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -530,7 +530,7 @@
         6,
         1,
         "SV Webanie",
-        42
+        44
       ],
       [
         7,
@@ -732,7 +732,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:27:51"
+        "09.08.2026 16:28:21"
       ],
       [
         "Phase",
