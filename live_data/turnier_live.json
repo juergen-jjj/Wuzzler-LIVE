@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:41:07",
+  "updated_at": "2026-08-09T13:41:37",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -23,7 +23,7 @@
         "rank": 3
       },
       {
-        "team": "Die Letzten",
+        "team": "Die Neusiedler Stangen",
         "score": 0,
         "rank": 4
       },
@@ -89,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:41:07",
+        "09.08.2026 13:41:37",
         "",
         "",
         "",
@@ -171,7 +171,7 @@
       ],
       [
         3,
-        "Die Letzten",
+        "Die Neusiedler Stangen",
         "Ja",
         "Ja",
         0,
@@ -278,7 +278,7 @@
       [
         3,
         3,
-        "Die Letzten",
+        "Die Neusiedler Stangen",
         0
       ],
       [
@@ -355,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:41:07"
+        "09.08.2026 13:41:37"
       ],
       [
         "Phase",
