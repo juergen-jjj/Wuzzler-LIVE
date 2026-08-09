@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:57:26",
+  "updated_at": "2026-08-09T14:57:56",
   "live_view": {
     "current_match": {
-      "team1": "FC Gschmeidig Zua",
-      "team2": "FC Ruditschck",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe C"
-    },
-    "next_match": {
       "team1": "TrinksportgemeinschaftTSG",
       "team2": "USC Jagenbach",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe A"
     },
+    "next_match": {
+      "team1": "1 FC Magic Soccers",
+      "team2": "FC Lieber am Pool",
+      "phase": "Gruppe B"
+    },
     "upcoming_matches": [
-      {
-        "order": 8,
-        "team1": "1 FC Magic Soccers",
-        "team2": "FC Lieber am Pool",
-        "phase": "Gruppe B"
-      },
       {
         "order": 9,
         "team1": "Die Neusiedler Stangen",
@@ -119,25 +113,25 @@
         "group": "Gruppe C",
         "teams": [
           {
+            "team": "FC Ruditschck",
+            "points": 3,
+            "goals": 5,
+            "against": 3,
+            "games": 2,
+            "rank": 1
+          },
+          {
             "team": "Die Neusiedler Stangen",
             "points": 3,
             "goals": 3,
             "against": 2,
             "games": 1,
-            "rank": 1
+            "rank": 2
           },
           {
             "team": "FC Gschmeidig Zua",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
-            "rank": 2
-          },
-          {
-            "team": "FC Ruditschck",
-            "points": 0,
-            "goals": 2,
             "against": 3,
             "games": 1,
             "rank": 3
@@ -223,7 +217,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:57:26",
+        "09.08.2026 14:57:56",
         "",
         "",
         "",
@@ -480,34 +474,34 @@
       [
         "Gruppe C",
         1,
+        0,
+        "FC Ruditschck",
         3,
-        "Die Neusiedler Stangen",
+        5,
         3,
-        3,
-        2,
         "=F10-G10",
-        1,
+        2,
         "=IF(I10=0,0,E10/I10)"
       ],
       [
         "Gruppe C",
         2,
-        11,
-        "FC Gschmeidig Zua",
-        0,
-        0,
-        0,
+        3,
+        "Die Neusiedler Stangen",
+        3,
+        3,
+        2,
         "=F11-G11",
-        0,
+        1,
         "=IF(I11=0,0,E11/I11)"
       ],
       [
         "Gruppe C",
         3,
+        11,
+        "FC Gschmeidig Zua",
         0,
-        "FC Ruditschck",
         0,
-        2,
         3,
         "=F12-G12",
         1,
@@ -654,10 +648,10 @@
         "Gruppe C",
         6,
         "FC Gschmeidig Zua",
-        "",
+        "0:3",
         "FC Ruditschck",
-        "",
-        "Offen"
+        "FC Ruditschck",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -717,7 +711,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:57:26"
+        "09.08.2026 14:57:56"
       ],
       [
         "Phase",
@@ -729,7 +723,7 @@
       ],
       [
         "Aktuelles Spiel",
-        6
+        7
       ],
       [
         "Teams",
