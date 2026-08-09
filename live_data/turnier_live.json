@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:49:40",
+  "updated_at": "2026-08-09T15:50:10",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -180,12 +180,12 @@
         "rank": 9
       },
       {
-        "team": "FC Ruditschck",
-        "score": 0,
+        "team": "SV Weitra U16",
+        "score": 5,
         "rank": 10
       },
       {
-        "team": "SV Weitra U16",
+        "team": "FC Ruditschck",
         "score": 0,
         "rank": 11
       }
@@ -211,7 +211,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:49:40",
+        "09.08.2026 15:50:10",
         "",
         "",
         "",
@@ -288,7 +288,7 @@
         "SV Weitra U16",
         "Ja",
         "Ja",
-        0,
+        5,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -565,14 +565,14 @@
       ],
       [
         10,
-        0,
-        "FC Ruditschck",
-        0
+        2,
+        "SV Weitra U16",
+        5
       ],
       [
         11,
-        2,
-        "SV Weitra U16",
+        0,
+        "FC Ruditschck",
         0
       ]
     ],
@@ -705,7 +705,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:49:40"
+        "09.08.2026 15:50:10"
       ],
       [
         "Phase",
