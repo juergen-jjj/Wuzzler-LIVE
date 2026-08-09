@@ -1,12 +1,12 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:27:18",
+  "updated_at": "2026-08-09T14:27:48",
   "live_view": {
     "current_match": {
       "team1": "USC Jagenbach",
       "team2": "SV Weitra U16",
-      "score1": 0,
-      "score2": 1,
+      "score1": 1,
+      "score2": 4,
       "phase": "Gruppe A"
     },
     "next_match": {
@@ -183,7 +183,7 @@
       },
       {
         "team": "SV Webanie",
-        "score": 10,
+        "score": 16,
         "rank": 2
       },
       {
@@ -253,7 +253,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:27:18",
+        "09.08.2026 14:27:48",
         "",
         "",
         "",
@@ -322,7 +322,7 @@
         "SV Webanie",
         "Ja",
         "Ja",
-        10,
+        16,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -559,14 +559,14 @@
       ],
       [
         2,
-        3,
-        "Die Neusiedler Stangen",
-        10
+        1,
+        "SV Webanie",
+        16
       ],
       [
         3,
-        1,
-        "SV Webanie",
+        3,
+        "Die Neusiedler Stangen",
         10
       ],
       [
@@ -747,7 +747,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:27:18"
+        "09.08.2026 14:27:48"
       ],
       [
         "Phase",
