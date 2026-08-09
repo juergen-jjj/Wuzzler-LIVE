@@ -1,19 +1,15 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:32:22",
+  "updated_at": "2026-08-09T16:32:52",
   "live_view": {
     "current_match": {
-      "team1": "1 FC Magic Soccers",
-      "team2": "FC Gschmeidig Zua",
+      "team1": "SV Webanie",
+      "team2": "Waldenstein & Co",
       "score1": 0,
       "score2": 0,
       "phase": "Halbfinale"
     },
-    "next_match": {
-      "team1": "SV Webanie",
-      "team2": "Waldenstein & Co",
-      "phase": "Halbfinale"
-    },
+    "next_match": {},
     "upcoming_matches": [],
     "standings": [
       {
@@ -198,7 +194,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:32:22",
+        "09.08.2026 16:32:52",
         "",
         "",
         "",
@@ -723,6 +719,16 @@
         "FC Ruditschck",
         "Waldenstein & Co",
         "Beendet"
+      ],
+      [
+        "Halbfinale",
+        "",
+        5,
+        "1 FC Magic Soccers",
+        "2:3",
+        "FC Gschmeidig Zua",
+        "FC Gschmeidig Zua",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -732,7 +738,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:32:22"
+        "09.08.2026 16:32:52"
       ],
       [
         "Phase",
@@ -744,7 +750,7 @@
       ],
       [
         "Aktuelles Spiel",
-        1
+        2
       ],
       [
         "Teams",
