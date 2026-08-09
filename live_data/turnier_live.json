@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:13:45",
+  "updated_at": "2026-08-09T14:14:15",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -18,27 +18,27 @@
         "rank": 2
       },
       {
-        "team": "FC Ruditschck",
-        "score": 0,
+        "team": "USC Jagenbach",
+        "score": 1,
         "rank": 3
       },
       {
-        "team": "SV Webanie",
+        "team": "FC Ruditschck",
         "score": 0,
         "rank": 4
       },
       {
-        "team": "SV Weitra U16",
+        "team": "SV Webanie",
         "score": 0,
         "rank": 5
       },
       {
-        "team": "Waldenstein & Co",
+        "team": "SV Weitra U16",
         "score": 0,
         "rank": 6
       },
       {
-        "team": "USC Jagenbach",
+        "team": "Waldenstein & Co",
         "score": 0,
         "rank": 7
       },
@@ -84,7 +84,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:13:45",
+        "09.08.2026 14:14:15",
         "",
         "",
         "",
@@ -185,7 +185,7 @@
         "USC Jagenbach",
         "Ja",
         "Ja",
-        0,
+        1,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -264,50 +264,50 @@
       ],
       [
         3,
+        5,
+        "USC Jagenbach",
+        1
+      ],
+      [
+        4,
         10,
         "1 FC Magic Soccers",
         0
       ],
       [
-        4,
+        5,
         11,
         "FC Gschmeidig Zua",
         0
       ],
       [
-        5,
+        6,
         7,
         "FC Lieber am Pool",
         0
       ],
       [
-        6,
+        7,
         0,
         "FC Ruditschck",
         0
       ],
       [
-        7,
+        8,
         1,
         "SV Webanie",
         0
       ],
       [
-        8,
+        9,
         2,
         "SV Weitra U16",
         0
       ],
       [
-        9,
+        10,
         9,
         "TrinksportgemeinschaftTSG",
-        0
-      ],
-      [
-        10,
-        5,
-        "USC Jagenbach",
         0
       ],
       [
@@ -336,7 +336,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:13:45"
+        "09.08.2026 14:14:15"
       ],
       [
         "Phase",
