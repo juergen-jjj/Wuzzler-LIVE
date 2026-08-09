@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:37:06",
+  "updated_at": "2026-08-09T13:37:36",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -61,6 +61,11 @@
         "team": "1 FC Magic Soccers",
         "score": 0,
         "rank": 11
+      },
+      {
+        "team": "FC Gschmeidig Zua",
+        "score": 0,
+        "rank": 12
       }
     ]
   },
@@ -84,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:37:06",
+        "09.08.2026 13:37:36",
         "",
         "",
         "",
@@ -227,6 +232,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        11,
+        "FC Gschmeidig Zua",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -282,36 +295,42 @@
       ],
       [
         6,
+        11,
+        "FC Gschmeidig Zua",
+        0
+      ],
+      [
+        7,
         5,
         "FF Jagenbach",
         0
       ],
       [
-        7,
+        8,
         0,
         "Lenz Moser",
         0
       ],
       [
-        8,
+        9,
         6,
         "Musik",
         0
       ],
       [
-        9,
+        10,
         8,
         "RLH Schweiggers",
         0
       ],
       [
-        10,
+        11,
         7,
         "Spritzer",
         0
       ],
       [
-        11,
+        12,
         9,
         "Trinksportgemeinschaft TS",
         0
@@ -336,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:37:06"
+        "09.08.2026 13:37:36"
       ],
       [
         "Phase",
@@ -352,7 +371,7 @@
       ],
       [
         "Teams",
-        11
+        12
       ],
       [
         "Turniermodus",
