@@ -1,46 +1,42 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:24:34",
+  "updated_at": "2026-08-09T15:25:04",
   "live_view": {
     "current_match": {
-      "team1": "SV Weitra U16",
-      "team2": "SV Webanie",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
       "team1": "Waldenstein & Co",
       "team2": "Vollbenziner",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe B"
     },
+    "next_match": {},
     "upcoming_matches": [],
     "standings": [
       {
         "group": "Gruppe A",
         "teams": [
           {
-            "team": "TrinksportgemeinschaftTSG",
-            "points": 3,
-            "goals": 7,
+            "team": "SV Webanie",
+            "points": 6,
+            "goals": 6,
             "against": 3,
             "games": 2,
             "rank": 1
           },
           {
-            "team": "SV Weitra U16",
+            "team": "TrinksportgemeinschaftTSG",
             "points": 3,
-            "goals": 4,
-            "against": 1,
-            "games": 1,
+            "goals": 7,
+            "against": 3,
+            "games": 2,
             "rank": 2
           },
           {
-            "team": "SV Webanie",
+            "team": "SV Weitra U16",
             "points": 3,
-            "goals": 3,
-            "against": 2,
-            "games": 1,
+            "goals": 5,
+            "against": 4,
+            "games": 2,
             "rank": 3
           },
           {
@@ -198,7 +194,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:24:34",
+        "09.08.2026 15:25:04",
         "",
         "",
         "",
@@ -359,10 +355,10 @@
       [
         "Gruppe A",
         1,
-        9,
-        "TrinksportgemeinschaftTSG",
-        3,
-        7,
+        1,
+        "SV Webanie",
+        6,
+        6,
         3,
         "=F2-G2",
         2,
@@ -371,25 +367,25 @@
       [
         "Gruppe A",
         2,
-        2,
-        "SV Weitra U16",
+        9,
+        "TrinksportgemeinschaftTSG",
         3,
-        4,
-        1,
+        7,
+        3,
         "=F3-G3",
-        1,
+        2,
         "=IF(I3=0,0,E3/I3)"
       ],
       [
         "Gruppe A",
         3,
-        1,
-        "SV Webanie",
-        3,
-        3,
         2,
+        "SV Weitra U16",
+        3,
+        5,
+        4,
         "=F4-G4",
-        1,
+        2,
         "=IF(I4=0,0,E4/I4)"
       ],
       [
@@ -669,10 +665,10 @@
         "Gruppe A",
         10,
         "SV Weitra U16",
-        "",
+        "1:3",
         "SV Webanie",
-        "",
-        "Offen"
+        "SV Webanie",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -692,7 +688,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:24:34"
+        "09.08.2026 15:25:04"
       ],
       [
         "Phase",
@@ -704,7 +700,7 @@
       ],
       [
         "Aktuelles Spiel",
-        10
+        11
       ],
       [
         "Teams",
