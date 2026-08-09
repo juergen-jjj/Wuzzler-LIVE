@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:47:38",
+  "updated_at": "2026-08-09T13:48:09",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -18,7 +18,7 @@
         "rank": 2
       },
       {
-        "team": "Die Zigeuner",
+        "team": "SV Weitra U16",
         "score": 0,
         "rank": 3
       },
@@ -89,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:47:38",
+        "09.08.2026 13:48:09",
         "",
         "",
         "",
@@ -163,7 +163,7 @@
       ],
       [
         2,
-        "Die Zigeuner",
+        "SV Weitra U16",
         "Ja",
         "Ja",
         0,
@@ -277,32 +277,32 @@
       ],
       [
         3,
-        2,
-        "Die Zigeuner",
-        0
-      ],
-      [
-        4,
         11,
         "FC Gschmeidig Zua",
         0
       ],
       [
-        5,
+        4,
         1,
         "FC Gschmeidig Zua 2",
         0
       ],
       [
-        6,
+        5,
         8,
         "FC Mieteinander",
         0
       ],
       [
-        7,
+        6,
         0,
         "FC Ruditschck",
+        0
+      ],
+      [
+        7,
+        2,
+        "SV Weitra U16",
         0
       ],
       [
@@ -355,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:47:38"
+        "09.08.2026 13:48:09"
       ],
       [
         "Phase",
