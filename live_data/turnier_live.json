@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:48:39",
+  "updated_at": "2026-08-09T13:49:09",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -43,7 +43,7 @@
         "rank": 7
       },
       {
-        "team": "Spritzer",
+        "team": "FC Lieber am Pool",
         "score": 0,
         "rank": 8
       },
@@ -89,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:48:39",
+        "09.08.2026 13:49:09",
         "",
         "",
         "",
@@ -203,7 +203,7 @@
       ],
       [
         7,
-        "Spritzer",
+        "FC Lieber am Pool",
         "Ja",
         "Ja",
         0,
@@ -289,26 +289,26 @@
       ],
       [
         5,
+        7,
+        "FC Lieber am Pool",
+        0
+      ],
+      [
+        6,
         8,
         "FC Mieteinander",
         0
       ],
       [
-        6,
+        7,
         0,
         "FC Ruditschck",
         0
       ],
       [
-        7,
+        8,
         2,
         "SV Weitra U16",
-        0
-      ],
-      [
-        8,
-        7,
-        "Spritzer",
         0
       ],
       [
@@ -355,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:48:39"
+        "09.08.2026 13:49:09"
       ],
       [
         "Phase",
