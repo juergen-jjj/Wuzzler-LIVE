@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:35:05",
+  "updated_at": "2026-08-09T13:35:36",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -51,6 +51,11 @@
         "team": "RLH Schweiggers",
         "score": 0,
         "rank": 9
+      },
+      {
+        "team": "Trinksportgemeinschaft TS",
+        "score": 0,
+        "rank": 10
       }
     ]
   },
@@ -74,7 +79,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:35:05",
+        "09.08.2026 13:35:36",
         "",
         "",
         "",
@@ -201,6 +206,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        9,
+        "Trinksportgemeinschaft TS",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -277,6 +290,12 @@
         7,
         "Spritzer",
         0
+      ],
+      [
+        10,
+        9,
+        "Trinksportgemeinschaft TS",
+        0
       ]
     ],
     "Spiele": [
@@ -298,7 +317,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:35:05"
+        "09.08.2026 13:35:36"
       ],
       [
         "Phase",
@@ -314,7 +333,7 @@
       ],
       [
         "Teams",
-        9
+        10
       ],
       [
         "Turniermodus",
