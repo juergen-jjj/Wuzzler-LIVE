@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:12:00",
+  "updated_at": "2026-08-09T15:12:30",
   "live_view": {
     "current_match": {
-      "team1": "1 FC Magic Soccers",
-      "team2": "FC Lieber am Pool",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe B"
-    },
-    "next_match": {
       "team1": "Die Neusiedler Stangen",
       "team2": "FC Gschmeidig Zua",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe C"
     },
+    "next_match": {
+      "team1": "SV Weitra U16",
+      "team2": "SV Webanie",
+      "phase": "Gruppe A"
+    },
     "upcoming_matches": [
-      {
-        "order": 10,
-        "team1": "SV Weitra U16",
-        "team2": "SV Webanie",
-        "phase": "Gruppe A"
-      },
       {
         "order": 11,
         "team1": "Waldenstein & Co",
@@ -71,10 +65,10 @@
         "teams": [
           {
             "team": "1 FC Magic Soccers",
-            "points": 3,
-            "goals": 5,
-            "against": 0,
-            "games": 1,
+            "points": 4,
+            "goals": 7,
+            "against": 2,
+            "games": 2,
             "rank": 1
           },
           {
@@ -87,10 +81,10 @@
           },
           {
             "team": "FC Lieber am Pool",
-            "points": 0,
-            "goals": 0,
-            "against": 1,
-            "games": 1,
+            "points": 1,
+            "goals": 2,
+            "against": 3,
+            "games": 2,
             "rank": 3
           },
           {
@@ -146,7 +140,7 @@
       },
       {
         "team": "TrinksportgemeinschaftTSG",
-        "score": 43,
+        "score": 45,
         "rank": 3
       },
       {
@@ -211,7 +205,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:12:00",
+        "09.08.2026 15:12:30",
         "",
         "",
         "",
@@ -336,7 +330,7 @@
         "TrinksportgemeinschaftTSG",
         "Ja",
         "Ja",
-        43,
+        45,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -422,11 +416,11 @@
         1,
         10,
         "1 FC Magic Soccers",
-        3,
-        5,
-        0,
+        4,
+        7,
+        2,
         "=F6-G6",
-        1,
+        2,
         "=IF(I6=0,0,E6/I6)"
       ],
       [
@@ -446,11 +440,11 @@
         3,
         7,
         "FC Lieber am Pool",
-        0,
-        0,
         1,
+        2,
+        3,
         "=F8-G8",
-        1,
+        2,
         "=IF(I8=0,0,E8/I8)"
       ],
       [
@@ -525,7 +519,7 @@
         3,
         9,
         "TrinksportgemeinschaftTSG",
-        43
+        45
       ],
       [
         4,
@@ -662,10 +656,10 @@
         "Gruppe B",
         8,
         "1 FC Magic Soccers",
-        "",
+        "2:2",
         "FC Lieber am Pool",
-        "",
-        "Offen"
+        "Unentschieden",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -705,7 +699,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:12:00"
+        "09.08.2026 15:12:30"
       ],
       [
         "Phase",
@@ -717,7 +711,7 @@
       ],
       [
         "Aktuelles Spiel",
-        8
+        9
       ],
       [
         "Teams",
