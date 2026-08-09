@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:14:31",
+  "updated_at": "2026-08-09T15:15:01",
   "live_view": {
     "current_match": {
       "team1": "Die Neusiedler Stangen",
@@ -129,18 +129,18 @@
     ],
     "spritzer": [
       {
+        "team": "TrinksportgemeinschaftTSG",
+        "score": 95,
+        "rank": 1
+      },
+      {
         "team": "FC Gschmeidig Zua",
         "score": 66,
-        "rank": 1
+        "rank": 2
       },
       {
         "team": "Vollbenziner",
         "score": 65,
-        "rank": 2
-      },
-      {
-        "team": "TrinksportgemeinschaftTSG",
-        "score": 45,
         "rank": 3
       },
       {
@@ -205,7 +205,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:14:31",
+        "09.08.2026 15:15:01",
         "",
         "",
         "",
@@ -330,7 +330,7 @@
         "TrinksportgemeinschaftTSG",
         "Ja",
         "Ja",
-        45,
+        95,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -505,21 +505,21 @@
       ],
       [
         1,
+        9,
+        "TrinksportgemeinschaftTSG",
+        95
+      ],
+      [
+        2,
         11,
         "FC Gschmeidig Zua",
         66
       ],
       [
-        2,
+        3,
         6,
         "Vollbenziner",
         65
-      ],
-      [
-        3,
-        9,
-        "TrinksportgemeinschaftTSG",
-        45
       ],
       [
         4,
@@ -699,7 +699,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:14:31"
+        "09.08.2026 15:15:01"
       ],
       [
         "Phase",
