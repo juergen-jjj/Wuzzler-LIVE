@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:43:53",
+  "updated_at": "2026-08-09T14:44:23",
   "live_view": {
     "current_match": {
       "team1": "TrinksportgemeinschaftTSG",
@@ -184,32 +184,32 @@
         "rank": 5
       },
       {
+        "team": "1 FC Magic Soccers",
+        "score": 8,
+        "rank": 6
+      },
+      {
         "team": "FC Lieber am Pool",
         "score": 6,
-        "rank": 6
+        "rank": 7
       },
       {
         "team": "USC Jagenbach",
         "score": 5,
-        "rank": 7
+        "rank": 8
       },
       {
         "team": "FC Ruditschck",
         "score": 0,
-        "rank": 8
+        "rank": 9
       },
       {
         "team": "SV Weitra U16",
         "score": 0,
-        "rank": 9
-      },
-      {
-        "team": "Waldenstein & Co",
-        "score": 0,
         "rank": 10
       },
       {
-        "team": "1 FC Magic Soccers",
+        "team": "Waldenstein & Co",
         "score": 0,
         "rank": 11
       }
@@ -235,7 +235,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:43:53",
+        "09.08.2026 14:44:23",
         "",
         "",
         "",
@@ -368,7 +368,7 @@
         "1 FC Magic Soccers",
         "Ja",
         "Ja",
-        0,
+        8,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -565,21 +565,21 @@
       ],
       [
         6,
+        10,
+        "1 FC Magic Soccers",
+        8
+      ],
+      [
+        7,
         7,
         "FC Lieber am Pool",
         6
       ],
       [
-        7,
+        8,
         5,
         "USC Jagenbach",
         5
-      ],
-      [
-        8,
-        10,
-        "1 FC Magic Soccers",
-        0
       ],
       [
         9,
@@ -729,7 +729,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:43:53"
+        "09.08.2026 14:44:23"
       ],
       [
         "Phase",
