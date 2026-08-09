@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:16:01",
+  "updated_at": "2026-08-09T15:16:31",
   "live_view": {
     "current_match": {
       "team1": "Die Neusiedler Stangen",
@@ -155,7 +155,7 @@
       },
       {
         "team": "FC Lieber am Pool",
-        "score": 20,
+        "score": 21,
         "rank": 6
       },
       {
@@ -205,7 +205,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:16:01",
+        "09.08.2026 15:16:31",
         "",
         "",
         "",
@@ -322,7 +322,7 @@
         "FC Lieber am Pool",
         "Ja",
         "Ja",
-        20,
+        21,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -537,7 +537,7 @@
         6,
         7,
         "FC Lieber am Pool",
-        20
+        21
       ],
       [
         7,
@@ -699,7 +699,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:16:01"
+        "09.08.2026 15:16:31"
       ],
       [
         "Phase",
