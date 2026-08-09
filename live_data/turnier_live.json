@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:31:05",
+  "updated_at": "2026-08-09T15:31:35",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -140,13 +140,13 @@
         "rank": 1
       },
       {
-        "team": "TrinksportgemeinschaftTSG",
-        "score": 99,
+        "team": "FC Gschmeidig Zua",
+        "score": 116,
         "rank": 2
       },
       {
-        "team": "FC Gschmeidig Zua",
-        "score": 66,
+        "team": "TrinksportgemeinschaftTSG",
+        "score": 99,
         "rank": 3
       },
       {
@@ -211,7 +211,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:31:05",
+        "09.08.2026 15:31:35",
         "",
         "",
         "",
@@ -352,7 +352,7 @@
         "FC Gschmeidig Zua",
         "Ja",
         "Ja",
-        66,
+        116,
         "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
@@ -517,15 +517,15 @@
       ],
       [
         2,
-        9,
-        "TrinksportgemeinschaftTSG",
-        99
+        11,
+        "FC Gschmeidig Zua",
+        116
       ],
       [
         3,
-        11,
-        "FC Gschmeidig Zua",
-        66
+        9,
+        "TrinksportgemeinschaftTSG",
+        99
       ],
       [
         4,
@@ -705,7 +705,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:31:05"
+        "09.08.2026 15:31:35"
       ],
       [
         "Phase",
