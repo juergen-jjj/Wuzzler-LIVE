@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:08:59",
+  "updated_at": "2026-08-09T15:09:30",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -141,7 +141,7 @@
       },
       {
         "team": "Vollbenziner",
-        "score": 62,
+        "score": 65,
         "rank": 2
       },
       {
@@ -211,7 +211,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:08:59",
+        "09.08.2026 15:09:30",
         "",
         "",
         "",
@@ -320,7 +320,7 @@
         "Vollbenziner",
         "Ja",
         "Ja",
-        62,
+        65,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -519,7 +519,7 @@
         2,
         6,
         "Vollbenziner",
-        62
+        65
       ],
       [
         3,
@@ -705,7 +705,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:08:59"
+        "09.08.2026 15:09:30"
       ],
       [
         "Phase",
