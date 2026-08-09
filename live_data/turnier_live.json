@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:56:41",
+  "updated_at": "2026-08-09T13:57:11",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -66,6 +66,11 @@
         "team": "FC Gschmeidig Zua",
         "score": 0,
         "rank": 12
+      },
+      {
+        "team": "Dhaulagiri",
+        "score": 0,
+        "rank": 13
       }
     ]
   },
@@ -89,7 +94,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:56:41",
+        "09.08.2026 13:57:11",
         "",
         "",
         "",
@@ -240,6 +245,14 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
+      ],
+      [
+        12,
+        "Dhaulagiri",
+        "Ja",
+        "Ja",
+        0,
+        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -271,66 +284,72 @@
       ],
       [
         2,
+        12,
+        "Dhaulagiri",
+        0
+      ],
+      [
+        3,
         3,
         "Die Neusiedler Stangen",
         0
       ],
       [
-        3,
+        4,
         11,
         "FC Gschmeidig Zua",
         0
       ],
       [
-        4,
+        5,
         7,
         "FC Lieber am Pool",
         0
       ],
       [
-        5,
+        6,
         8,
         "FC Mieteinander",
         0
       ],
       [
-        6,
+        7,
         0,
         "FC Ruditschck",
         0
       ],
       [
-        7,
+        8,
         1,
         "SV Webanie",
         0
       ],
       [
-        8,
+        9,
         2,
         "SV Weitra U16",
         0
       ],
       [
-        9,
+        10,
         9,
         "TrinksportgemeinschaftTSG",
         0
       ],
       [
-        10,
+        11,
         5,
         "USC Jagenbach",
         0
       ],
       [
-        11,
+        12,
         6,
         "Vollbenziner",
         0
       ],
       [
-        12,
+        13,
         4,
         "Waldenstein & Co",
         0
@@ -355,7 +374,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:56:41"
+        "09.08.2026 13:57:11"
       ],
       [
         "Phase",
@@ -371,7 +390,7 @@
       ],
       [
         "Teams",
-        12
+        13
       ],
       [
         "Turniermodus",
