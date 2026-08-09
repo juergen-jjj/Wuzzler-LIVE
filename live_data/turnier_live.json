@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:45:53",
+  "updated_at": "2026-08-09T14:46:23",
   "live_view": {
     "current_match": {
-      "team1": "TrinksportgemeinschaftTSG",
-      "team2": "SV Webanie",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
       "team1": "Waldenstein & Co",
       "team2": "FC Lieber am Pool",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe B"
     },
+    "next_match": {
+      "team1": "FC Gschmeidig Zua",
+      "team2": "FC Ruditschck",
+      "phase": "Gruppe C"
+    },
     "upcoming_matches": [
-      {
-        "order": 6,
-        "team1": "FC Gschmeidig Zua",
-        "team2": "FC Ruditschck",
-        "phase": "Gruppe C"
-      },
       {
         "order": 7,
         "team1": "TrinksportgemeinschaftTSG",
@@ -66,18 +60,18 @@
           },
           {
             "team": "SV Webanie",
-            "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
+            "points": 3,
+            "goals": 3,
+            "against": 2,
+            "games": 1,
             "rank": 2
           },
           {
             "team": "TrinksportgemeinschaftTSG",
             "points": 0,
-            "goals": 0,
-            "against": 0,
-            "games": 0,
+            "goals": 2,
+            "against": 3,
+            "games": 1,
             "rank": 3
           },
           {
@@ -235,7 +229,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:45:53",
+        "09.08.2026 14:46:23",
         "",
         "",
         "",
@@ -410,11 +404,11 @@
         2,
         1,
         "SV Webanie",
-        0,
-        0,
-        0,
+        3,
+        3,
+        2,
         "=F3-G3",
-        0,
+        1,
         "=IF(I3=0,0,E3/I3)"
       ],
       [
@@ -423,10 +417,10 @@
         9,
         "TrinksportgemeinschaftTSG",
         0,
-        0,
-        0,
+        2,
+        3,
         "=F4-G4",
-        0,
+        1,
         "=IF(I4=0,0,E4/I4)"
       ],
       [
@@ -646,10 +640,10 @@
         "Gruppe A",
         4,
         "TrinksportgemeinschaftTSG",
-        "",
+        "2:3",
         "SV Webanie",
-        "",
-        "Offen"
+        "SV Webanie",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -729,7 +723,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:45:53"
+        "09.08.2026 14:46:23"
       ],
       [
         "Phase",
@@ -741,7 +735,7 @@
       ],
       [
         "Aktuelles Spiel",
-        4
+        5
       ],
       [
         "Teams",
