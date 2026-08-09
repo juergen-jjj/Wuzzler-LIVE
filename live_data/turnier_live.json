@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:20:32",
+  "updated_at": "2026-08-09T15:21:03",
   "live_view": {
     "current_match": {
       "team1": "SV Weitra U16",
@@ -127,13 +127,13 @@
         "rank": 1
       },
       {
-        "team": "FC Gschmeidig Zua",
-        "score": 66,
+        "team": "Vollbenziner",
+        "score": 90,
         "rank": 2
       },
       {
-        "team": "Vollbenziner",
-        "score": 65,
+        "team": "FC Gschmeidig Zua",
+        "score": 66,
         "rank": 3
       },
       {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:20:32",
+        "09.08.2026 15:21:03",
         "",
         "",
         "",
@@ -307,7 +307,7 @@
         "Vollbenziner",
         "Ja",
         "Ja",
-        65,
+        90,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -504,15 +504,15 @@
       ],
       [
         2,
-        11,
-        "FC Gschmeidig Zua",
-        66
+        6,
+        "Vollbenziner",
+        90
       ],
       [
         3,
-        6,
-        "Vollbenziner",
-        65
+        11,
+        "FC Gschmeidig Zua",
+        66
       ],
       [
         4,
@@ -692,7 +692,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:20:32"
+        "09.08.2026 15:21:03"
       ],
       [
         "Phase",
