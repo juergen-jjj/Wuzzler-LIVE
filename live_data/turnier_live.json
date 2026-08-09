@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:54:40",
+  "updated_at": "2026-08-09T13:55:10",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -13,7 +13,7 @@
         "rank": 1
       },
       {
-        "team": "FC Gschmeidig Zua 2",
+        "team": "SV Webanie",
         "score": 0,
         "rank": 2
       },
@@ -89,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:54:40",
+        "09.08.2026 13:55:10",
         "",
         "",
         "",
@@ -155,7 +155,7 @@
       ],
       [
         1,
-        "FC Gschmeidig Zua 2",
+        "SV Webanie",
         "Ja",
         "Ja",
         0,
@@ -283,26 +283,26 @@
       ],
       [
         4,
-        1,
-        "FC Gschmeidig Zua 2",
-        0
-      ],
-      [
-        5,
         7,
         "FC Lieber am Pool",
         0
       ],
       [
-        6,
+        5,
         8,
         "FC Mieteinander",
         0
       ],
       [
-        7,
+        6,
         0,
         "FC Ruditschck",
+        0
+      ],
+      [
+        7,
+        1,
+        "SV Webanie",
         0
       ],
       [
@@ -355,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:54:40"
+        "09.08.2026 13:55:10"
       ],
       [
         "Phase",
