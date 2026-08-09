@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:21:33",
+  "updated_at": "2026-08-09T15:22:03",
   "live_view": {
     "current_match": {
       "team1": "SV Weitra U16",
@@ -122,13 +122,13 @@
     ],
     "spritzer": [
       {
-        "team": "TrinksportgemeinschaftTSG",
-        "score": 99,
+        "team": "Vollbenziner",
+        "score": 115,
         "rank": 1
       },
       {
-        "team": "Vollbenziner",
-        "score": 90,
+        "team": "TrinksportgemeinschaftTSG",
+        "score": 99,
         "rank": 2
       },
       {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:21:33",
+        "09.08.2026 15:22:03",
         "",
         "",
         "",
@@ -307,7 +307,7 @@
         "Vollbenziner",
         "Ja",
         "Ja",
-        90,
+        115,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -498,15 +498,15 @@
       ],
       [
         1,
-        9,
-        "TrinksportgemeinschaftTSG",
-        99
+        6,
+        "Vollbenziner",
+        115
       ],
       [
         2,
-        6,
-        "Vollbenziner",
-        90
+        9,
+        "TrinksportgemeinschaftTSG",
+        99
       ],
       [
         3,
@@ -692,7 +692,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:21:33"
+        "09.08.2026 15:22:03"
       ],
       [
         "Phase",
