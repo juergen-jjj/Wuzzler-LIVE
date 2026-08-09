@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:44:53",
+  "updated_at": "2026-08-09T14:45:23",
   "live_view": {
     "current_match": {
       "team1": "TrinksportgemeinschaftTSG",
@@ -184,13 +184,13 @@
         "rank": 5
       },
       {
-        "team": "1 FC Magic Soccers",
-        "score": 8,
+        "team": "FC Lieber am Pool",
+        "score": 10,
         "rank": 6
       },
       {
-        "team": "FC Lieber am Pool",
-        "score": 6,
+        "team": "1 FC Magic Soccers",
+        "score": 8,
         "rank": 7
       },
       {
@@ -235,7 +235,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:44:53",
+        "09.08.2026 14:45:23",
         "",
         "",
         "",
@@ -352,7 +352,7 @@
         "FC Lieber am Pool",
         "Ja",
         "Ja",
-        6,
+        10,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -565,15 +565,15 @@
       ],
       [
         6,
-        10,
-        "1 FC Magic Soccers",
-        8
+        7,
+        "FC Lieber am Pool",
+        10
       ],
       [
         7,
-        7,
-        "FC Lieber am Pool",
-        6
+        10,
+        "1 FC Magic Soccers",
+        8
       ],
       [
         8,
@@ -729,7 +729,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:44:53"
+        "09.08.2026 14:45:23"
       ],
       [
         "Phase",
