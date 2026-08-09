@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:34:20",
+  "updated_at": "2026-08-09T14:34:50",
   "live_view": {
     "current_match": {
-      "team1": "1 FC Magic Soccers",
-      "team2": "Vollbenziner",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe B"
-    },
-    "next_match": {
       "team1": "Die Neusiedler Stangen",
       "team2": "FC Ruditschck",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe C"
     },
+    "next_match": {
+      "team1": "TrinksportgemeinschaftTSG",
+      "team2": "SV Webanie",
+      "phase": "Gruppe A"
+    },
     "upcoming_matches": [
-      {
-        "order": 4,
-        "team1": "TrinksportgemeinschaftTSG",
-        "team2": "SV Webanie",
-        "phase": "Gruppe A"
-      },
       {
         "order": 5,
         "team1": "Waldenstein & Co",
@@ -107,10 +101,10 @@
         "teams": [
           {
             "team": "1 FC Magic Soccers",
-            "points": 0,
-            "goals": 0,
+            "points": 3,
+            "goals": 5,
             "against": 0,
-            "games": 0,
+            "games": 1,
             "rank": 1
           },
           {
@@ -133,8 +127,8 @@
             "team": "Vollbenziner",
             "points": 0,
             "goals": 0,
-            "against": 0,
-            "games": 0,
+            "against": 5,
+            "games": 1,
             "rank": 4
           }
         ]
@@ -247,7 +241,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:34:20",
+        "09.08.2026 14:34:50",
         "",
         "",
         "",
@@ -458,11 +452,11 @@
         1,
         10,
         "1 FC Magic Soccers",
-        0,
-        0,
+        3,
+        5,
         0,
         "=F6-G6",
-        0,
+        1,
         "=IF(I6=0,0,E6/I6)"
       ],
       [
@@ -496,9 +490,9 @@
         "Vollbenziner",
         0,
         0,
-        0,
+        5,
         "=F9-G9",
-        0,
+        1,
         "=IF(I9=0,0,E9/I9)"
       ],
       [
@@ -638,10 +632,10 @@
         "Gruppe B",
         2,
         "1 FC Magic Soccers",
-        "",
+        "5:0",
         "Vollbenziner",
-        "",
-        "Offen"
+        "1 FC Magic Soccers",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -741,7 +735,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:34:20"
+        "09.08.2026 14:34:50"
       ],
       [
         "Phase",
@@ -753,7 +747,7 @@
       ],
       [
         "Aktuelles Spiel",
-        2
+        3
       ],
       [
         "Teams",
