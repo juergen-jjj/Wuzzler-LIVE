@@ -1,19 +1,15 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T16:09:46",
+  "updated_at": "2026-08-09T16:10:16",
   "live_view": {
     "current_match": {
-      "team1": "SV Webanie",
-      "team2": "TrinksportgemeinschaftTSG",
+      "team1": "Waldenstein & Co",
+      "team2": "FC Ruditschck",
       "score1": 0,
       "score2": 0,
       "phase": "Viertelfinale"
     },
-    "next_match": {
-      "team1": "Waldenstein & Co",
-      "team2": "FC Ruditschck",
-      "phase": "Viertelfinale"
-    },
+    "next_match": {},
     "upcoming_matches": [],
     "standings": [
       {
@@ -198,7 +194,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:09:46",
+        "09.08.2026 16:10:16",
         "",
         "",
         "",
@@ -703,6 +699,16 @@
         "Die Neusiedler Stangen",
         "FC Gschmeidig Zua",
         "Beendet"
+      ],
+      [
+        "Viertelfinale",
+        "",
+        3,
+        "SV Webanie",
+        "2:1",
+        "TrinksportgemeinschaftTSG",
+        "SV Webanie",
+        "Beendet"
       ]
     ],
     "Turnierübersicht": [
@@ -712,7 +718,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 16:09:46"
+        "09.08.2026 16:10:16"
       ],
       [
         "Phase",
@@ -724,7 +730,7 @@
       ],
       [
         "Aktuelles Spiel",
-        3
+        4
       ],
       [
         "Teams",
