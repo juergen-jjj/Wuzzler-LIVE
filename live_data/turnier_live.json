@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:04:43",
+  "updated_at": "2026-08-09T14:05:13",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -61,11 +61,6 @@
         "team": "FC Gschmeidig Zua",
         "score": 0,
         "rank": 11
-      },
-      {
-        "team": "Dhaulagiri",
-        "score": 0,
-        "rank": 12
       }
     ]
   },
@@ -89,7 +84,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:04:43",
+        "09.08.2026 14:05:13",
         "",
         "",
         "",
@@ -232,14 +227,6 @@
         "Ja",
         0,
         "Name und Spritzer-Punkte sind editierbar"
-      ],
-      [
-        12,
-        "Dhaulagiri",
-        "Ja",
-        "Ja",
-        0,
-        "Name und Spritzer-Punkte sind editierbar"
       ]
     ],
     "Gruppentabelle": [
@@ -271,66 +258,60 @@
       ],
       [
         2,
-        12,
-        "Dhaulagiri",
-        0
-      ],
-      [
-        3,
         3,
         "Die Neusiedler Stangen",
         0
       ],
       [
-        4,
+        3,
         11,
         "FC Gschmeidig Zua",
         0
       ],
       [
-        5,
+        4,
         7,
         "FC Lieber am Pool",
         0
       ],
       [
-        6,
+        5,
         0,
         "FC Ruditschck",
         0
       ],
       [
-        7,
+        6,
         1,
         "SV Webanie",
         0
       ],
       [
-        8,
+        7,
         2,
         "SV Weitra U16",
         0
       ],
       [
-        9,
+        8,
         9,
         "TrinksportgemeinschaftTSG",
         0
       ],
       [
-        10,
+        9,
         5,
         "USC Jagenbach",
         0
       ],
       [
-        11,
+        10,
         6,
         "Vollbenziner",
         0
       ],
       [
-        12,
+        11,
         4,
         "Waldenstein & Co",
         0
@@ -355,7 +336,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:04:43"
+        "09.08.2026 14:05:13"
       ],
       [
         "Phase",
@@ -371,7 +352,7 @@
       ],
       [
         "Teams",
-        12
+        11
       ],
       [
         "Turniermodus",
