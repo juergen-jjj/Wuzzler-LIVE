@@ -1,26 +1,20 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:07:29",
+  "updated_at": "2026-08-09T15:07:59",
   "live_view": {
     "current_match": {
-      "team1": "TrinksportgemeinschaftTSG",
-      "team2": "USC Jagenbach",
-      "score1": 0,
-      "score2": 0,
-      "phase": "Gruppe A"
-    },
-    "next_match": {
       "team1": "1 FC Magic Soccers",
       "team2": "FC Lieber am Pool",
+      "score1": 0,
+      "score2": 0,
       "phase": "Gruppe B"
     },
+    "next_match": {
+      "team1": "Die Neusiedler Stangen",
+      "team2": "FC Gschmeidig Zua",
+      "phase": "Gruppe C"
+    },
     "upcoming_matches": [
-      {
-        "order": 9,
-        "team1": "Die Neusiedler Stangen",
-        "team2": "FC Gschmeidig Zua",
-        "phase": "Gruppe C"
-      },
       {
         "order": 10,
         "team1": "SV Weitra U16",
@@ -39,12 +33,20 @@
         "group": "Gruppe A",
         "teams": [
           {
+            "team": "TrinksportgemeinschaftTSG",
+            "points": 3,
+            "goals": 7,
+            "against": 3,
+            "games": 2,
+            "rank": 1
+          },
+          {
             "team": "SV Weitra U16",
             "points": 3,
             "goals": 4,
             "against": 1,
             "games": 1,
-            "rank": 1
+            "rank": 2
           },
           {
             "team": "SV Webanie",
@@ -52,22 +54,14 @@
             "goals": 3,
             "against": 2,
             "games": 1,
-            "rank": 2
-          },
-          {
-            "team": "TrinksportgemeinschaftTSG",
-            "points": 0,
-            "goals": 2,
-            "against": 3,
-            "games": 1,
             "rank": 3
           },
           {
             "team": "USC Jagenbach",
             "points": 0,
             "goals": 1,
-            "against": 4,
-            "games": 1,
+            "against": 9,
+            "games": 2,
             "rank": 4
           }
         ]
@@ -217,7 +211,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:07:29",
+        "09.08.2026 15:07:59",
         "",
         "",
         "",
@@ -378,23 +372,23 @@
       [
         "Gruppe A",
         1,
-        2,
-        "SV Weitra U16",
+        9,
+        "TrinksportgemeinschaftTSG",
         3,
-        4,
-        1,
+        7,
+        3,
         "=F2-G2",
-        1,
+        2,
         "=IF(I2=0,0,E2/I2)"
       ],
       [
         "Gruppe A",
         2,
-        1,
-        "SV Webanie",
-        3,
-        3,
         2,
+        "SV Weitra U16",
+        3,
+        4,
+        1,
         "=F3-G3",
         1,
         "=IF(I3=0,0,E3/I3)"
@@ -402,11 +396,11 @@
       [
         "Gruppe A",
         3,
-        9,
-        "TrinksportgemeinschaftTSG",
-        0,
-        2,
+        1,
+        "SV Webanie",
         3,
+        3,
+        2,
         "=F4-G4",
         1,
         "=IF(I4=0,0,E4/I4)"
@@ -418,9 +412,9 @@
         "USC Jagenbach",
         0,
         1,
-        4,
+        9,
         "=F5-G5",
-        1,
+        2,
         "=IF(I5=0,0,E5/I5)"
       ],
       [
@@ -658,10 +652,10 @@
         "Gruppe A",
         7,
         "TrinksportgemeinschaftTSG",
-        "",
+        "5:0",
         "USC Jagenbach",
-        "",
-        "Offen"
+        "TrinksportgemeinschaftTSG",
+        "Beendet"
       ],
       [
         "Gruppenphase",
@@ -711,7 +705,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:07:29"
+        "09.08.2026 15:07:59"
       ],
       [
         "Phase",
@@ -723,7 +717,7 @@
       ],
       [
         "Aktuelles Spiel",
-        7
+        8
       ],
       [
         "Teams",
