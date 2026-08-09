@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:26:34",
+  "updated_at": "2026-08-09T15:27:04",
   "live_view": {
     "current_match": {
       "team1": "Waldenstein & Co",
@@ -119,7 +119,7 @@
     "spritzer": [
       {
         "team": "Vollbenziner",
-        "score": 116,
+        "score": 119,
         "rank": 1
       },
       {
@@ -134,7 +134,7 @@
       },
       {
         "team": "Die Neusiedler Stangen",
-        "score": 28,
+        "score": 37,
         "rank": 4
       },
       {
@@ -194,7 +194,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:26:34",
+        "09.08.2026 15:27:04",
         "",
         "",
         "",
@@ -279,7 +279,7 @@
         "Die Neusiedler Stangen",
         "Ja",
         "Ja",
-        28,
+        37,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -303,7 +303,7 @@
         "Vollbenziner",
         "Ja",
         "Ja",
-        116,
+        119,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -496,7 +496,7 @@
         1,
         6,
         "Vollbenziner",
-        116
+        119
       ],
       [
         2,
@@ -514,7 +514,7 @@
         4,
         3,
         "Die Neusiedler Stangen",
-        28
+        37
       ],
       [
         5,
@@ -688,7 +688,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:26:34"
+        "09.08.2026 15:27:04"
       ],
       [
         "Phase",
