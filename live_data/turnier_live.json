@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:06:59",
+  "updated_at": "2026-08-09T15:07:29",
   "live_view": {
     "current_match": {
       "team1": "TrinksportgemeinschaftTSG",
@@ -156,13 +156,13 @@
         "rank": 3
       },
       {
-        "team": "SV Webanie",
-        "score": 22,
+        "team": "Die Neusiedler Stangen",
+        "score": 28,
         "rank": 4
       },
       {
-        "team": "Die Neusiedler Stangen",
-        "score": 20,
+        "team": "SV Webanie",
+        "score": 22,
         "rank": 5
       },
       {
@@ -217,7 +217,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:06:59",
+        "09.08.2026 15:07:29",
         "",
         "",
         "",
@@ -302,7 +302,7 @@
         "Die Neusiedler Stangen",
         "Ja",
         "Ja",
-        20,
+        28,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -535,15 +535,15 @@
       ],
       [
         4,
-        1,
-        "SV Webanie",
-        22
+        3,
+        "Die Neusiedler Stangen",
+        28
       ],
       [
         5,
-        3,
-        "Die Neusiedler Stangen",
-        20
+        1,
+        "SV Webanie",
+        22
       ],
       [
         6,
@@ -711,7 +711,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:06:59"
+        "09.08.2026 15:07:29"
       ],
       [
         "Phase",
