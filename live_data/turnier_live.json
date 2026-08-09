@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:55:12",
+  "updated_at": "2026-08-09T15:55:42",
   "live_view": {
     "current_match": {
       "team1": "1 FC Magic Soccers",
@@ -170,18 +170,18 @@
         "rank": 7
       },
       {
-        "team": "Waldenstein & Co",
+        "team": "SV Weitra U16",
         "score": 10,
         "rank": 8
       },
       {
-        "team": "1 FC Magic Soccers",
-        "score": 8,
+        "team": "Waldenstein & Co",
+        "score": 10,
         "rank": 9
       },
       {
-        "team": "SV Weitra U16",
-        "score": 5,
+        "team": "1 FC Magic Soccers",
+        "score": 8,
         "rank": 10
       },
       {
@@ -211,7 +211,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:55:12",
+        "09.08.2026 15:55:42",
         "",
         "",
         "",
@@ -288,7 +288,7 @@
         "SV Weitra U16",
         "Ja",
         "Ja",
-        5,
+        10,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -553,21 +553,21 @@
       ],
       [
         8,
+        2,
+        "SV Weitra U16",
+        10
+      ],
+      [
+        9,
         4,
         "Waldenstein & Co",
         10
       ],
       [
-        9,
+        10,
         10,
         "1 FC Magic Soccers",
         8
-      ],
-      [
-        10,
-        2,
-        "SV Weitra U16",
-        5
       ],
       [
         11,
@@ -705,7 +705,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:55:12"
+        "09.08.2026 15:55:42"
       ],
       [
         "Phase",
