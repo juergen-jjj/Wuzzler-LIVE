@@ -1,11 +1,115 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T14:15:45",
+  "updated_at": "2026-08-09T14:16:15",
   "live_view": {
     "current_match": {},
     "next_match": {},
     "upcoming_matches": [],
-    "standings": [],
+    "standings": [
+      {
+        "group": "Gruppe A",
+        "teams": [
+          {
+            "team": "SV Webanie",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "SV Weitra U16",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "USC Jagenbach",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 3
+          },
+          {
+            "team": "TrinksportgemeinschaftTSG",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "group": "Gruppe B",
+        "teams": [
+          {
+            "team": "1 FC Magic Soccers",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "Waldenstein & Co",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "FC Lieber am Pool",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 3
+          },
+          {
+            "team": "Vollbenziner",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 4
+          }
+        ]
+      },
+      {
+        "group": "Gruppe C",
+        "teams": [
+          {
+            "team": "Die Neusiedler Stangen",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 1
+          },
+          {
+            "team": "FC Gschmeidig Zua",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 2
+          },
+          {
+            "team": "FC Ruditschck",
+            "points": 0,
+            "goals": 0,
+            "against": 0,
+            "games": 0,
+            "rank": 3
+          }
+        ]
+      }
+    ],
     "spritzer": [
       {
         "team": "Die Neusiedler Stangen",
@@ -84,7 +188,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:15:45",
+        "09.08.2026 14:16:15",
         "",
         "",
         "",
@@ -241,6 +345,138 @@
         "Tordifferenz",
         "Spiele",
         "Punkte/Spiel"
+      ],
+      [
+        "Gruppe A",
+        1,
+        1,
+        "SV Webanie",
+        0,
+        0,
+        0,
+        "=F2-G2",
+        0,
+        "=IF(I2=0,0,E2/I2)"
+      ],
+      [
+        "Gruppe A",
+        2,
+        2,
+        "SV Weitra U16",
+        0,
+        0,
+        0,
+        "=F3-G3",
+        0,
+        "=IF(I3=0,0,E3/I3)"
+      ],
+      [
+        "Gruppe A",
+        3,
+        5,
+        "USC Jagenbach",
+        0,
+        0,
+        0,
+        "=F4-G4",
+        0,
+        "=IF(I4=0,0,E4/I4)"
+      ],
+      [
+        "Gruppe A",
+        4,
+        9,
+        "TrinksportgemeinschaftTSG",
+        0,
+        0,
+        0,
+        "=F5-G5",
+        0,
+        "=IF(I5=0,0,E5/I5)"
+      ],
+      [
+        "Gruppe B",
+        1,
+        10,
+        "1 FC Magic Soccers",
+        0,
+        0,
+        0,
+        "=F6-G6",
+        0,
+        "=IF(I6=0,0,E6/I6)"
+      ],
+      [
+        "Gruppe B",
+        2,
+        4,
+        "Waldenstein & Co",
+        0,
+        0,
+        0,
+        "=F7-G7",
+        0,
+        "=IF(I7=0,0,E7/I7)"
+      ],
+      [
+        "Gruppe B",
+        3,
+        7,
+        "FC Lieber am Pool",
+        0,
+        0,
+        0,
+        "=F8-G8",
+        0,
+        "=IF(I8=0,0,E8/I8)"
+      ],
+      [
+        "Gruppe B",
+        4,
+        6,
+        "Vollbenziner",
+        0,
+        0,
+        0,
+        "=F9-G9",
+        0,
+        "=IF(I9=0,0,E9/I9)"
+      ],
+      [
+        "Gruppe C",
+        1,
+        3,
+        "Die Neusiedler Stangen",
+        0,
+        0,
+        0,
+        "=F10-G10",
+        0,
+        "=IF(I10=0,0,E10/I10)"
+      ],
+      [
+        "Gruppe C",
+        2,
+        11,
+        "FC Gschmeidig Zua",
+        0,
+        0,
+        0,
+        "=F11-G11",
+        0,
+        "=IF(I11=0,0,E11/I11)"
+      ],
+      [
+        "Gruppe C",
+        3,
+        0,
+        "FC Ruditschck",
+        0,
+        0,
+        0,
+        "=F12-G12",
+        0,
+        "=IF(I12=0,0,E12/I12)"
       ]
     ],
     "Spritzerwertung": [
@@ -336,7 +572,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 14:15:45"
+        "09.08.2026 14:16:15"
       ],
       [
         "Phase",
@@ -360,7 +596,7 @@
       ],
       [
         "Gruppen",
-        0
+        3
       ],
       [
         "Spiele pro Team",
