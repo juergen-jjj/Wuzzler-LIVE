@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T13:46:08",
+  "updated_at": "2026-08-09T13:46:38",
   "live_view": {
     "current_match": {},
     "next_match": {},
@@ -33,7 +33,7 @@
         "rank": 5
       },
       {
-        "team": "FF Jagenbach",
+        "team": "USC Jagenbach",
         "score": 0,
         "rank": 6
       },
@@ -89,7 +89,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:46:08",
+        "09.08.2026 13:46:38",
         "",
         "",
         "",
@@ -187,7 +187,7 @@
       ],
       [
         5,
-        "FF Jagenbach",
+        "USC Jagenbach",
         "Ja",
         "Ja",
         0,
@@ -307,26 +307,26 @@
       ],
       [
         8,
-        5,
-        "FF Jagenbach",
-        0
-      ],
-      [
-        9,
         6,
         "Musik",
         0
       ],
       [
-        10,
+        9,
         7,
         "Spritzer",
         0
       ],
       [
-        11,
+        10,
         9,
         "Trinksportgemeinschaft TS",
+        0
+      ],
+      [
+        11,
+        5,
+        "USC Jagenbach",
         0
       ],
       [
@@ -355,7 +355,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 13:46:08"
+        "09.08.2026 13:46:38"
       ],
       [
         "Phase",
