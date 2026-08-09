@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-09T15:22:33",
+  "updated_at": "2026-08-09T15:23:03",
   "live_view": {
     "current_match": {
       "team1": "SV Weitra U16",
@@ -123,7 +123,7 @@
     "spritzer": [
       {
         "team": "Vollbenziner",
-        "score": 115,
+        "score": 116,
         "rank": 1
       },
       {
@@ -198,7 +198,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:22:33",
+        "09.08.2026 15:23:03",
         "",
         "",
         "",
@@ -307,7 +307,7 @@
         "Vollbenziner",
         "Ja",
         "Ja",
-        115,
+        116,
         "Name und Spritzer-Punkte sind editierbar"
       ],
       [
@@ -500,7 +500,7 @@
         1,
         6,
         "Vollbenziner",
-        115
+        116
       ],
       [
         2,
@@ -692,7 +692,7 @@
       ],
       [
         "Gespeichert am",
-        "09.08.2026 15:22:33"
+        "09.08.2026 15:23:03"
       ],
       [
         "Phase",
